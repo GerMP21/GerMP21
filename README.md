@@ -6,8 +6,11 @@ Here, you'll find a collection of projects that showcase my journey and the skil
 
 Feel free to explore and collaborate on any of these projects. Let's connect, share ideas, and innovate together.
 
-### 🔭 What I’m currently working on:
-### 🌱 What I’m currently learning:
-### 👯 What I’m looking to collaborate on:
-### 📫 How to reach me:
-### ⚡ Fun fact:
+
+## About me
+### :briefcase: What I’m currently working on:
+### :notebook: What I’m currently learning:
+### :toolbox: What tools do I use
+### :telescope: What I’m looking forward to learn and work on:
+### :mailbox_with_mail: How to reach me:
+### :smiley_cat: Fun fact:
