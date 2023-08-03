@@ -9,7 +9,7 @@ Feel free to explore and collaborate on any of these projects. Let's connect, sh
 
 ## About me
 ### :briefcase: What I’m currently working on:
-### :notebook: What I’m currently learning:
+### :closed_book: What I’m currently learning:
 ### :toolbox: What tools do I use
 ### :telescope: What I’m looking forward to learn and work on:
 ### :mailbox_with_mail: How to reach me:
