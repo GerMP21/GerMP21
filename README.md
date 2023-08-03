@@ -9,6 +9,7 @@ Feel free to explore and collaborate on any of these projects. Let's connect, sh
 
 ## About me
 ### :toolbox: The tools I use:
+![Static Badge](https://img.shields.io/badge/svelte?logo=svelte)
 ### :briefcase: What I’m currently working on:
 ### :books: What I’m currently learning:
 ### :telescope: What I’m looking forward to learn and work on:
