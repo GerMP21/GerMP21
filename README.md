@@ -8,9 +8,9 @@ Feel free to explore and collaborate on any of these projects. Let's connect, sh
 
 
 ## About me
+### :toolbox: The tools I use:
 ### :briefcase: What I’m currently working on:
-### :closed_book: What I’m currently learning:
-### :toolbox: What tools do I use
+### :books: What I’m currently learning:
 ### :telescope: What I’m looking forward to learn and work on:
 ### :mailbox_with_mail: How to reach me:
 ### :smiley_cat: Fun fact:
