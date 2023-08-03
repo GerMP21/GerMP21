@@ -8,6 +8,6 @@ Feel free to explore and collaborate on any of these projects. Let's connect, sh
 
 ### 🔭 What I’m currently working on:
 ### 🌱 What I’m currently learning:
-### 👯 What I’m looking to collaborate on ...
-### 📫 How to reach me: ...
-### ⚡ Fun fact: ...
+### 👯 What I’m looking to collaborate on:
+### 📫 How to reach me:
+### ⚡ Fun fact:
