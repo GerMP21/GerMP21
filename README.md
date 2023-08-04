@@ -2,23 +2,30 @@
 ## Welcome to my profile 👋
 I'm German Martinez, a 22-year-old passionate software development. I have a deep love for creative solutions to problems and a constant drive to learn and grow in this ever-changing field.
 
-Here, you'll find a collection of projects that showcase my journey and the skills I've acquired along the way. From Natural Language Processing and Computer Vision to Game Development, Web APIs and Front-end Design, each project has been a stepping stone in my learning process.
+Here, you'll find a collection of projects that showcase my journey and the skills I've acquired along the way. From Natural Language Processing and Computer Vision to Game Development, Web APIs and Frontend Design, each project has been a stepping stone in my learning process.
 
 Feel free to explore and collaborate on any of these projects. Let's connect, share ideas, and innovate together.
 
 
 ## About me
 ### :toolbox: The tools I use:
-#### Front-end:
-![Static Badge](https://img.shields.io/badge/React-white?style=for-the-badge&logo=React&logoColor=%236187fb)
+- #### Frontend Frameworks:
 ![Static Badge](https://img.shields.io/badge/SvelteKit-white?style=for-the-badge&logo=Svelte)
+![Static Badge](https://img.shields.io/badge/React-white?style=for-the-badge&logo=React&logoColor=%236187fb)
 ![Static Badge](https://img.shields.io/badge/Tailwind-white?style=for-the-badge&logo=Tailwind%20CSS)
-#### Backend:
+![Static Badge](https://img.shields.io/badge/Apollo-white?style=for-the-badge&logo=Apollo%20GraphQL&logoColor=white&labelColor=%23311C87)
+
+My framework of choice when writing a SSR app is without a doubt SvelteKit due to the incredible developer experience, however I do appreciate Reacts and know my way around it when making single-page app. I also like Tailwind CSS for its ease of use altho I'm not a big fan of the slightly messy code it generates in larger projects.
+
+- #### Backend Frameworks:
 ![Static Badge](https://img.shields.io/badge/Django-white?style=for-the-badge&logo=Django&logoColor=white&color=%23092E20)
 ![Static Badge](https://img.shields.io/badge/Flask-white?style=for-the-badge&logo=Flask&logoColor=white&color=%23222222)
 ![Static Badge](https://img.shields.io/badge/Express-white?style=for-the-badge&logo=Express&logoColor=black&color=yellow)
 ![Static Badge](https://img.shields.io/badge/NestJS-white?style=for-the-badge&logo=NestJS&logoColor=%23E0234E&color=white)
 ![Static Badge](https://img.shields.io/badge/GraphQL-white?style=for-the-badge&logo=GraphQL&labelColor=%23E10098)
+
+Overall I'm a big fan of all these frameworks and particularly enjoy developing GraphQL API in NestJS but I can build a REST API in any of them as well as implementing basic authentication and authorization. As of right now I only know  how to implement auth with JWTs in Django but I plan that to change.
+
 ### :briefcase: What I’m currently working on:
 ### :books: What I’m currently learning:
 ### :telescope: What I’m looking forward to learn and work on:
