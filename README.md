@@ -16,6 +16,8 @@ Feel free to explore and collaborate on any of these projects. Let's connect, sh
 ![Static Badge](https://img.shields.io/badge/CSS3-white?style=for-the-badge&logo=CSS3&logoColor=%231572B6)
 ![Static Badge](https://img.shields.io/badge/JavaScript-white?style=for-the-badge&logo=JavaScript&logoColor=%23F7DF1E)
 
+Currently the language I'm most interested in is Rust as I really like the concept of the borrow checker because of the safety that it provides and it would allow me to get into lowel level topics like systems programming and more efficient game development. However the language I'm most proficient in is Python since it's the one I have work experience and the one that allows for my favorite topic in software development, machine learning.
+
 - #### Frontend Frameworks:
 ![Static Badge](https://img.shields.io/badge/SvelteKit-white?style=for-the-badge&logo=Svelte&logoColor=white&color=%23FF3E00)
 ![Static Badge](https://img.shields.io/badge/React-white?style=for-the-badge&logo=React&logoColor=white&color=%235991ff)
