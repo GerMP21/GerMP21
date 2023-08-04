@@ -10,8 +10,8 @@ Feel free to explore and collaborate on any of these projects. Let's connect, sh
 ## About me
 ### :toolbox: The tools I use:
 - #### Frontend Frameworks:
-![Static Badge](https://img.shields.io/badge/SvelteKit-white?style=for-the-badge&logo=Svelte)
-![Static Badge](https://img.shields.io/badge/React-white?style=for-the-badge&logo=React&logoColor=%236187fb)
+![Static Badge](https://img.shields.io/badge/React-white?style=for-the-badge&logo=React&logoColor=%2361DAFB)
+![Static Badge](https://img.shields.io/badge/SvelteKit-white?style=for-the-badge&logo=Svelte&logoColor=white&color=%23FF3E00)
 ![Static Badge](https://img.shields.io/badge/Tailwind-white?style=for-the-badge&logo=Tailwind%20CSS)
 ![Static Badge](https://img.shields.io/badge/Apollo-white?style=for-the-badge&logo=Apollo%20GraphQL&logoColor=white&labelColor=%23311C87)
 
