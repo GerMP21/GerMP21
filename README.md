@@ -35,6 +35,13 @@ My framework of choice when writing a SSR app is without a doubt SvelteKit due t
 
 Overall I'm a big fan of all these frameworks and particularly enjoy developing GraphQL API in NestJS but I can build a REST API in any of them as well as implementing basic authentication and authorization. As of right now I only know  how to implement auth with JWTs in Django but I plan that to change.
 
+- #### Databases:
+![Static Badge](https://img.shields.io/badge/PostgreSQL-white?style=for-the-badge&logo=PostgreSQL&logoColor=white&labelColor=%234169E1)
+![Static Badge](https://img.shields.io/badge/MongoDB-white?style=for-the-badge&logo=MongoDB&logoColor=%2347A248)
+![Static Badge](https://img.shields.io/badge/Neo4j-white?style=for-the-badge&logo=Neo4j&logoColor=%234581C3)
+
+I consider myself proficient in PostgreSQL as I learned the ins and outs of SQL itself during my bachelor and have a great respect for relational databases for becoming the defacto standard in the industry.
+
 - #### Machine Learning:
 ![Static Badge](https://img.shields.io/badge/NumPy-white?style=for-the-badge&logo=NumPy&logoColor=%23013243)
 ![Static Badge](https://img.shields.io/badge/pandas-white?style=for-the-badge&logo=pandas&logoColor=%23150458)
