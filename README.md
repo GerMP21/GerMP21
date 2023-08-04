@@ -1,4 +1,3 @@
-# German
 ## Welcome to my profile 👋
 I'm German Martinez, a 22-year-old passionate software development. I have a deep love for creative solutions to problems and a constant drive to learn and grow in this ever-changing field.
 
