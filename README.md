@@ -29,7 +29,7 @@ My go-to choice for building a server-side rendered app is definitely SvelteKit 
 ![Static Badge](https://img.shields.io/badge/Django-white?style=for-the-badge&logo=Django&logoColor=white&color=%23092E20)
 ![Static Badge](https://img.shields.io/badge/Flask-white?style=for-the-badge&logo=Flask&logoColor=white&color=%23222222)
 ![Static Badge](https://img.shields.io/badge/FastAPI-white?style=for-the-badge&logo=FastAPI&logoColor=white&color=%23009688)
-![Static Badge](https://img.shields.io/badge/Express-white?style=for-the-badge&logo=Express&logoColor=black&color=yellow)
+![Static Badge](https://img.shields.io/badge/Express-white?style=for-the-badge&logo=Express&logoColor=black&color=%23F7DF1E)
 ![Static Badge](https://img.shields.io/badge/NestJS-white?style=for-the-badge&logo=NestJS&logoColor=white&color=%23E0234E)
 ![Static Badge](https://img.shields.io/badge/GraphQL-white?style=for-the-badge&logo=GraphQL&labelColor=%23E10098)
 
