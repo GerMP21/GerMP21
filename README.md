@@ -1,4 +1,3 @@
-
 ## Welcome to my profile 👋
 I'm German Martinez, a 22-year-old passionate software development. I have a deep love for creative solutions to problems and a constant drive to learn and grow in this ever-changing field.
 
@@ -16,7 +15,7 @@ Feel free to explore and collaborate on any of these projects. Let's connect, sh
 ![Static Badge](https://img.shields.io/badge/CSS3-white?style=for-the-badge&logo=CSS3&logoColor=%231572B6)
 ![Static Badge](https://img.shields.io/badge/JavaScript-white?style=for-the-badge&logo=JavaScript&logoColor=%23F7DF1E)
 
-Currently the language I'm most interested in is Rust as I really like the concept of the borrow checker because of the safety that it provides and it would allow me to get into lower level topics like systems programming and more efficient game development. However the language I'm most proficient in is Python since it's the one I have work experience and the one that allows for my favorite topic in software development, machine learning.
+At present, the language that piques my greatest interest is Rust, primarily due to my appreciation for the concept of the borrow checker, which enhances safety and enables exploration of lower-level subjects like systems programming and more efficient game development. However, the language in which I possess the highest proficiency is Python, owing to my work experience and its support for my favored area of software development, machine learning.
 
 - #### Frontend Frameworks:
 ![Static Badge](https://img.shields.io/badge/SvelteKit-white?style=for-the-badge&logo=Svelte&logoColor=white&color=%23FF3E00)
@@ -24,7 +23,7 @@ Currently the language I'm most interested in is Rust as I really like the conce
 ![Static Badge](https://img.shields.io/badge/Tailwind-white?style=for-the-badge&logo=Tailwind%20CSS)
 ![Static Badge](https://img.shields.io/badge/Apollo-white?style=for-the-badge&logo=Apollo%20GraphQL&logoColor=white&labelColor=%23311C87)
 
-My framework of choice when writing a SSR app is without a doubt SvelteKit due to the incredible developer experience, however I do appreciate Reacts and know my way around it when making single-page app. I also like Tailwind CSS for its ease of use altho I'm not a big fan of the slightly messy code it generates in larger projects.
+My preferred framework for developing a server-side rendered (SSR) app is undoubtedly SvelteKit, owing to its incredible developer experience. Nevertheless, I do acknowledge React's capabilities and feel comfortable using it for crafting single-page applications. Additionally, I find Tailwind CSS appealing due to its user-friendly nature, although I must admit that it can generate slightly messy code in larger projects, which I am not particularly fond of.
 
 - #### Backend Frameworks:
 ![Static Badge](https://img.shields.io/badge/Django-white?style=for-the-badge&logo=Django&logoColor=white&color=%23092E20)
@@ -33,14 +32,14 @@ My framework of choice when writing a SSR app is without a doubt SvelteKit due t
 ![Static Badge](https://img.shields.io/badge/NestJS-white?style=for-the-badge&logo=NestJS&logoColor=white&color=%23E0234E)
 ![Static Badge](https://img.shields.io/badge/GraphQL-white?style=for-the-badge&logo=GraphQL&labelColor=%23E10098)
 
-Overall I'm a big fan of all these frameworks and particularly enjoy developing GraphQL API in NestJS but I can build a REST API in any of them as well as implementing basic authentication and authorization. As of right now I only know  how to implement auth with JWTs in Django but I plan that to change.
+In general, I am an avid supporter of these frameworks and find great pleasure in developing GraphQL APIs using NestJS. However, I am also proficient in building REST APIs with any of them, and I can implement basic authentication and authorization. Currently, my expertise in JWT authentication is limited to Django, but I intend to expand my knowledge in this area.
 
 - #### Databases:
 ![Static Badge](https://img.shields.io/badge/PostgreSQL-white?style=for-the-badge&logo=PostgreSQL&logoColor=white&labelColor=%234169E1)
 ![Static Badge](https://img.shields.io/badge/MongoDB-white?style=for-the-badge&logo=MongoDB&logoColor=%2347A248)
 ![Static Badge](https://img.shields.io/badge/Neo4j-white?style=for-the-badge&logo=Neo4j&logoColor=%234581C3)
 
-I consider myself proficient in PostgreSQL as I learned the ins and outs of SQL itself during my bachelor and have a great respect for relational databases for becoming the defacto standard in the industry.
+I consider myself proficient in PostgreSQL since I acquired a comprehensive understanding of SQL itself during my bachelor's degree. Additionally, I gained valuable expertise in designing and diagramming relational databases, which instilled a profound appreciation for their significance as the industry's defacto standard. Moreover, I harbor an interest in graph databases for their relevance in data science and social media applications.
 
 - #### Machine Learning:
 ![Static Badge](https://img.shields.io/badge/NumPy-white?style=for-the-badge&logo=NumPy&logoColor=%23013243)
@@ -48,7 +47,7 @@ I consider myself proficient in PostgreSQL as I learned the ins and outs of SQL 
 ![Static Badge](https://img.shields.io/badge/scikitlearn-white?style=for-the-badge&logo=scikit-learn&logoColor=%23F7931E)
 ![Static Badge](https://img.shields.io/badge/TensorFlow-white?style=for-the-badge&logo=TensorFlow&logoColor=%23FF6F00)
 
-Machine learning is the niche I most enjoy developing, specially neural networks. I find it extremely satisfying to stack the TensorFlow layers and see the training in process, seeing the loss function reduce each epoch.
+Machine learning is the niche I most enjoy developing, especially neural networks. I find it extremely satisfying to stack the TensorFlow layers and observe the training process, witnessing the gradual reduction of the loss function with each epoch.
 
 ### :briefcase: What I’m currently working on:
 ### :books: What I’m currently learning:
