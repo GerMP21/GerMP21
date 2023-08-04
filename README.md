@@ -66,7 +66,7 @@ I'm also working on a space-themed bullet hell game that blends elements from RT
 For the game I'm making I need to implement behavior trees and pathfinding for the enemy AI.
 
 ## :mailbox_with_mail: How to reach me:
-![Static Badge](https://img.shields.io/badge/LinkedIn-white?style=for-the-badge&logo=LinkedIn&logoColor=white&color=%230A66C2&link=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fgermanmartinez21%2F)
+[![Static Badge](https://img.shields.io/badge/LinkedIn-white?style=for-the-badge&logo=LinkedIn&logoColor=white&color=%230A66C2) ](https://www.linkedin.com/in/germanmartinez21/)
 
 
 ## :smiley_cat: Fun fact:
