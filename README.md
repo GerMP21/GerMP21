@@ -32,7 +32,7 @@ My go-to choice for building a server-side rendered app is definitely SvelteKit 
 ![Static Badge](https://img.shields.io/badge/NestJS-white?style=for-the-badge&logo=NestJS&logoColor=white&color=%23E0234E)
 ![Static Badge](https://img.shields.io/badge/GraphQL-white?style=for-the-badge&logo=GraphQL&labelColor=%23E10098)
 
-Generally, I really appreciate and love working with these frameworks. Developing GraphQL APIs using NestJS brings me a lot of enjoyment. However, I'm also skilled at building REST APIs with any of them, and I can handle basic authentication and authorization. Right now, my proficiency in JWT authentication is limited to Django, but I plan to level up my knowledge in this area.
+I really appreciate and love working with these frameworks. Developing GraphQL APIs using NestJS brings me a lot of enjoyment. However, I'm also skilled at building REST APIs with any of them, and I can handle basic authentication and authorization. Right now, my proficiency in JWT authentication is limited to Django, but I plan to level up my knowledge in this area.
 
 - #### Databases:
 ![Static Badge](https://img.shields.io/badge/PostgreSQL-white?style=for-the-badge&logo=PostgreSQL&logoColor=white&labelColor=%234169E1)
