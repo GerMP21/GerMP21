@@ -52,10 +52,21 @@ I'm really into machine learning, especially neural networks. It's my favorite t
 
 ## :briefcase: What I’m currently working on:
 ### :newspaper: Blog:
+![Static Badge](https://img.shields.io/badge/SvelteKit-white?style=for-the-badge&logo=Svelte&logoColor=white&color=%23FF3E00)
+![Static Badge](https://img.shields.io/badge/FastAPI-white?style=for-the-badge&logo=FastAPI&logoColor=white&color=%23009688)
+![Static Badge](https://img.shields.io/badge/PostgreSQL-white?style=for-the-badge&logo=PostgreSQL&logoColor=white&labelColor=%234169E1)
+
 I'm currently in the process of creating my own blogging website. While I'm primarily building it for myself, I'm open to having others contribute and join the platform to start blogging as well. If you're interested, just reach out to me. This project is perfect for establishing my online presence. For the backend, I've opted for FastAPI to get it up and running swiftly. As for the frontend, I'll be using SvelteKit, mainly because of its development experience, which enables me to write it with speed and efficiency. Finally I will use PostgreSQL for the database thanks to its stability.
 
-### :space_invader: Space-themed Bullet Hell :
+### :space_invader: Space-themed Bullet Hell:
 I'm also working on a space-themed bullet hell game that blends elements from RTS games, involving resource management while commanding multiple pilots. To quickly assess the game's mechanics and gauge its fun, I've opted for Phaser3 to build a quick prototype.
 
+## :books: What I'm currently learning:
+### Behaviour Trees and Pathfinding Algorithms:
+For the game I'm making I need to implement behavior trees and pathfinding for the enemy AI.
+
 ## :mailbox_with_mail: How to reach me:
+![Static Badge](https://img.shields.io/badge/LinkedIn-white?style=for-the-badge&logo=LinkedIn&logoColor=white&color=%230A66C2&link=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fgermanmartinez21%2F)
+
+
 ## :smiley_cat: Fun fact:
