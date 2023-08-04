@@ -5,6 +5,8 @@ Here, you'll find a collection of projects that showcase my journey and the skil
 
 Feel free to explore and collaborate on any of these projects. Let's connect, share ideas, and innovate together.
 
+Here's some information about me...
+
 ## :toolbox: The tools I use:
 ### Programming Languages:
 ![Static Badge](https://img.shields.io/badge/Rust-white?style=for-the-badge&logo=Rust&logoColor=black)
