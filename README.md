@@ -32,14 +32,14 @@ My go-to choice for building a server-side rendered app is definitely SvelteKit 
 ![Static Badge](https://img.shields.io/badge/NestJS-white?style=for-the-badge&logo=NestJS&logoColor=white&color=%23E0234E)
 ![Static Badge](https://img.shields.io/badge/GraphQL-white?style=for-the-badge&logo=GraphQL&labelColor=%23E10098)
 
-I really appreciate and love working with these frameworks. Developing GraphQL APIs using NestJS brings me a lot of enjoyment. However, I'm also skilled at building REST APIs with any of them, and I can handle basic authentication and authorization. Right now, my proficiency in JWT authentication is limited to Django, but I plan to level up my knowledge in this area.
+Working with these frameworks brings me a lot of appreciation and love for them. Developing GraphQL APIs using NestJS is something I find really enjoyable. Besides that, I'm also skilled at building REST APIs with any of them, and handling basic authentication and authorization. Right now, my proficiency in JWT authentication is limited to Django, but I plan to level up my knowledge in this area.
 
 - #### Databases:
 ![Static Badge](https://img.shields.io/badge/PostgreSQL-white?style=for-the-badge&logo=PostgreSQL&logoColor=white&labelColor=%234169E1)
 ![Static Badge](https://img.shields.io/badge/MongoDB-white?style=for-the-badge&logo=MongoDB&logoColor=%2347A248)
 ![Static Badge](https://img.shields.io/badge/Neo4j-white?style=for-the-badge&logo=Neo4j&logoColor=%234581C3)
 
-I feel confident in my PostgreSQL skills because I really got to dive deep into SQL itself during my bachelor's degree. And not just that, I also gained valuable expertise in designing and diagramming relational databases, which made me appreciate their significance as the industry's go-to standard. I've also got a thing for graph databases since they're so relevant in data science and social media apps.
+My confidence in my PostgreSQL skills stems from the deep dive I took into SQL during my bachelor's degree. Moreover, I gained valuable expertise in designing and diagramming relational databases, which made me appreciate their significance as the industry's go-to standard. Additionally, graph databases have really piqued my interest due to their relevance in data science and social media apps.
 
 - #### Machine Learning:
 ![Static Badge](https://img.shields.io/badge/NumPy-white?style=for-the-badge&logo=NumPy&logoColor=%23013243)
