@@ -15,7 +15,7 @@ Feel free to explore and collaborate on any of these projects. Let's connect, sh
 ![Static Badge](https://img.shields.io/badge/CSS3-white?style=for-the-badge&logo=CSS3&logoColor=%231572B6)
 ![Static Badge](https://img.shields.io/badge/JavaScript-white?style=for-the-badge&logo=JavaScript&logoColor=%23F7DF1E)
 
-At present, the language that piques my greatest interest is Rust, primarily due to my appreciation for the concept of the borrow checker, which enhances safety and enables exploration of lower-level subjects like systems programming and more efficient game development. However, the language in which I possess the highest proficiency is Python, owing to my work experience and its support for my favored area of software development, machine learning.
+Right now, the language that really excites me is Rust, mainly because I appreciate the borrow checker concept. It boosts safety and allows me to dive into cool stuff like systems programming and making games more efficient. But when it comes to the language I'm most skilled in, it's definitely Python. I've got professional work experience with it, and it's perfect for my favorite area of software development: machine learning.
 
 - #### Frontend Frameworks:
 ![Static Badge](https://img.shields.io/badge/SvelteKit-white?style=for-the-badge&logo=Svelte&logoColor=white&color=%23FF3E00)
@@ -23,7 +23,7 @@ At present, the language that piques my greatest interest is Rust, primarily due
 ![Static Badge](https://img.shields.io/badge/Tailwind-white?style=for-the-badge&logo=Tailwind%20CSS)
 ![Static Badge](https://img.shields.io/badge/Apollo-white?style=for-the-badge&logo=Apollo%20GraphQL&logoColor=white&labelColor=%23311C87)
 
-My preferred framework for developing a server-side rendered (SSR) app is undoubtedly SvelteKit, owing to its incredible developer experience. Nevertheless, I do acknowledge React's capabilities and feel comfortable using it for crafting single-page applications. Additionally, I find Tailwind CSS appealing due to its user-friendly nature, although I must admit that it can generate slightly messy code in larger projects, which I am not particularly fond of.
+My go-to choice for building a server-side rendered app is definitely SvelteKit - I really appreciate its incredible developer experience. However, I do recognize React's proficiency and feel at ease using it to create single-page applications. On top of that, I find Tailwind CSS pretty user-friendly. Although, I must admit it can create a bit of messy code in larger projects.
 
 - #### Backend Frameworks:
 ![Static Badge](https://img.shields.io/badge/Django-white?style=for-the-badge&logo=Django&logoColor=white&color=%23092E20)
@@ -32,14 +32,14 @@ My preferred framework for developing a server-side rendered (SSR) app is undoub
 ![Static Badge](https://img.shields.io/badge/NestJS-white?style=for-the-badge&logo=NestJS&logoColor=white&color=%23E0234E)
 ![Static Badge](https://img.shields.io/badge/GraphQL-white?style=for-the-badge&logo=GraphQL&labelColor=%23E10098)
 
-In general, I am an avid supporter of these frameworks and find great pleasure in developing GraphQL APIs using NestJS. However, I am also proficient in building REST APIs with any of them, and I can implement basic authentication and authorization. Currently, my expertise in JWT authentication is limited to Django, but I intend to expand my knowledge in this area.
+Generally, I really appreciate and love working with these frameworks. Developing GraphQL APIs using NestJS brings me a lot of enjoyment. However, I'm also skilled at building REST APIs with any of them, and I can handle basic authentication and authorization. Right now, my proficiency in JWT authentication is limited to Django, but I plan to level up my knowledge in this area.
 
 - #### Databases:
 ![Static Badge](https://img.shields.io/badge/PostgreSQL-white?style=for-the-badge&logo=PostgreSQL&logoColor=white&labelColor=%234169E1)
 ![Static Badge](https://img.shields.io/badge/MongoDB-white?style=for-the-badge&logo=MongoDB&logoColor=%2347A248)
 ![Static Badge](https://img.shields.io/badge/Neo4j-white?style=for-the-badge&logo=Neo4j&logoColor=%234581C3)
 
-I consider myself proficient in PostgreSQL since I acquired a comprehensive understanding of SQL itself during my bachelor's degree. Additionally, I gained valuable expertise in designing and diagramming relational databases, which instilled a profound appreciation for their significance as the industry's defacto standard. Moreover, I harbor an interest in graph databases for their relevance in data science and social media applications.
+I feel confident in my PostgreSQL skills because I really got to dive deep into SQL itself during my bachelor's degree. And not just that, I also gained valuable expertise in designing and diagramming relational databases, which made me appreciate their significance as the industry's go-to standard. I've also got a thing for graph databases since they're so relevant in data science and social media apps.
 
 - #### Machine Learning:
 ![Static Badge](https://img.shields.io/badge/NumPy-white?style=for-the-badge&logo=NumPy&logoColor=%23013243)
@@ -47,7 +47,7 @@ I consider myself proficient in PostgreSQL since I acquired a comprehensive unde
 ![Static Badge](https://img.shields.io/badge/scikitlearn-white?style=for-the-badge&logo=scikit-learn&logoColor=%23F7931E)
 ![Static Badge](https://img.shields.io/badge/TensorFlow-white?style=for-the-badge&logo=TensorFlow&logoColor=%23FF6F00)
 
-Machine learning is the niche I most enjoy developing, especially neural networks. I find it extremely satisfying to stack the TensorFlow layers and observe the training process, witnessing the gradual reduction of the loss function with each epoch.
+I'm really into machine learning, especially neural networks. It's my favorite thing to work on. There's something satisfying about stacking TensorFlow layers and watching the training process. You see that loss function going down with each epoch, and it's just so fascinating.
 
 ### :briefcase: What I’m currently working on:
 ### :books: What I’m currently learning:
