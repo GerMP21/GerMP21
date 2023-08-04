@@ -54,7 +54,7 @@ I'm really into machine learning, especially neural networks. It's my favorite t
 - #### Blog:
 I'm currently in the process of creating my own blogging website. While I'm primarily building it for myself, I'm open to having others contribute and join the platform to start blogging as well. If you're interested, just reach out to me. This project is perfect for establishing my online presence. For the backend, I've opted for FastAPI to get it up and running swiftly. As for the frontend, I'll be using SvelteKit, mainly because of its development experience, which enables me to write it with speed and efficiency.
 
-- #### Bullet Hell Spaceship Game:
+- #### Space-themed Bullet Hell :
 I'm also working on a space-themed bullet hell game that blends elements from RTS games, involving resource management while commanding multiple pilots. To quickly assess the game's mechanics and gauge its fun, I've opted for Phaser3 to build a quick prototype.
 
 ### :books: What I’m currently learning:
