@@ -1,3 +1,4 @@
+# German
 ## Welcome to my profile 👋
 I'm German Martinez, a 22-year-old passionate software development. I have a deep love for creative solutions to problems and a constant drive to learn and grow in this ever-changing field.
 
@@ -50,6 +51,9 @@ My confidence in my PostgreSQL skills stems from the deep dive I took into SQL d
 I'm really into machine learning, especially neural networks. It's my favorite thing to work on. There's something satisfying about stacking TensorFlow layers and watching the training process. You see that loss function going down with each epoch, and it's just so fascinating.
 
 ### :briefcase: What I’m currently working on:
+- #### A Blog:
+
+
 ### :books: What I’m currently learning:
 ### :telescope: What I’m looking forward to learn and work on:
 ### :mailbox_with_mail: How to reach me:
