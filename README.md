@@ -67,6 +67,3 @@ For the game I'm making I need to implement behavior trees and pathfinding for t
 
 ## :mailbox_with_mail: How to reach me:
 [![Static Badge](https://img.shields.io/badge/LinkedIn-white?style=for-the-badge&logo=LinkedIn&logoColor=white&color=%230A66C2) ](https://www.linkedin.com/in/germanmartinez21/)
-
-
-## :smiley_cat: Fun fact:
