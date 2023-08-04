@@ -9,6 +9,13 @@ Feel free to explore and collaborate on any of these projects. Let's connect, sh
 
 ## About me
 ### :toolbox: The tools I use:
+- #### Programming Languages:
+![Static Badge](https://img.shields.io/badge/Rust-white?style=for-the-badge&logo=Rust&logoColor=black)
+![Static Badge](https://img.shields.io/badge/Python-white?style=for-the-badge&logo=Python&logoColor=%233776AB)
+![Static Badge](https://img.shields.io/badge/HTML5-white?style=for-the-badge&logo=HTML5&logoColor=%23E34F26)
+![Static Badge](https://img.shields.io/badge/CSS3-white?style=for-the-badge&logo=CSS3&logoColor=%231572B6)
+![Static Badge](https://img.shields.io/badge/JavaScript-white?style=for-the-badge&logo=JavaScript&logoColor=%23F7DF1E)
+
 - #### Frontend Frameworks:
 ![Static Badge](https://img.shields.io/badge/SvelteKit-white?style=for-the-badge&logo=Svelte&logoColor=white&color=%23FF3E00)
 ![Static Badge](https://img.shields.io/badge/React-white?style=for-the-badge&logo=React&logoColor=white&color=%235991ff)
