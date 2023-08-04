@@ -65,9 +65,9 @@ I'm also working on a space-themed bullet hell game that blends elements from RT
 
 ## :books: What I'm currently learning:
 ### Behaviour Trees and Pathfinding Algorithms:
-They are very necessary for game development AI and are very interesting topics
-
 ![image](https://media1.giphy.com/media/prNHfsC7fAuvBVlYyq/giphy.gif?cid=ecf05e473fooy7va4qd0mlkqcxf3xwm2az22ir47jbhliagz&ep=v1_gifs_search&rid=giphy.gif&ct=g)
+
+They are very necessary for game development AI and are very interesting topics
 
 ## :mailbox_with_mail: How to reach me:
 [![Static Badge](https://img.shields.io/badge/LinkedIn-white?style=for-the-badge&logo=LinkedIn&logoColor=white&color=%230A66C2) ](https://www.linkedin.com/in/germanmartinez21/)
