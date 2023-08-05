@@ -47,13 +47,15 @@ My confidence in my PostgreSQL skills stems from the deep dive I took into SQL d
 ![Static Badge](https://img.shields.io/badge/pandas-white?style=for-the-badge&logo=pandas&logoColor=%23150458)
 ![Static Badge](https://img.shields.io/badge/scikitlearn-white?style=for-the-badge&logo=scikit-learn&logoColor=%23F7931E)
 ![Static Badge](https://img.shields.io/badge/TensorFlow-white?style=for-the-badge&logo=TensorFlow&logoColor=%23FF6F00)
+![Static Badge](https://img.shields.io/badge/opencv-white?style=for-the-badge&logo=opencv&logoColor=%235C3EE8)
+
 
 I'm really into machine learning, especially neural networks. It's my favorite thing to work on. There's something satisfying about stacking TensorFlow layers and watching the training process. You see that loss function going down with each epoch, and it's just so fascinating.
 
 - ### Development Tools:
 ![Static Badge](https://img.shields.io/badge/Linux-white?style=for-the-badge&logo=Linux&logoColor=black&labelColor=white&color=%23222222)
 ![Static Badge](https://img.shields.io/badge/GNU-white?style=for-the-badge&logo=GNU&logoColor=black&labelColor=white&color=%23A42E2B)
-![Static Badge](https://img.shields.io/badge/vim-white?style=for-the-badge&logo=vim&logoColor=%23019733&labelColor=white&color=%23019733)
+![Static Badge](https://img.shields.io/badge/NeoVim-white?style=for-the-badge&logo=neovim&logoColor=%23019733&labelColor=white&color=%23019733)
 ![Static Badge](https://img.shields.io/badge/gimp-white?style=for-the-badge&logo=gimp&logoColor=%235C5543&labelColor=white&color=%235C5543)
 ![Static Badge](https://img.shields.io/badge/libreoffice-white?style=for-the-badge&logo=libreoffice&logoColor=%2318A303&labelColor=white&color=%2318A303)
 ![Static Badge](https://img.shields.io/badge/slack-white?style=for-the-badge&logo=slack&logoColor=%234A154B&labelColor=white&color=%234A154B)
