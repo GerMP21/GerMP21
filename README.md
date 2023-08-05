@@ -8,7 +8,7 @@ Feel free to explore and collaborate on any of these projects. Let's connect, sh
 Here's some information about me...
 
 ## :toolbox: The tools I use:
-### Programming Languages:
+- ### Programming Languages:
 ![Static Badge](https://img.shields.io/badge/Rust-white?style=for-the-badge&logo=Rust&logoColor=black)
 ![Static Badge](https://img.shields.io/badge/Python-white?style=for-the-badge&logo=Python&logoColor=%233776AB)
 ![Static Badge](https://img.shields.io/badge/HTML5-white?style=for-the-badge&logo=HTML5&logoColor=%23E34F26)
@@ -17,7 +17,7 @@ Here's some information about me...
 
 Right now, the language that really excites me is Rust, mainly because I appreciate the borrow checker concept. It boosts safety and allows me to dive into cool stuff like systems programming and making games more efficient. But when it comes to the language I'm most skilled in, it's definitely Python. I've got professional work experience with it, and it's perfect for my favorite area of software development: machine learning.
 
-### Frontend Frameworks:
+- ### Frontend Frameworks:
 ![Static Badge](https://img.shields.io/badge/SvelteKit-white?style=for-the-badge&logo=Svelte&logoColor=white&color=%23FF3E00)
 ![Static Badge](https://img.shields.io/badge/React-white?style=for-the-badge&logo=React&logoColor=white&color=%235991ff)
 ![Static Badge](https://img.shields.io/badge/Tailwind-white?style=for-the-badge&logo=Tailwind%20CSS)
@@ -25,7 +25,7 @@ Right now, the language that really excites me is Rust, mainly because I appreci
 
 My go-to choice for building a server-side rendered app is definitely SvelteKit - I really appreciate its incredible developer experience. However, I do recognize React's proficiency and feel at ease using it to create single-page applications. On top of that, I find Tailwind CSS pretty user-friendly. Although, I must admit it can create a bit of messy code in larger projects.
 
-### Backend Frameworks:
+- ### Backend Frameworks:
 ![Static Badge](https://img.shields.io/badge/Django-white?style=for-the-badge&logo=Django&logoColor=white&color=%23092E20)
 ![Static Badge](https://img.shields.io/badge/Flask-white?style=for-the-badge&logo=Flask&logoColor=white&color=%23222222)
 ![Static Badge](https://img.shields.io/badge/FastAPI-white?style=for-the-badge&logo=FastAPI&logoColor=white&color=%23009688)
@@ -35,14 +35,14 @@ My go-to choice for building a server-side rendered app is definitely SvelteKit 
 
 Working with these frameworks brings me a lot of appreciation and love for them. Developing GraphQL APIs using NestJS is something I find really enjoyable. Besides that, I'm also skilled at building REST APIs with any of them, and handling basic authentication and authorization. Right now, my proficiency in JWT authentication is limited to Django, but I plan to level up my knowledge in this area.
 
-### Databases:
+- ### Databases:
 ![Static Badge](https://img.shields.io/badge/PostgreSQL-white?style=for-the-badge&logo=PostgreSQL&logoColor=white&labelColor=%234169E1)
 ![Static Badge](https://img.shields.io/badge/MongoDB-white?style=for-the-badge&logo=MongoDB&logoColor=%2347A248)
 ![Static Badge](https://img.shields.io/badge/Neo4j-white?style=for-the-badge&logo=Neo4j&logoColor=%234581C3)
 
 My confidence in my PostgreSQL skills stems from the deep dive I took into SQL during my bachelor's degree. Moreover, I gained valuable expertise in designing and diagramming relational databases, which made me appreciate their significance as the industry's go-to standard. Additionally, graph databases have really piqued my interest due to their relevance in data science and social media apps.
 
-### Machine Learning:
+- ### Machine Learning:
 ![Static Badge](https://img.shields.io/badge/NumPy-white?style=for-the-badge&logo=NumPy&logoColor=%23013243)
 ![Static Badge](https://img.shields.io/badge/pandas-white?style=for-the-badge&logo=pandas&logoColor=%23150458)
 ![Static Badge](https://img.shields.io/badge/scikitlearn-white?style=for-the-badge&logo=scikit-learn&logoColor=%23F7931E)
@@ -50,24 +50,30 @@ My confidence in my PostgreSQL skills stems from the deep dive I took into SQL d
 
 I'm really into machine learning, especially neural networks. It's my favorite thing to work on. There's something satisfying about stacking TensorFlow layers and watching the training process. You see that loss function going down with each epoch, and it's just so fascinating.
 
+- ### Development Tools:
+![Static Badge](https://img.shields.io/badge/Linux-white?style=for-the-badge&logo=Linux&logoColor=black&labelColor=white&color=%23222222)
+![Static Badge](https://img.shields.io/badge/GNU-white?style=for-the-badge&logo=GNU&logoColor=black&labelColor=white&color=%23A42E2B)
+![Static Badge](https://img.shields.io/badge/vim-white?style=for-the-badge&logo=vim&logoColor=%23019733&labelColor=white&color=%23019733)
+![Static Badge](https://img.shields.io/badge/gimp-white?style=for-the-badge&logo=gimp&logoColor=%235C5543&labelColor=white&color=%235C5543)
+![Static Badge](https://img.shields.io/badge/libreoffice-white?style=for-the-badge&logo=libreoffice&logoColor=%2318A303&labelColor=white&color=%2318A303)
+![Static Badge](https://img.shields.io/badge/Figma-white?style=for-the-badge&logo=Figma&logoColor=%23F24E1E&labelColor=white&color=%23F24E1E)
+![Static Badge](https://img.shields.io/badge/slack-white?style=for-the-badge&logo=slack&logoColor=%234A154B&labelColor=white&color=%234A154B)
+![Static Badge](https://img.shields.io/badge/trello-white?style=for-the-badge&logo=trello&logoColor=%230052CC&labelColor=white&color=%230052CC)
+
 ## :briefcase: What I’m currently working on:
-### :newspaper: Blog:
+- ### :newspaper: Blog:
 ![Static Badge](https://img.shields.io/badge/SvelteKit-white?style=for-the-badge&logo=Svelte&logoColor=white&color=%23FF3E00)
 ![Static Badge](https://img.shields.io/badge/FastAPI-white?style=for-the-badge&logo=FastAPI&logoColor=white&color=%23009688)
 ![Static Badge](https://img.shields.io/badge/PostgreSQL-white?style=for-the-badge&logo=PostgreSQL&logoColor=white&labelColor=%234169E1)
 
 I'm currently in the process of creating my own blogging website. While I'm primarily building it for myself, I'm open to having others contribute and join the platform to start blogging as well. If you're interested, just reach out to me. This project is perfect for establishing my online presence. For the backend, I've opted for FastAPI to get it up and running swiftly. As for the frontend, I'll be using SvelteKit, mainly because of its development experience, which enables me to write it with speed and efficiency. Finally I will use PostgreSQL for the database thanks to its stability.
 
-### :space_invader: Space-themed Bullet Hell:
+- ### :space_invader: Space-themed Bullet Hell:
 ![Static Badge](https://img.shields.io/badge/JavaScript-white?style=for-the-badge&logo=JavaScript&logoColor=%23F7DF1E)
 
 I'm also working on a space-themed bullet hell game that blends elements from RTS games, involving resource management while commanding multiple pilots. To quickly assess the game's mechanics and gauge its fun, I've opted for Phaser3 to build a quick prototype.
 
-## :books: What I'm currently learning:
-### Behaviour Trees and Pathfinding Algorithms:
-![image](https://media1.giphy.com/media/prNHfsC7fAuvBVlYyq/giphy.gif?cid=ecf05e473fooy7va4qd0mlkqcxf3xwm2az22ir47jbhliagz&ep=v1_gifs_search&rid=giphy.gif&ct=g)
-
-They are very necessary for game development AI and are very interesting topics
-
 ## :mailbox_with_mail: How to reach me:
 [![Static Badge](https://img.shields.io/badge/LinkedIn-white?style=for-the-badge&logo=LinkedIn&logoColor=white&color=%230A66C2) ](https://www.linkedin.com/in/germanmartinez21/)
+
+Feel free to contact me if you have a project you need in need of people.
