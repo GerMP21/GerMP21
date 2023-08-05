@@ -15,7 +15,9 @@ Here's some information about me...
 ![Static Badge](https://img.shields.io/badge/CSS3-white?style=for-the-badge&logo=CSS3&logoColor=%231572B6)
 ![Static Badge](https://img.shields.io/badge/JavaScript-white?style=for-the-badge&logo=JavaScript&logoColor=%23F7DF1E)
 
-Right now, the language that really excites me is Rust, mainly because I appreciate the borrow checker concept. It boosts safety and allows me to dive into cool stuff like systems programming and making games more efficient. But when it comes to the language I'm most skilled in, it's definitely Python. I've got professional work experience with it, and it's perfect for my favorite area of software development: machine learning.
+Right now, the language that excites me is Rust, mainly because I really appreciate the borrow checker concept and all the benefits it provides. It boosts safety and allows me to dive into cool stuff like systems programming and making games more efficient. 
+
+However when it comes to the language I'm most skilled in, it's definitely Python. I've got professional work experience with it and it's perfect for my favorite area of software development: machine learning.
 
 - ### Frontend Frameworks:
 ![Static Badge](https://img.shields.io/badge/SvelteKit-white?style=for-the-badge&logo=Svelte&logoColor=white&color=%23FF3E00)
@@ -23,7 +25,7 @@ Right now, the language that really excites me is Rust, mainly because I appreci
 ![Static Badge](https://img.shields.io/badge/Tailwind-white?style=for-the-badge&logo=Tailwind%20CSS)
 ![Static Badge](https://img.shields.io/badge/Apollo-white?style=for-the-badge&logo=Apollo%20GraphQL&logoColor=white&labelColor=%23311C87)
 
-My go-to choice for building a server-side rendered app is definitely SvelteKit - I really appreciate its incredible developer experience. However, I do recognize React's proficiency and feel at ease using it to create single-page applications. On top of that, I find Tailwind CSS pretty user-friendly. Although, I must admit it can create a bit of messy code in larger projects.
+My go-to choice for building a server-side rendered app is definitely SvelteKit because I really appreciate its incredible developer experience. However, I do recognize React's proficiency and feel confident using it to create single-page applications. On top of that, I find Tailwind CSS pretty user-friendly and great for very quickly and efficiently styling an application.
 
 - ### Backend Frameworks:
 ![Static Badge](https://img.shields.io/badge/Django-white?style=for-the-badge&logo=Django&logoColor=white&color=%23092E20)
@@ -33,14 +35,16 @@ My go-to choice for building a server-side rendered app is definitely SvelteKit 
 ![Static Badge](https://img.shields.io/badge/NestJS-white?style=for-the-badge&logo=NestJS&logoColor=white&color=%23E0234E)
 ![Static Badge](https://img.shields.io/badge/GraphQL-white?style=for-the-badge&logo=GraphQL&labelColor=%23E10098)
 
-Working with these frameworks brings me a lot of appreciation and love for them. Developing GraphQL APIs using NestJS is something I find really enjoyable. Besides that, I'm also skilled at building REST APIs with any of them, and handling basic authentication and authorization. Right now, my proficiency in JWT authentication is limited to Django, but I plan to level up my knowledge in this area.
+Working with these frameworks brings me a lot of appreciation for the and joy when coding them.
+
+Out of the bunch, developing GraphQL APIs using NestJS is the one that excites me the most. Besides that, I'm also skilled at building REST APIs with any of them, and handling basic authentication and authorization. Right now, my proficiency in JWT authentication is limited to Django, but I plan to level up my knowledge in this area.
 
 - ### Databases:
 ![Static Badge](https://img.shields.io/badge/PostgreSQL-white?style=for-the-badge&logo=PostgreSQL&logoColor=white&labelColor=%234169E1)
 ![Static Badge](https://img.shields.io/badge/MongoDB-white?style=for-the-badge&logo=MongoDB&logoColor=%2347A248)
 ![Static Badge](https://img.shields.io/badge/Neo4j-white?style=for-the-badge&logo=Neo4j&logoColor=%234581C3)
 
-My confidence in my PostgreSQL skills stems from the deep dive I took into SQL during my bachelor's degree. Moreover, I gained valuable expertise in designing and diagramming relational databases, which made me appreciate their significance as the industry's go-to standard. Additionally, graph databases have really piqued my interest due to their relevance in data science and social media apps.
+My confidence in my PostgreSQL skills stems from the deep dive I took into SQL during my bachelor's degree. Moreover, I gained valuable knowledge in designing and diagramming relational databases, which made me appreciate their significance as the industry's standard. Additionally, graph databases like Neo4j have really piqued my interest due to their relevance in data science and social media apps.
 
 - ### Machine Learning:
 ![Static Badge](https://img.shields.io/badge/NumPy-white?style=for-the-badge&logo=NumPy&logoColor=%23013243)
@@ -50,7 +54,7 @@ My confidence in my PostgreSQL skills stems from the deep dive I took into SQL d
 ![Static Badge](https://img.shields.io/badge/opencv-white?style=for-the-badge&logo=opencv&logoColor=%235C3EE8)
 
 
-I'm really into machine learning, especially neural networks. It's my favorite thing to work on. There's something satisfying about stacking TensorFlow layers and watching the training process. You see that loss function going down with each epoch, and it's just so fascinating.
+I'm profoundly interested in machine learning, especially deep learning. It's my favorite thing to work on. There's something satisfying about stacking TensorFlow layers, watching the training process and seeing the loss function going down with each epoch, and it's just so fascinating.
 
 - ### Development Tools:
 ![Static Badge](https://img.shields.io/badge/Linux-white?style=for-the-badge&logo=Linux&logoColor=black&labelColor=white&color=%23222222)
