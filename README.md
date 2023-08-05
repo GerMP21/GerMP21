@@ -56,7 +56,6 @@ I'm really into machine learning, especially neural networks. It's my favorite t
 ![Static Badge](https://img.shields.io/badge/vim-white?style=for-the-badge&logo=vim&logoColor=%23019733&labelColor=white&color=%23019733)
 ![Static Badge](https://img.shields.io/badge/gimp-white?style=for-the-badge&logo=gimp&logoColor=%235C5543&labelColor=white&color=%235C5543)
 ![Static Badge](https://img.shields.io/badge/libreoffice-white?style=for-the-badge&logo=libreoffice&logoColor=%2318A303&labelColor=white&color=%2318A303)
-![Static Badge](https://img.shields.io/badge/Figma-white?style=for-the-badge&logo=Figma&logoColor=%23F24E1E&labelColor=white&color=%23F24E1E)
 ![Static Badge](https://img.shields.io/badge/slack-white?style=for-the-badge&logo=slack&logoColor=%234A154B&labelColor=white&color=%234A154B)
 ![Static Badge](https://img.shields.io/badge/trello-white?style=for-the-badge&logo=trello&logoColor=%230052CC&labelColor=white&color=%230052CC)
 
