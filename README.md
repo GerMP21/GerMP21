@@ -9,15 +9,18 @@ Here's some information about me...
 
 ## :toolbox: The tools I use:
 - ### Programming Languages:
-![Static Badge](https://img.shields.io/badge/Rust-white?style=for-the-badge&logo=Rust&logoColor=black)
 ![Static Badge](https://img.shields.io/badge/Python-white?style=for-the-badge&logo=Python&logoColor=%233776AB)
+![Static Badge](https://img.shields.io/badge/Rust-white?style=for-the-badge&logo=Rust&logoColor=black)
 ![Static Badge](https://img.shields.io/badge/HTML5-white?style=for-the-badge&logo=HTML5&logoColor=%23E34F26)
 ![Static Badge](https://img.shields.io/badge/CSS3-white?style=for-the-badge&logo=CSS3&logoColor=%231572B6)
 ![Static Badge](https://img.shields.io/badge/JavaScript-white?style=for-the-badge&logo=JavaScript&logoColor=%23F7DF1E)
 
-Right now, the language that excites me is Rust, mainly because I really appreciate the borrow checker concept and all the benefits it provides. It boosts safety and allows me to dive into cool stuff like systems programming and making games more efficient. 
+Right now, the language that excites me is Rust, mainly because I really appreciate the borrow checker concept. It boosts code safety and allows me to dive into cool stuff like systems programming and making games more efficient. 
 
 However when it comes to the language I'm most skilled in, it's definitely Python. I've got professional work experience with it and it's perfect for my favorite area of software development: machine learning.
+
+Also during the two years following my bachelor's degree, I devoted myself to mastering web development, the area that most interested me prior to discovering machine learning. Although I would describe my proficiency writing javascript as average, I possess the ability to swiftly grasp almost frameworks or libraries.
+
 
 - ### Frontend Frameworks:
 ![Static Badge](https://img.shields.io/badge/SvelteKit-white?style=for-the-badge&logo=Svelte&logoColor=white&color=%23FF3E00)
@@ -35,7 +38,7 @@ My go-to choice for building a server-side rendered app is definitely SvelteKit 
 ![Static Badge](https://img.shields.io/badge/NestJS-white?style=for-the-badge&logo=NestJS&logoColor=white&color=%23E0234E)
 ![Static Badge](https://img.shields.io/badge/GraphQL-white?style=for-the-badge&logo=GraphQL&labelColor=%23E10098)
 
-Working with these frameworks brings me a lot of appreciation for the and joy when coding them.
+Working with any these frameworks brings me a lot of appreciation for the and joy when coding them.
 
 Out of the bunch, developing GraphQL APIs using NestJS is the one that excites me the most. Besides that, I'm also skilled at building REST APIs with any of them, and handling basic authentication and authorization. Right now, my proficiency in JWT authentication is limited to Django, but I plan to level up my knowledge in this area.
 
@@ -44,7 +47,7 @@ Out of the bunch, developing GraphQL APIs using NestJS is the one that excites m
 ![Static Badge](https://img.shields.io/badge/MongoDB-white?style=for-the-badge&logo=MongoDB&logoColor=%2347A248)
 ![Static Badge](https://img.shields.io/badge/Neo4j-white?style=for-the-badge&logo=Neo4j&logoColor=%234581C3)
 
-My confidence in my PostgreSQL skills stems from the deep dive I took into SQL during my bachelor's degree. Moreover, I gained valuable knowledge in designing and diagramming relational databases, which made me appreciate their significance as the industry's standard. Additionally, graph databases like Neo4j have really piqued my interest due to their relevance in data science and social media apps.
+My confidence in my PostgreSQL skills stems from the deep dive I took into SQL during my bachelor's degree. Moreover, I gained valuable knowledge in designing and diagramming relational databases, which made me appreciate their significance as the industry's standard. Additionally in regards to non-relational databases, I have work experience with Mongodb. And graph databases like Neo4j have really piqued my interest due to their relevance in data science and social media apps.
 
 - ### Machine Learning:
 ![Static Badge](https://img.shields.io/badge/NumPy-white?style=for-the-badge&logo=NumPy&logoColor=%23013243)
@@ -52,7 +55,6 @@ My confidence in my PostgreSQL skills stems from the deep dive I took into SQL d
 ![Static Badge](https://img.shields.io/badge/scikitlearn-white?style=for-the-badge&logo=scikit-learn&logoColor=%23F7931E)
 ![Static Badge](https://img.shields.io/badge/TensorFlow-white?style=for-the-badge&logo=TensorFlow&logoColor=%23FF6F00)
 ![Static Badge](https://img.shields.io/badge/opencv-white?style=for-the-badge&logo=opencv&logoColor=%235C3EE8)
-
 
 I'm profoundly interested in machine learning, especially deep learning. It's my favorite thing to work on. There's something satisfying about stacking TensorFlow layers, watching the training process and seeing the loss function going down with each epoch, and it's just so fascinating.
 
@@ -66,8 +68,7 @@ I'm profoundly interested in machine learning, especially deep learning. It's my
 ![Static Badge](https://img.shields.io/badge/trello-white?style=for-the-badge&logo=trello&logoColor=%230052CC&labelColor=white&color=%230052CC)
 
  I have a strong command of the Linux operating system, which I use as my primary development environment. Its flexibility and robustness make it an ideal platform for various software projects as well as being confident in my use of the command-line utilities, which are essential command-line tools for file manipulation, text processing, system management and automation on Linux systems including the like of  tar, rsync, grep, sed, gawk, xargs, parallel and screen.
- 
-I prefer Neovim as my text editor of choice due to its extensibility, performance, and efficient editing features, which greatly enhance my productivity as a programmer.
+I also prefer Neovim as my text editor of choice due to its extensibility, performance and efficient editing features, which greatly enhance my productivity as a programmer.
 
 ## :briefcase: What I’m currently working on:
 - ### :newspaper: Blog:
