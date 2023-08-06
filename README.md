@@ -80,4 +80,4 @@ I'm currently in the process of creating my own blogging website. While I'm prim
 ## :mailbox_with_mail: How to reach me:
 [![Static Badge](https://img.shields.io/badge/LinkedIn-white?style=for-the-badge&logo=LinkedIn&logoColor=white&color=%230A66C2) ](https://www.linkedin.com/in/germanmartinez21/)
 
-Feel free to contact me if you have a project you need in need of people.
+Feel free to contact me if you have a project in need of people.
