@@ -65,6 +65,12 @@ I'm profoundly interested in machine learning, especially deep learning. It's my
 ![Static Badge](https://img.shields.io/badge/slack-white?style=for-the-badge&logo=slack&logoColor=%234A154B&labelColor=white&color=%234A154B)
 ![Static Badge](https://img.shields.io/badge/trello-white?style=for-the-badge&logo=trello&logoColor=%230052CC&labelColor=white&color=%230052CC)
 
+ I have a strong command of the Linux operating system, which I use as my primary development environment. Its flexibility and robustness make it an ideal platform for various software projects.
+ 
+ I am confident in my use of the GNU Core Utilities, which are essential command-line tools for file manipulation, text processing, system management and automation on Linux systems including the like of grep, sed, gawk, xargs, and parallel.
+ 
+I prefer Neovim as my text editor of choice due to its extensibility, performance, and efficient editing features, which greatly enhance my productivity as a programmer.
+
 ## :briefcase: What I’m currently working on:
 - ### :newspaper: Blog:
 ![Static Badge](https://img.shields.io/badge/SvelteKit-white?style=for-the-badge&logo=Svelte&logoColor=white&color=%23FF3E00)
