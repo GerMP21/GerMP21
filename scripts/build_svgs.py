@@ -423,11 +423,8 @@ def build():
         n = 0
         for kind, val in items:
             if kind == "marker":
-                if val == "contact-links":
-                    left = [(l, u) for l, u in CONTACT_LINKS if u.rstrip("/") not in shown]
-                    if left:
-                        md.append('<p align="center">\n  ' + "\n  ".join(badge(l, u, "for-the-badge") for l, u in left) + "\n</p>")
-                        shown |= {u.rstrip("/") for _, u in left}
+                if val == "contact-links":          # always shown, even if the header has them
+                    md.append('<p align="center">\n  ' + "\n  ".join(badge(l, u, "for-the-badge") for l, u in CONTACT_LINKS) + "\n</p>")
                     continue
                 md.append(MARKERS[val])
                 if val in MARKER_TEXT:

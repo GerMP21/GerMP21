@@ -276,5 +276,11 @@ Have a project that needs another developer? Feel free to reach out.
 </details>
 
 <p align="center">
+  <a href="https://synaptech-solutions.com/"><img src="https://img.shields.io/badge/Synaptech_Solutions-2B2B2B?style=for-the-badge" alt="Synaptech Solutions"></a>
+  <a href="https://www.linkedin.com/in/germanmp/"><img src="https://img.shields.io/badge/LinkedIn-2B2B2B?style=for-the-badge" alt="LinkedIn"></a>
+  <a href="https://ko-fi.com/Z1P42ATY5F"><img src="https://img.shields.io/badge/Ko--fi-2B2B2B?style=for-the-badge" alt="Ko-fi"></a>
+</p>
+
+<p align="center">
   <a><img src="assets/footer.svg" alt="Now: building Omnisnap and HyperFlow, writing plugin specs, exploring PHP" width="100%"></a>
 </p>
