@@ -90,10 +90,6 @@ Shows which elements render differently in every browser engine your users run, 
 
 <a><img src="assets/card-04-02.svg" alt="HyperFlow An OpenCode plugin that runs development from product spec to release as a state machine with quality gates. The LLM orchestrates while deterministic TypeScript tools do the work: planning waits until every open question is resolved, implementation is test-first, and shipping requires lint, tests, coverage, security scanning and fuzzing. It won&#x27;t install, delete, commit or deploy anything without your approval. Status: v0.1.0 MVP: 11 agents, 21 commands, 16 skills and 37 tools, with 113 tests passing. License: MIT." width="100%"></a>
 
-<p align="center">
-  <a href="https://opencode.ai/"><img src="https://img.shields.io/badge/OpenCode-2B2B2B?style=flat-square" alt="OpenCode"></a>
-</p>
-
 <details>
 <summary><sub>show as text</sub></summary>
 
@@ -196,11 +192,6 @@ I build LLM-powered applications with Claude, Gemini and OpenAI models, using La
 
 <a><img src="assets/card-05-07.svg" alt="Audio plugins I write audio plugins for music production in Rust, using nih-plug for the DSP and plugin plumbing and egui for the interface, and ship them as CLAP and VST3. Each plugin begins as one sentence about what it does. That sentence stays at the top of the design document, and I build out from it, adding features as I see fit. When a feature doesn&#x27;t fit the sentence, it goes to a different plugin. I like controls that mean something physical. Corrosion asks how big the pipe is and how rusted. Once you know what a knob does to the object, you can stop reading the manual. There are no mode menus. Each plugin is one continuum, with the familiar sound as the default and the strange stuff a few turns away. Before anything is released, it passes automated tests, real-time safety checks (the audio thread never allocates memory) and the standard plugin validators. That doesn&#x27;t make it bug-free, but it does catch the obvious crashes before you do. And Rust, of course, catches plenty more. Everything is free software under GPLv3. If you buy a build on Ko-fi, you&#x27;re funding the next plugin and getting builds you can install straight away. In development These are at the concept stage: each has a PRD and a DSP spec, and each has to pass an offline Python prototype before any Rust gets written. Orrery: a reverb made of sound sources orbiting the listener, or a rotary speaker with forty rotors. Radius sets how far each source travels, in meters (0.30 m is a Leslie horn). Coherence sets how the orbits line up: locked pairs are a rotary speaker, evenly spread is a string ensemble, scattered is a granular cloud. Drift spreads their speeds across just intervals, from unison to a chord. Because the reverb tail is made of the same orbiting copies, the space itself rotates. Sideband: a ring modulator whose carrier follows the note you play. Ratio sets the carrier relative to that note: at simple ratios the sidebands land on just intervals, so a single note becomes a power chord or a triad; at 1 it&#x27;s an octave fuzz; off the grid it&#x27;s a bell. Density morphs the carrier from a sine to an impulse train, ending in a sample-rate crusher that tracks the note. Purity moves it between harmonizer and clangorous ring mod. Out of the box it&#x27;s an octave fuzz. Undertow: an envelope-driven phaser and resonant filter on one modulation bus, with bipolar depth, so the filter can sweep up while the phaser sweeps down from the same note. Its flagship routing, Vortex, puts the phaser inside the filter&#x27;s resonance loop, giving one filter several moving resonant peaks." width="100%"></a>
 
-<p align="center">
-  <a href="https://github.com/GerMP21/Corrosion-VST"><img src="https://img.shields.io/badge/Corrosion-2B2B2B?style=flat-square" alt="Corrosion"></a>
-  <a href="https://ko-fi.com/Z1P42ATY5F"><img src="https://img.shields.io/badge/buy_a_build_on_Ko--fi-2B2B2B?style=flat-square" alt="buy a build on Ko-fi"></a>
-</p>
-
 <details>
 <summary><sub>show as text</sub></summary>
 
@@ -251,7 +242,6 @@ These are at the concept stage: each has a PRD and a DSP spec, and each has to p
 <p align="center">
   <a href="https://github.com/niri-wm/niri"><img src="https://img.shields.io/badge/niri-2B2B2B?style=flat-square" alt="niri"></a>
   <a href="https://docs.noctalia.dev"><img src="https://img.shields.io/badge/Noctalia-2B2B2B?style=flat-square" alt="Noctalia"></a>
-  <a href="https://github.com/GerMP21/dotfiles"><img src="https://img.shields.io/badge/dotfiles-2B2B2B?style=flat-square" alt="dotfiles"></a>
 </p>
 
 <details>
@@ -284,12 +274,6 @@ Linux is my main development environment, and I'm at home on the command line wi
 Have a project that needs another developer? Feel free to reach out.
 
 </details>
-
-<p align="center">
-  <a href="https://synaptech-solutions.com/"><img src="https://img.shields.io/badge/Synaptech_Solutions-2B2B2B?style=for-the-badge" alt="Synaptech Solutions"></a>
-  <a href="https://www.linkedin.com/in/germanmp/"><img src="https://img.shields.io/badge/LinkedIn-2B2B2B?style=for-the-badge" alt="LinkedIn"></a>
-  <a href="https://ko-fi.com/Z1P42ATY5F"><img src="https://img.shields.io/badge/Ko--fi-2B2B2B?style=for-the-badge" alt="Ko-fi"></a>
-</p>
 
 <p align="center">
   <a><img src="assets/footer.svg" alt="Now: building Omnisnap and HyperFlow, writing plugin specs, exploring PHP" width="100%"></a>

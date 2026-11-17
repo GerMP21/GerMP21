@@ -325,11 +325,14 @@ def badge(label, url, style="flat-square", logo=None):
             f'alt="{html.escape(label)}"></a>')
 
 
-def link_row(pairs):
-    seen, out = set(), []
+def link_row(pairs, seen=None):
+    """Buttons for links not yet shown anywhere on the page (`seen` is updated)."""
+    seen = set() if seen is None else seen
+    out = []
     for label, url in pairs:
-        if url not in seen:
-            seen.add(url); out.append(badge(label, url))
+        key = url.rstrip("/")                   # opencode.ai == opencode.ai/
+        if key not in seen:
+            seen.add(key); out.append(badge(label, url))
     return '<p align="center">\n  ' + "\n  ".join(out) + "\n</p>\n" if out else ""
 
 
@@ -358,14 +361,13 @@ MARKERS = {
         f'  <source media="(prefers-color-scheme: dark)" srcset="{html.escape(GRAPH.format(c="e6e6e6", l="ff9e64"))}">\n'
         f'  <img src="{html.escape(GRAPH.format(c="1b1b1b", l="b5561a"))}" alt="Contribution activity graph for GerMP21" width="100%">\n'
         "</picture>\n</p>"),
-    "contact-links": (
-        '<p align="center">\n  '
-        + "\n  ".join(badge(l, u, "for-the-badge") for l, u in [
-            ("Synaptech Solutions", "https://synaptech-solutions.com/"),
-            ("LinkedIn", "https://www.linkedin.com/in/germanmp/"),
-            ("Ko-fi", "https://ko-fi.com/Z1P42ATY5F")])
-        + "\n</p>"),
 }
+
+CONTACT_LINKS = [
+    ("Synaptech Solutions", "https://synaptech-solutions.com/"),
+    ("LinkedIn", "https://www.linkedin.com/in/germanmp/"),
+    ("Ko-fi", "https://ko-fi.com/Z1P42ATY5F"),
+]
 
 HEADER_LINKS = [
     ("Synaptech Solutions", "https://synaptech-solutions.com/", None),
@@ -411,12 +413,22 @@ def build():
           '<p align="center">\n  ' + img("assets/header.svg", "German — software developer in Uruguay: "
                                            "LLM systems, audio plugins and developer tools") + "\n</p>",
           '<p align="center">\n  ' + "\n  ".join(badge(l, u, logo=g) for l, u, g in HEADER_LINKS) + "\n</p>"]
+    shown = {u.rstrip("/") for _, u, _ in HEADER_LINKS}          # each link gets one button per page
+    for num, name, items in sections:
+        if name == "projects":
+            shown |= {u.rstrip("/") for kind, val in items if kind == "card" for _, t in val for _, u in links(t)[:1]}
     for num, name, items in sections:
         files[f"s{num}.svg"] = section(num, name)
         md.append(img(f"assets/s{num}.svg", f"{num} — {name}"))
         n = 0
         for kind, val in items:
             if kind == "marker":
+                if val == "contact-links":
+                    left = [(l, u) for l, u in CONTACT_LINKS if u.rstrip("/") not in shown]
+                    if left:
+                        md.append('<p align="center">\n  ' + "\n  ".join(badge(l, u, "for-the-badge") for l, u in left) + "\n</p>")
+                        shown |= {u.rstrip("/") for _, u in left}
+                    continue
                 md.append(MARKERS[val])
                 if val in MARKER_TEXT:
                     md.append(text_toggle(MARKER_TEXT[val]))
@@ -432,8 +444,9 @@ def build():
                     md.append(img(f"assets/{fname}", alt, pairs[0][1]))
                 else:                                 # other cards: clicking does nothing
                     md.append(img(f"assets/{fname}", alt))
-                    if pairs:
-                        md.append(link_row(pairs).rstrip())
+                    row = link_row(pairs, shown)
+                    if row:
+                        md.append(row.rstrip())
                     md.append(text_toggle(as_markdown(blocks)))
             if name == "projects":       # one toggle for all project cards
                 md.append(text_toggle(as_markdown(val)))
