@@ -16,7 +16,7 @@ I switch between two spec-driven development tools depending on the job:
 - **[OpenSpec](https://github.com/Fission-AI/OpenSpec)** when I'm changing an existing system. Every change starts as a proposal with its tasks and the spec changes it implies. Once it ships, it gets archived and merged into the main specs, so they always describe how the software behaves today.
 - **[agent-skills](https://github.com/addyosmani/agent-skills)** when I want the whole path from idea to release: refining the spec, breaking it into tasks, building in small verifiable steps, testing, reviewing and shipping.
 
-Working this way is also what makes AI coding agents useful to me. I use Claude Code and OpenCode, and an agent working from a written spec has a contract to follow, and I can review what it produces against that spec rather than against a chat history.
+Working this way is also what makes AI coding agents useful to me. I use Claude Code and OpenCode. An agent working from a written spec has a contract to follow, and I can review what it produces against that spec rather than against a chat history.
 
 It's the same habit behind my audio plugins, where every design document starts with a single sentence. If you'd like to contribute to one of my projects, the specs are the best place to start.
 
@@ -36,7 +36,7 @@ An [OpenCode](https://opencode.ai/) plugin that runs the development lifecycle, 
 
 Implementation is test-first, repairs stop after three attempts, and shipping requires lint, typecheck, tests, coverage, security scanning, fuzzing and ablation checks that prove the tests catch regressions.
 
-The full version (v1.0), already specified, adds regression-first bugfix and behavior-preserving refactor workflows, versioned re-planning, test tool selection across 14 language ecosystems, drift detection, and generated CI and release checklists. Parallel tasks, browser automation and multi-repo support are planned for v1.0. It won't install, delete, migrate, commit or deploy anything without your approval.
+The full version (v1.0), already specified, adds regression-first bugfix and behavior-preserving refactor workflows, versioned re-planning, test tool selection across 14 language ecosystems, drift detection, and generated CI and release checklists. Parallel tasks, browser automation and multi-repo support are planned too. It won't install, delete, migrate, commit or deploy anything without your approval.
 
 **Status:** v0.1.0 MVP: 11 agents, 21 commands, 16 skills and 37 tools, all implemented, with 113 tests passing. **License:** MIT.
 
@@ -52,7 +52,7 @@ The full version (v1.0), already specified, adds regression-first bugfix and beh
 ![CSS](https://img.shields.io/badge/CSS-663399?style=for-the-badge&logo=css&logoColor=white)
 
 - **Python** is the language I know best. I've used it professionally, and it's the home of my favorite area: machine learning.
-- **Rust** is the one that excites me most right now. The borrow checker makes code safer and opens the door to systems programming and faster games.
+- **Rust** is the one that excites me most right now. It's as fast as C, and its borrow checker makes code safer, which opens the door to systems programming and games.
 - **JavaScript and TypeScript** came with two years of focused web development after my bachelor's degree. I pick up new frameworks and libraries quickly.
 
 ### Frontend
