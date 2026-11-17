@@ -93,7 +93,7 @@ There are no mode menus. Each plugin is one continuum, with the familiar sound a
 
 Before anything is released, it passes automated tests, real-time safety checks (the audio thread never allocates memory) and the standard plugin validators. That doesn't make it bug-free, but it does catch the obvious crashes before you do. And Rust, of course, catches plenty more.
 
-Everything is free software under GPLv3. If you buy a build, you're funding the next plugin and getting builds you can install straight away.
+Everything is free software under GPLv3. If you [buy a build on Ko-fi](https://ko-fi.com/Z1P42ATY5F), you're funding the next plugin and getting builds you can install straight away.
 
 ### Development tools
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
@@ -110,5 +110,6 @@ Linux is my main development environment. I'm at home on the command line with t
 
 ## :mailbox_with_mail: Get in touch
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge)](https://www.linkedin.com/in/germanmartinez21/)
+[![Support me on Ko-fi](https://img.shields.io/badge/Support_me_on_Ko--fi-72A4F2?style=for-the-badge&logo=kofi&logoColor=white)](https://ko-fi.com/Z1P42ATY5F)
 
 Have a project that needs another developer? Feel free to reach out.
