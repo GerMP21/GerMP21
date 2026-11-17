@@ -1,7 +1,7 @@
 # Hi, I'm German 👋
 I'm a software developer based in Uruguay. I like finding creative solutions to problems, and I'm always learning in a field that never stops changing.
 
-My projects cover Natural Language Processing, Computer Vision, game development, web APIs and frontend design. Each one taught me something new. Feel free to explore them, open an issue or reach out if you'd like to collaborate.
+These days I build LLM-integrated solutions and AI automation, audio plugins for music production, open source developer tools, and SaaS products for my own business. Still, part of me misses building models the old-fashioned way, by hand with TensorFlow or scikit-learn, and I'm always looking for an excuse to get back to it. Feel free to explore my repositories, open an issue or reach out if you'd like to build something together.
 
 ## :toolbox: Tools I use
 
