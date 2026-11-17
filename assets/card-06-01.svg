@@ -27,8 +27,8 @@
 </style>
 <g class="fade d1">
 <text x="48.0" y="22" font-size="14.5" class="mono ink"><tspan font-weight="700">CachyOS</tspan> on a <tspan font-weight="700">ThinkPad</tspan><tspan font-weight="700"> </tspan><tspan font-weight="700">T480</tspan>, fully encrypted (LUKS), running the scrollable-tiling Wayland compositor</text>
-<text x="48.0" y="45" font-size="14.5" class="mono ink"><tspan class="link" font-weight="700">niri</tspan> with the <tspan class="link">Noctalia</tspan> shell, keyboard-driven with vim-style keys. Configs and setup scripts are in</text>
-<text x="48.0" y="68" font-size="14.5" class="mono ink">my <tspan class="link">dotfiles</tspan>.</text>
+<text x="48.0" y="45" font-size="14.5" class="mono ink"><tspan class="link" font-weight="700">niri</tspan> with the <tspan class="link" font-weight="700">Noctalia</tspan> shell, keyboard-driven with vim-style keys. Configs and setup scripts are in</text>
+<text x="48.0" y="68" font-size="14.5" class="mono ink">my <tspan class="link" font-weight="700">dotfiles</tspan>.</text>
 <text x="48.0" y="103" font-size="14.5" class="mono ink">Linux is my main development environment, and I'm at home on the command line with tools like <tspan class="accent">tar</tspan>,</text>
 <text x="48.0" y="126" font-size="14.5" class="mono ink"><tspan class="accent">rsync</tspan>, <tspan class="accent">grep</tspan>, <tspan class="accent">sed</tspan>, <tspan class="accent">gawk</tspan>, <tspan class="accent">xargs</tspan>, <tspan class="accent">parallel</tspan> and <tspan class="accent">screen</tspan>. I use Neovim for its speed and extensibility,</text>
 <text x="48.0" y="149" font-size="14.5" class="mono ink">and Docker to run services and keep environments reproducible.</text>

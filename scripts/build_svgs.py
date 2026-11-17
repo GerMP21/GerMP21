@@ -240,8 +240,8 @@ def tspans(line):
         t = escape(t)
         if st == "b":
             out += f'<tspan font-weight="700">{t}</tspan>'
-        elif st == "a":                     # links: blue
-            out += f'<tspan class="link">{t}</tspan>'
+        elif st == "a":                     # links: blue, bold
+            out += f'<tspan class="link" font-weight="700">{t}</tspan>'
         elif st == "c":                     # code: orange highlight
             out += f'<tspan class="accent">{t}</tspan>'
         elif st == "ba":
