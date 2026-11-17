@@ -110,7 +110,7 @@ I write audio plugins for music production in Rust, using nih-plug for the DSP a
 
 Each plugin begins as one sentence about what it does. That sentence stays at the top of the design document, and I build out from it, adding features as I see fit. When a feature doesn't fit the sentence, it goes to a different plugin.
 
-I like controls that mean something physical. [Corrosion](https://github.com/GerMP21/Corrosion-VST) asks how big the pipe is and how rusted. Once you know what a knob does to the object, you can stop reading the manual.
+I like controls that mean something physical. [Corrosion](https://corrosion-vst.org/) ([source](https://github.com/GerMP21/Corrosion-VST)) asks how big the pipe is and how rusted. Once you know what a knob does to the object, you can stop reading the manual.
 
 There are no mode menus. Each plugin is one continuum, with the familiar sound as the default and the strange stuff a few turns away.
 
