@@ -110,6 +110,6 @@ Linux is my main development environment. I'm at home on the command line with t
 
 ## :mailbox_with_mail: Get in touch
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge)](https://www.linkedin.com/in/germanmartinez21/)
-[![Support me on Ko-fi](https://img.shields.io/badge/Support_me_on_Ko--fi-72A4F2?style=for-the-badge&logo=kofi&logoColor=white)](https://ko-fi.com/Z1P42ATY5F)
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Z1P42ATY5F)
 
 Have a project that needs another developer? Feel free to reach out.
