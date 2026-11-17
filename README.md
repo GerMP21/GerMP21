@@ -20,9 +20,28 @@ Working this way is also what makes AI coding agents useful to me. I use Claude 
 
 It's the same habit behind my audio plugins, where every design document starts with a single sentence. If you'd like to contribute to one of my projects, the specs are the best place to start.
 
-## :construction: Upcoming projects
-- **Context-to-Decision** (open source): turns messy operational data into a decision loop. It ingests and normalizes data, defines metrics and the drivers behind them, generates briefings, tracks decisions and compares them with outcomes over time. The idea: every objective needs a metric, every metric needs drivers, every driver needs data, and every decision should leave a trace. Built with Python, FastAPI, PostgreSQL and Docker Compose.
-- **opencode-hyperflow**: an agentic development tool built on the OpenCode ecosystem. It keeps track of workflow state, routes tasks between coding agents and automates work across large projects, while keeping every step visible: task routing, context handoffs, commands run, failures and logs a developer can actually inspect. No black-box AI coding.
+## :construction: Coming soon
+
+### Omnisnap
+Shows exactly which elements render differently in every browser engine your users run, with one command and the browsers already installed. Instead of pixel diffs, it compares element geometry (sizes, positions, line wraps, overflow, truncation) and reports each difference at the element where it starts, not at every element it pushes down the page.
+
+It discovers Chrome, Edge, Brave, Opera, Vivaldi, Chromium, Firefox, Safari and WebKitGTK and drives them over CDP, WebDriver BiDi or WebDriver Classic, running branded browsers as shipped. Every finding comes with a cause: it neutralizes the suspects and measures the page again, and a third engine settles which one is wrong. Results go to a self-contained local report, or to one pull request comment from a report-only GitHub Action on Ubuntu, Windows and macOS.
+
+The prototype found 24/24 planted bugs at the right element, with no false reports on bug-free pages across five engines.
+
+**Status:** design and prototype; v1 is specified in 17 module specs. **License:** Apache 2.0.
+
+### HyperFlow
+An [OpenCode](https://opencode.ai/) plugin that runs the development lifecycle, from product spec to release, as a state machine with quality gates. The LLM orchestrates and deterministic TypeScript tools do the work: a PRD is atomized into specs, questions and decisions with traceable IDs, planning waits until every question is resolved, and a phase kernel refuses illegal transitions.
+
+Implementation is test-first, repairs stop after three attempts, and shipping requires lint, typecheck, tests, coverage, security scanning, fuzzing and ablation checks that prove the tests catch regressions.
+
+The full version (v1.0), already specified, adds regression-first bugfix and behavior-preserving refactor workflows, versioned re-planning, test tool selection across 14 language ecosystems, drift detection, and generated CI and release checklists. Parallel tasks, browser automation and multi-repo support are planned for v1.0. It won't install, delete, migrate, commit or deploy anything without your approval.
+
+**Status:** v0.1.0 MVP: 11 agents, 21 commands, 16 skills and 37 tools, all implemented, with 113 tests passing. **License:** MIT.
+
+### Context-to-Decision
+An open source system that turns messy operational data into a decision loop. It ingests and normalizes data, defines metrics and the drivers behind them, generates briefings, tracks decisions and compares them with outcomes over time. The idea: every objective needs a metric, every metric needs drivers, every driver needs data, and every decision should leave a trace. Built with Python, FastAPI, PostgreSQL and Docker Compose.
 
 ## :toolbox: Tools I use
 
@@ -93,7 +112,7 @@ I write audio plugins for music production in Rust, using nih-plug for the DSP a
 
 Each plugin begins as one sentence about what it does. That sentence stays at the top of the design document, and I build out from it, adding features as I see fit. When a feature doesn't fit the sentence, it goes to a different plugin.
 
-I like controls that mean something physical. [Corrosion](https://github.com/GerMP21/Corrosion-VST) asks how big the pipe is and how rusted. Orrery (upcoming) will ask how far each sound source travels, in meters. Once you know what a knob does to the object, you can stop reading the manual.
+I like controls that mean something physical. [Corrosion](https://github.com/GerMP21/Corrosion-VST) asks how big the pipe is and how rusted. Once you know what a knob does to the object, you can stop reading the manual.
 
 There are no mode menus. Each plugin is one continuum, with the familiar sound as the default and the strange stuff a few turns away.
 
