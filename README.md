@@ -74,8 +74,9 @@ I build cross-platform mobile apps with React Native and Expo.
 ![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
 ![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)
 ![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white)
+![Zitadel](https://img.shields.io/badge/Zitadel-2B2B2B?style=for-the-badge)
 
-I build REST and GraphQL APIs, including authentication and authorization. Building GraphQL APIs with NestJS is the part I enjoy most.
+I build REST and GraphQL APIs, including authentication and authorization, with Zitadel as my identity provider. Building GraphQL APIs with NestJS is the part I enjoy most.
 
 ### Databases
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
