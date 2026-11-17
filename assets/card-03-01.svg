@@ -31,13 +31,13 @@
 <text x="48.0" y="68" font-size="14.5" class="mono ink">next to the code, are versioned with it and get reviewed like code.</text>
 <text x="48.0" y="103" font-size="14.5" class="mono ink">I switch between two spec-driven development tools depending on the job:</text>
 <text x="48" y="138" font-size="14.5" class="mono accent ">▸</text>
-<text x="74.2" y="138" font-size="14.5" class="mono ink"><tspan class="link" font-weight="700">OpenSpec</tspan> when I'm changing an existing system. Every change starts as a proposal with its tasks</text>
+<text x="74.2" y="138" font-size="14.5" class="mono ink"><tspan class="accent" font-weight="700">OpenSpec</tspan> when I'm changing an existing system. Every change starts as a proposal with its tasks</text>
 <text x="74.2" y="161" font-size="14.5" class="mono ink">and the spec changes it implies. Once it ships, it gets archived and merged into the main specs,</text>
 <text x="74.2" y="184" font-size="14.5" class="mono ink">so they always describe how the software behaves today.</text>
 <text x="48" y="213" font-size="14.5" class="mono accent ">▸</text>
-<text x="74.2" y="213" font-size="14.5" class="mono ink"><tspan class="link" font-weight="700">agent-skills</tspan> when I want the whole path from idea to release: refining the spec, breaking it into</text>
+<text x="74.2" y="213" font-size="14.5" class="mono ink"><tspan class="accent" font-weight="700">agent-skills</tspan> when I want the whole path from idea to release: refining the spec, breaking it into</text>
 <text x="74.2" y="236" font-size="14.5" class="mono ink">tasks, building in small verifiable steps, testing, reviewing and shipping.</text>
-<text x="48.0" y="265" font-size="14.5" class="mono ink">Working this way is also what makes AI coding agents useful to me. I use <tspan class="link" font-weight="700">Claude</tspan><tspan class="link" font-weight="700"> </tspan><tspan class="link" font-weight="700">Code</tspan> and <tspan class="link" font-weight="700">OpenCode</tspan>.</text>
+<text x="48.0" y="265" font-size="14.5" class="mono ink">Working this way is also what makes AI coding agents useful to me. I use <tspan class="accent" font-weight="700">Claude</tspan><tspan class="accent" font-weight="700"> </tspan><tspan class="accent" font-weight="700">Code</tspan> and <tspan class="accent" font-weight="700">OpenCode</tspan>.</text>
 <text x="48.0" y="288" font-size="14.5" class="mono ink">An agent working from a written spec has a contract to follow, and I can review what it produces</text>
 <text x="48.0" y="311" font-size="14.5" class="mono ink">against that spec rather than against a chat history.</text>
 <text x="48.0" y="346" font-size="14.5" class="mono ink">It's the same habit behind my audio plugins, where every design document starts with a single</text>

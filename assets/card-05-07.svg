@@ -33,14 +33,14 @@
 <text x="48.0" y="118" font-size="14.5" class="mono ink">Each plugin begins as one sentence about what it does. That sentence stays at the top of the design</text>
 <text x="48.0" y="141" font-size="14.5" class="mono ink">document, and I build out from it, adding features as I see fit. When a feature doesn't fit the</text>
 <text x="48.0" y="164" font-size="14.5" class="mono ink">sentence, it goes to a different plugin.</text>
-<text x="48.0" y="199" font-size="14.5" class="mono ink">I like controls that mean something physical. <tspan class="link" font-weight="700">Corrosion</tspan> asks how big the pipe is and how rusted.</text>
+<text x="48.0" y="199" font-size="14.5" class="mono ink">I like controls that mean something physical. <tspan class="accent" font-weight="700">Corrosion</tspan> asks how big the pipe is and how rusted.</text>
 <text x="48.0" y="222" font-size="14.5" class="mono ink">Once you know what a knob does to the object, you can stop reading the manual.</text>
 <text x="48.0" y="257" font-size="14.5" class="mono ink">There are no mode menus. Each plugin is one continuum, with the familiar sound as the default and</text>
 <text x="48.0" y="280" font-size="14.5" class="mono ink">the strange stuff a few turns away.</text>
 <text x="48.0" y="315" font-size="14.5" class="mono ink">Before anything is released, it passes automated tests, real-time safety checks (the audio thread</text>
 <text x="48.0" y="338" font-size="14.5" class="mono ink">never allocates memory) and the standard plugin validators. That doesn't make it bug-free, but it</text>
 <text x="48.0" y="361" font-size="14.5" class="mono ink">does catch the obvious crashes before you do. And Rust, of course, catches plenty more.</text>
-<text x="48.0" y="396" font-size="14.5" class="mono ink">Everything is free software under GPLv3. If you <tspan class="link" font-weight="700">buy</tspan><tspan class="link" font-weight="700"> </tspan><tspan class="link" font-weight="700">a</tspan><tspan class="link" font-weight="700"> </tspan><tspan class="link" font-weight="700">build</tspan><tspan class="link" font-weight="700"> </tspan><tspan class="link" font-weight="700">on</tspan><tspan class="link" font-weight="700"> </tspan><tspan class="link" font-weight="700">Ko-fi</tspan>, you're funding the next plugin</text>
+<text x="48.0" y="396" font-size="14.5" class="mono ink">Everything is free software under GPLv3. If you <tspan class="accent" font-weight="700">buy</tspan><tspan class="accent" font-weight="700"> </tspan><tspan class="accent" font-weight="700">a</tspan><tspan class="accent" font-weight="700"> </tspan><tspan class="accent" font-weight="700">build</tspan><tspan class="accent" font-weight="700"> </tspan><tspan class="accent" font-weight="700">on</tspan><tspan class="accent" font-weight="700"> </tspan><tspan class="accent" font-weight="700">Ko-fi</tspan>, you're funding the next plugin</text>
 <text x="48.0" y="419" font-size="14.5" class="mono ink">and getting builds you can install straight away.</text>
 <text x="48" y="462" font-size="11" letter-spacing="3.5" class="mono dim ">IN DEVELOPMENT</text>
 <text x="48.0" y="488" font-size="14.5" class="mono ink">These are at the concept stage: each has a PRD and a DSP spec, and each has to pass an offline</text>

@@ -234,24 +234,26 @@ def wrap(segs, width, indent=0):
     return lines
 
 
-def tspans(line):
+def tspans(line, clickable=False):
+    """Links are blue when the card opens them, otherwise bold orange highlights."""
+    lc = "link" if clickable else "accent"
     out = ""
     for t, st in line:
         t = escape(t)
         if st == "b":
             out += f'<tspan font-weight="700">{t}</tspan>'
         elif st == "a":                     # links: blue, bold
-            out += f'<tspan class="link" font-weight="700">{t}</tspan>'
+            out += f'<tspan class="{lc}" font-weight="700">{t}</tspan>'
         elif st == "c":                     # code: orange highlight
             out += f'<tspan class="accent">{t}</tspan>'
         elif st == "ba":
-            out += f'<tspan class="link" font-weight="700">{t}</tspan>'
+            out += f'<tspan class="{lc}" font-weight="700">{t}</tspan>'
         else:
             out += t
     return out
 
 
-def card(blocks, title):
+def card(blocks, title, clickable=False):
     """Draw a text card. blocks: list of (kind, text) with kind h3, h4, p or li."""
     y, b = 22, ""
     first = True
@@ -272,7 +274,7 @@ def card(blocks, title):
                     b += text(X0, y, "▸", BODY, "accent")
                 x = X0 + indent * BODY * CHAR_W
                 b += (f'<text x="{x:.1f}" y="{y}" font-size="{BODY}" class="mono ink">'
-                      f"{tspans(line)}</text>\n")
+                      f"{tspans(line, clickable)}</text>\n")
                 y += LINE
             y += 6 if kind == "li" else 12
         first = False
@@ -424,7 +426,7 @@ def build():
                 n += 1
                 fname = f"card-{num}-{n:02d}.svg"
                 alt = " ".join(plain(t) for _, t in blocks)
-                files[fname] = card(blocks, alt)
+                files[fname] = card(blocks, alt, clickable=(name == "projects"))
                 pairs = [l for _, t in blocks for l in links(t)]
                 if name == "projects" and pairs:      # a project card opens its repository
                     md.append(img(f"assets/{fname}", alt, pairs[0][1]))
