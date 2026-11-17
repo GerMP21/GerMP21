@@ -6,62 +6,75 @@ My projects cover Natural Language Processing, Computer Vision, game development
 ## :toolbox: Tools I use
 
 ### Programming languages
-![Python](https://img.shields.io/badge/Python-white?style=for-the-badge&logo=Python&logoColor=%233776AB)
-![Rust](https://img.shields.io/badge/Rust-white?style=for-the-badge&logo=Rust&logoColor=black)
-![HTML5](https://img.shields.io/badge/HTML5-white?style=for-the-badge&logo=HTML5&logoColor=%23E34F26)
-![CSS3](https://img.shields.io/badge/CSS3-white?style=for-the-badge&logo=CSS3&logoColor=%231572B6)
-![JavaScript](https://img.shields.io/badge/JavaScript-white?style=for-the-badge&logo=JavaScript&logoColor=%23F7DF1E)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS-663399?style=for-the-badge&logo=css&logoColor=white)
 
 - **Python** is the language I know best. I've used it professionally, and it's the home of my favorite area: machine learning.
 - **Rust** is the one that excites me most right now. The borrow checker makes code safer and opens the door to systems programming and faster games.
-- **JavaScript** came with two years of focused web development after my bachelor's degree. I pick up new frameworks and libraries quickly.
+- **JavaScript and TypeScript** came with two years of focused web development after my bachelor's degree. I pick up new frameworks and libraries quickly.
 
 ### Frontend
-![SvelteKit](https://img.shields.io/badge/SvelteKit-white?style=for-the-badge&logo=Svelte&logoColor=white&color=%23FF3E00)
-![React](https://img.shields.io/badge/React-white?style=for-the-badge&logo=React&logoColor=white&color=%235991ff)
-![Tailwind](https://img.shields.io/badge/Tailwind-white?style=for-the-badge&logo=Tailwind%20CSS)
-![Apollo](https://img.shields.io/badge/Apollo-white?style=for-the-badge&logo=Apollo%20GraphQL&logoColor=white&labelColor=%23311C87)
+![SvelteKit](https://img.shields.io/badge/SvelteKit-FF3E00?style=for-the-badge&logo=svelte&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![htmx](https://img.shields.io/badge/htmx-3366CC?style=for-the-badge&logo=htmx&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 
-SvelteKit is my first choice for server-rendered apps because of its developer experience. I'm also comfortable building single-page apps with React, and I use Tailwind CSS to style things quickly.
+SvelteKit is my first choice for server-rendered apps because of its developer experience. I build single-page apps with React, use htmx for server-driven interactivity, and style everything quickly with Tailwind CSS.
+
+### Mobile
+![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Expo](https://img.shields.io/badge/Expo-1C2024?style=for-the-badge&logo=expo&logoColor=white)
+
+I build cross-platform mobile apps with React Native and Expo.
 
 ### Backend
-![Django](https://img.shields.io/badge/Django-white?style=for-the-badge&logo=Django&logoColor=white&color=%23092E20)
-![Flask](https://img.shields.io/badge/Flask-white?style=for-the-badge&logo=Flask&logoColor=white&color=%23222222)
-![FastAPI](https://img.shields.io/badge/FastAPI-white?style=for-the-badge&logo=FastAPI&logoColor=white&color=%23009688)
-![Express](https://img.shields.io/badge/Express-white?style=for-the-badge&logo=Express&logoColor=black&color=%23F7DF1E)
-![NestJS](https://img.shields.io/badge/NestJS-white?style=for-the-badge&logo=NestJS&logoColor=white&color=%23E0234E)
-![GraphQL](https://img.shields.io/badge/GraphQL-white?style=for-the-badge&logo=GraphQL&labelColor=%23E10098)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
+![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)
+![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white)
 
-I build REST APIs with any of these, including authentication and authorization (JWT with Django). Building GraphQL APIs with NestJS is the part I enjoy most.
+I build REST and GraphQL APIs, including authentication and authorization. Building GraphQL APIs with NestJS is the part I enjoy most.
 
 ### Databases
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-white?style=for-the-badge&logo=PostgreSQL&logoColor=white&labelColor=%234169E1)
-![MongoDB](https://img.shields.io/badge/MongoDB-white?style=for-the-badge&logo=MongoDB&logoColor=%2347A248)
-![Neo4j](https://img.shields.io/badge/Neo4j-white?style=for-the-badge&logo=Neo4j&logoColor=%234581C3)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![Neo4j](https://img.shields.io/badge/Neo4j-4581C3?style=for-the-badge&logo=neo4j&logoColor=white)
 
 I studied SQL and relational database design in depth during my degree, which is why PostgreSQL is my default. I've used MongoDB at work, and graph databases like Neo4j interest me for data science and social applications.
 
-### Machine learning
-![NumPy](https://img.shields.io/badge/NumPy-white?style=for-the-badge&logo=NumPy&logoColor=%23013243)
-![pandas](https://img.shields.io/badge/pandas-white?style=for-the-badge&logo=pandas&logoColor=%23150458)
-![scikit-learn](https://img.shields.io/badge/scikitlearn-white?style=for-the-badge&logo=scikit-learn&logoColor=%23F7931E)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-white?style=for-the-badge&logo=TensorFlow&logoColor=%23FF6F00)
-![OpenCV](https://img.shields.io/badge/opencv-white?style=for-the-badge&logo=opencv&logoColor=%235C3EE8)
+### AI and machine learning
+![Claude](https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=claude&logoColor=white)
+![Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langgraph&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![pandas](https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
 
-Machine learning, and deep learning in particular, is what I enjoy working on most. Stacking layers and watching the loss drop epoch after epoch never gets old.
+I build LLM-powered applications with Claude and Gemini, using LangChain and LangGraph to orchestrate agents and workflows. Deep learning is still what I enjoy most: stacking layers and watching the loss drop epoch after epoch never gets old.
 
 ### Development tools
-![Linux](https://img.shields.io/badge/Linux-white?style=for-the-badge&logo=Linux&logoColor=black&labelColor=white&color=%23222222)
-![GNU](https://img.shields.io/badge/GNU-white?style=for-the-badge&logo=GNU&logoColor=black&labelColor=white&color=%23A42E2B)
-![Neovim](https://img.shields.io/badge/NeoVim-white?style=for-the-badge&logo=neovim&logoColor=%23019733&labelColor=white&color=%23019733)
-![GIMP](https://img.shields.io/badge/gimp-white?style=for-the-badge&logo=gimp&logoColor=%235C5543&labelColor=white&color=%235C5543)
-![LibreOffice](https://img.shields.io/badge/libreoffice-white?style=for-the-badge&logo=libreoffice&logoColor=%2318A303&labelColor=white&color=%2318A303)
-![Slack](https://img.shields.io/badge/slack-white?style=for-the-badge&logo=slack&logoColor=%234A154B&labelColor=white&color=%234A154B)
-![Trello](https://img.shields.io/badge/trello-white?style=for-the-badge&logo=trello&logoColor=%230052CC&labelColor=white&color=%230052CC)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![GNU](https://img.shields.io/badge/GNU-A42E2B?style=for-the-badge&logo=gnu&logoColor=white)
+![Neovim](https://img.shields.io/badge/Neovim-57A143?style=for-the-badge&logo=neovim&logoColor=white)
 
 Linux is my main development environment. I'm at home on the command line with tools like `tar`, `rsync`, `grep`, `sed`, `gawk`, `xargs`, `parallel` and `screen`. My editor is Neovim, for its speed and extensibility.
 
+### Other tools
+![Obsidian](https://img.shields.io/badge/Obsidian-7C3AED?style=for-the-badge&logo=obsidian&logoColor=white)
+![LibreOffice](https://img.shields.io/badge/LibreOffice-18A303?style=for-the-badge&logo=libreoffice&logoColor=white)
+![GIMP](https://img.shields.io/badge/GIMP-5C5543?style=for-the-badge&logo=gimp&logoColor=white)
+![Ardour](https://img.shields.io/badge/Ardour-C61C3E?style=for-the-badge&logo=ardour&logoColor=white)
+
 ## :mailbox_with_mail: Get in touch
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-white?style=for-the-badge&logo=LinkedIn&logoColor=white&color=%230A66C2)](https://www.linkedin.com/in/germanmartinez21/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge)](https://www.linkedin.com/in/germanmartinez21/)
 
 Have a project that needs another developer? Feel free to reach out.
