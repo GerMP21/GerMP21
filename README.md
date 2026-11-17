@@ -87,6 +87,15 @@ I build REST and GraphQL APIs, including authentication and authorization, with 
 
 I studied SQL and relational database design in depth during my degree, which is why PostgreSQL is my default. I've used MongoDB at work, and graph databases like Neo4j interest me for data science and social applications.
 
+### Scraping
+![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge)
+![Patchright](https://img.shields.io/badge/Patchright-2B2B2B?style=for-the-badge)
+![Scrapy](https://img.shields.io/badge/Scrapy-60A839?style=for-the-badge&logo=scrapy&logoColor=white)
+![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)
+![Browser Use](https://img.shields.io/badge/Browser_Use-2B2B2B?style=for-the-badge)
+
+Scraping was my first job, and I still love it. I use Scrapy for large crawls, Playwright and Selenium when a site needs a real browser, Patchright when it actively fights automation, and Browser Use when an AI agent has to find its own way through a site.
+
 ### AI and machine learning
 ![Claude](https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=claude&logoColor=white)
 ![Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white)
