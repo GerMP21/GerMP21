@@ -129,14 +129,37 @@ These are at the concept stage: each has a PRD and a DSP spec, and each has to p
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![GNU](https://img.shields.io/badge/GNU-A42E2B?style=for-the-badge&logo=gnu&logoColor=white)
 ![Neovim](https://img.shields.io/badge/Neovim-57A143?style=for-the-badge&logo=neovim&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 
-Linux is my main development environment. I'm at home on the command line with tools like `tar`, `rsync`, `grep`, `sed`, `gawk`, `xargs`, `parallel` and `screen`. My editor is Neovim, for its speed and extensibility.
+Linux is my main development environment. I'm at home on the command line with tools like `tar`, `rsync`, `grep`, `sed`, `gawk`, `xargs`, `parallel` and `screen`. My editor is Neovim, for its speed and extensibility, and I use Docker to run services and keep development environments reproducible.
 
 ### Other tools
 ![Obsidian](https://img.shields.io/badge/Obsidian-7C3AED?style=for-the-badge&logo=obsidian&logoColor=white)
 ![LibreOffice](https://img.shields.io/badge/LibreOffice-18A303?style=for-the-badge&logo=libreoffice&logoColor=white)
 ![GIMP](https://img.shields.io/badge/GIMP-5C5543?style=for-the-badge&logo=gimp&logoColor=white)
 ![Ardour](https://img.shields.io/badge/Ardour-C61C3E?style=for-the-badge&logo=ardour&logoColor=white)
+
+## :computer: My setup
+![CachyOS](https://img.shields.io/badge/CachyOS-1793D1?style=for-the-badge&logo=archlinux&logoColor=white)
+![ThinkPad T480](https://img.shields.io/badge/ThinkPad_T480-E2231A?style=for-the-badge&logo=lenovo&logoColor=white)
+![Wayland](https://img.shields.io/badge/Wayland-FFBC00?style=for-the-badge&logo=wayland&logoColor=black)
+![niri](https://img.shields.io/badge/niri-2B2B2B?style=for-the-badge)
+![LUKS](https://img.shields.io/badge/LUKS_encrypted-2B2B2B?style=for-the-badge)
+![Alacritty](https://img.shields.io/badge/Alacritty-F46D01?style=for-the-badge&logo=alacritty&logoColor=white)
+![Zsh](https://img.shields.io/badge/Zsh-F15A24?style=for-the-badge&logo=zsh&logoColor=white)
+![Doom Emacs](https://img.shields.io/badge/Doom_Emacs-7F5AB6?style=for-the-badge&logo=gnuemacs&logoColor=white)
+![VSCodium](https://img.shields.io/badge/VSCodium-2F80ED?style=for-the-badge&logo=vscodium&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+![Syncthing](https://img.shields.io/badge/Syncthing-0891D1?style=for-the-badge&logo=syncthing&logoColor=white)
+
+**CachyOS** on a **ThinkPad T480**, fully encrypted (LUKS), running the scrollable-tiling Wayland compositor **niri**. Configs and setup scripts are in my [dotfiles](https://github.com/GerMP21/dotfiles).
+
+- **Desktop:** niri + [Noctalia](https://docs.noctalia.dev), keyboard-driven with vim-style keys
+- **Terminal:** Alacritty + zsh (vi mode, starship)
+- **Editors:** Neovim (native LSP, Treesitter, Telescope), Doom Emacs, VSCodium
+- **Dev tools:** Docker, Rust, Python (uv, pyenv), Node.js, MySQL Workbench, Postman
+- **Music production:** Ardour, VCV Rack, yabridge
+- **Backups:** Syncthing to a second PC
 
 ## :mailbox_with_mail: Get in touch
 [![Synaptech Solutions](https://img.shields.io/badge/Synaptech_Solutions-A84D08?style=for-the-badge)](https://synaptech-solutions.com/)
