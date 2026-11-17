@@ -3,6 +3,12 @@ I'm a software developer based in Uruguay. I like finding creative solutions to 
 
 These days I build LLM-integrated solutions and AI automation, audio plugins for music production, open source developer tools, and SaaS products for my own business. Still, part of me misses building models the old-fashioned way, by hand with TensorFlow or scikit-learn, and I'm always looking for an excuse to get back to it. Feel free to explore my repositories, open an issue or reach out if you'd like to build something together.
 
+## :rocket: Projects
+- **[Corrosion](https://github.com/GerMP21/Corrosion-VST)** (Rust, VST3 + CLAP): an industrial physical-modeling instrument. Bowed, struck, scraped and blown pipes, plates, chains and cables, followed by drive, body, space and a diode clipper.
+- **[mysql-split-import](https://github.com/GerMP21/mysql-split-import)** (Python): imports multi-gigabyte mysqldump files in resumable, per-table transactions, so a dropped connection costs one part instead of the whole night. Standard library only.
+- **[DGI RUC proxy](https://github.com/GerMP21/DGI-WS_PersonaGetActEmpresarial-Proxy-Client)** (Node.js, Express): a JSON REST API for Uruguay's DGI taxpayer (RUC) web service. It handles the SOAP envelopes, WS-Security signing and XML-in-CDATA parsing behind bearer-token authentication.
+- **[dotfiles](https://github.com/GerMP21/dotfiles)** (Shell): my CachyOS + niri desktop, with scripts that install, link, set up and verify the whole system.
+
 ## :memo: How I work
 [![OpenSpec](https://img.shields.io/badge/OpenSpec-2B2B2B?style=for-the-badge)](https://github.com/Fission-AI/OpenSpec)
 [![agent-skills](https://img.shields.io/badge/agent--skills-2B2B2B?style=for-the-badge)](https://github.com/addyosmani/agent-skills)
@@ -16,29 +22,21 @@ I switch between two spec-driven development tools depending on the job:
 - **[OpenSpec](https://github.com/Fission-AI/OpenSpec)** when I'm changing an existing system. Every change starts as a proposal with its tasks and the spec changes it implies. Once it ships, it gets archived and merged into the main specs, so they always describe how the software behaves today.
 - **[agent-skills](https://github.com/addyosmani/agent-skills)** when I want the whole path from idea to release: refining the spec, breaking it into tasks, building in small verifiable steps, testing, reviewing and shipping.
 
-Working this way is also what makes AI coding agents useful to me. I use Claude Code and OpenCode, and an agent working from a written spec has a contract to follow, and I can review what it produces against that spec rather than against a chat history.
+Working this way is also what makes AI coding agents useful to me. I use Claude Code and OpenCode. An agent working from a written spec has a contract to follow, and I can review what it produces against that spec rather than against a chat history.
 
 It's the same habit behind my audio plugins, where every design document starts with a single sentence. If you'd like to contribute to one of my projects, the specs are the best place to start.
 
 ## :construction: Coming soon
 
 ### Omnisnap
-Shows exactly which elements render differently in every browser engine your users run, with one command and the browsers already installed. Instead of pixel diffs, it compares element geometry (sizes, positions, line wraps, overflow, truncation) and reports each difference at the element where it starts, not at every element it pushes down the page.
-
-It discovers Chrome, Edge, Brave, Opera, Vivaldi, Chromium, Firefox, Safari and WebKitGTK and drives them over CDP, WebDriver BiDi or WebDriver Classic, running branded browsers as shipped. Every finding comes with a cause: it neutralizes the suspects and measures the page again, and a third engine settles which one is wrong. Results go to a self-contained local report, or to one pull request comment from a report-only GitHub Action on Ubuntu, Windows and macOS.
-
-The prototype found 24/24 planted bugs at the right element, with no false reports on bug-free pages across five engines.
+Shows which elements render differently in every browser engine your users run, with one command and the browsers already installed. It compares element geometry instead of pixels, reports each difference at the element where it starts, and confirms the cause by re-measuring the page and checking a third engine. The prototype found 24/24 planted bugs, with no false reports across five engines.
 
 **Status:** design and prototype; v1 is specified in 17 module specs. **License:** Apache 2.0.
 
 ### HyperFlow
-An [OpenCode](https://opencode.ai/) plugin that runs the development lifecycle, from product spec to release, as a state machine with quality gates. The LLM orchestrates and deterministic TypeScript tools do the work: a PRD is atomized into specs, questions and decisions with traceable IDs, planning waits until every question is resolved, and a phase kernel refuses illegal transitions.
+An [OpenCode](https://opencode.ai/) plugin that runs development from product spec to release as a state machine with quality gates. The LLM orchestrates while deterministic TypeScript tools do the work: planning waits until every open question is resolved, implementation is test-first, and shipping requires lint, tests, coverage, security scanning and fuzzing. It won't install, delete, commit or deploy anything without your approval.
 
-Implementation is test-first, repairs stop after three attempts, and shipping requires lint, typecheck, tests, coverage, security scanning, fuzzing and ablation checks that prove the tests catch regressions.
-
-The full version (v1.0), already specified, adds regression-first bugfix and behavior-preserving refactor workflows, versioned re-planning, test tool selection across 14 language ecosystems, drift detection, and generated CI and release checklists. Parallel tasks, browser automation and multi-repo support are planned for v1.0. It won't install, delete, migrate, commit or deploy anything without your approval.
-
-**Status:** v0.1.0 MVP: 11 agents, 21 commands, 16 skills and 37 tools, all implemented, with 113 tests passing. **License:** MIT.
+**Status:** v0.1.0 MVP: 11 agents, 21 commands, 16 skills and 37 tools, with 113 tests passing. **License:** MIT.
 
 ## :toolbox: Tools I use
 
@@ -52,7 +50,7 @@ The full version (v1.0), already specified, adds regression-first bugfix and beh
 ![CSS](https://img.shields.io/badge/CSS-663399?style=for-the-badge&logo=css&logoColor=white)
 
 - **Python** is the language I know best. I've used it professionally, and it's the home of my favorite area: machine learning.
-- **Rust** is the one that excites me most right now. The borrow checker makes code safer and opens the door to systems programming and faster games.
+- **Rust** is the one that excites me most right now. It's as fast as C, and its borrow checker makes code safer, which opens the door to systems programming and games.
 - **JavaScript and TypeScript** came with two years of focused web development after my bachelor's degree. I pick up new frameworks and libraries quickly.
 
 ### Frontend
@@ -125,45 +123,43 @@ These are at the concept stage: each has a PRD and a DSP spec, and each has to p
 - **Sideband**: a ring modulator whose carrier follows the note you play. Ratio sets the carrier relative to that note: at simple ratios the sidebands land on just intervals, so a single note becomes a power chord or a triad; at 1 it's an octave fuzz; off the grid it's a bell. Density morphs the carrier from a sine to an impulse train, ending in a sample-rate crusher that tracks the note. Purity moves it between harmonizer and clangorous ring mod. Out of the box it's an octave fuzz.
 - **Undertow**: an envelope-driven phaser and resonant filter on one modulation bus, with bipolar depth, so the filter can sweep up while the phaser sweeps down from the same note. Its flagship routing, Vortex, puts the phaser inside the filter's resonance loop, giving one filter several moving resonant peaks.
 
-### Development tools
+## :computer: My setup
+![CachyOS](https://img.shields.io/badge/CachyOS-1793D1?style=for-the-badge&logo=archlinux&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![GNU](https://img.shields.io/badge/GNU-A42E2B?style=for-the-badge&logo=gnu&logoColor=white)
+![ThinkPad T480](https://img.shields.io/badge/ThinkPad_T480-E2231A?style=for-the-badge&logo=lenovo&logoColor=white)
+![Wayland](https://img.shields.io/badge/Wayland-FFBC00?style=for-the-badge&logo=wayland&logoColor=black)
+[![niri](https://img.shields.io/badge/niri-2B2B2B?style=for-the-badge)](https://github.com/niri-wm/niri)
+![LUKS](https://img.shields.io/badge/LUKS_encrypted-2B2B2B?style=for-the-badge)
+
+![Alacritty](https://img.shields.io/badge/Alacritty-F46D01?style=for-the-badge&logo=alacritty&logoColor=white)
+![Zsh](https://img.shields.io/badge/Zsh-F15A24?style=for-the-badge&logo=zsh&logoColor=white)
 ![Neovim](https://img.shields.io/badge/Neovim-57A143?style=for-the-badge&logo=neovim&logoColor=white)
+![Doom Emacs](https://img.shields.io/badge/Doom_Emacs-7F5AB6?style=for-the-badge&logo=gnuemacs&logoColor=white)
+![VSCodium](https://img.shields.io/badge/VSCodium-2F80ED?style=for-the-badge&logo=vscodium&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 
-Linux is my main development environment. I'm at home on the command line with tools like `tar`, `rsync`, `grep`, `sed`, `gawk`, `xargs`, `parallel` and `screen`. My editor is Neovim, for its speed and extensibility, and I use Docker to run services and keep development environments reproducible.
-
-### Other tools
 ![Obsidian](https://img.shields.io/badge/Obsidian-7C3AED?style=for-the-badge&logo=obsidian&logoColor=white)
 ![LibreOffice](https://img.shields.io/badge/LibreOffice-18A303?style=for-the-badge&logo=libreoffice&logoColor=white)
 ![GIMP](https://img.shields.io/badge/GIMP-5C5543?style=for-the-badge&logo=gimp&logoColor=white)
 ![Ardour](https://img.shields.io/badge/Ardour-C61C3E?style=for-the-badge&logo=ardour&logoColor=white)
-
-## :computer: My setup
-![CachyOS](https://img.shields.io/badge/CachyOS-1793D1?style=for-the-badge&logo=archlinux&logoColor=white)
-![ThinkPad T480](https://img.shields.io/badge/ThinkPad_T480-E2231A?style=for-the-badge&logo=lenovo&logoColor=white)
-![Wayland](https://img.shields.io/badge/Wayland-FFBC00?style=for-the-badge&logo=wayland&logoColor=black)
-![niri](https://img.shields.io/badge/niri-2B2B2B?style=for-the-badge)
-![LUKS](https://img.shields.io/badge/LUKS_encrypted-2B2B2B?style=for-the-badge)
-![Alacritty](https://img.shields.io/badge/Alacritty-F46D01?style=for-the-badge&logo=alacritty&logoColor=white)
-![Zsh](https://img.shields.io/badge/Zsh-F15A24?style=for-the-badge&logo=zsh&logoColor=white)
-![Doom Emacs](https://img.shields.io/badge/Doom_Emacs-7F5AB6?style=for-the-badge&logo=gnuemacs&logoColor=white)
-![VSCodium](https://img.shields.io/badge/VSCodium-2F80ED?style=for-the-badge&logo=vscodium&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 ![Syncthing](https://img.shields.io/badge/Syncthing-0891D1?style=for-the-badge&logo=syncthing&logoColor=white)
 
-**CachyOS** on a **ThinkPad T480**, fully encrypted (LUKS), running the scrollable-tiling Wayland compositor **niri**. Configs and setup scripts are in my [dotfiles](https://github.com/GerMP21/dotfiles).
+**CachyOS** on a **ThinkPad T480**, fully encrypted (LUKS), running the scrollable-tiling Wayland compositor **[niri](https://github.com/niri-wm/niri)**. Configs and setup scripts are in my [dotfiles](https://github.com/GerMP21/dotfiles).
+
+Linux is my main development environment, and I'm at home on the command line with tools like `tar`, `rsync`, `grep`, `sed`, `gawk`, `xargs`, `parallel` and `screen`.
 
 - **Desktop:** niri + [Noctalia](https://docs.noctalia.dev), keyboard-driven with vim-style keys
 - **Terminal:** Alacritty + zsh (vi mode, starship)
-- **Editors:** Neovim (native LSP, Treesitter, Telescope), Doom Emacs, VSCodium
-- **Dev tools:** Docker, Rust, Python (uv, pyenv), Node.js, MySQL Workbench, Postman
+- **Editors:** Neovim, for its speed and extensibility (native LSP, Treesitter, Telescope), plus Doom Emacs and VSCodium
+- **Dev tools:** Docker to run services and keep environments reproducible, Postman, MySQL Workbench
 - **Music production:** Ardour, VCV Rack, yabridge
 - **Backups:** Syncthing to a second PC
 
 ## :mailbox_with_mail: Get in touch
 [![Synaptech Solutions](https://img.shields.io/badge/Synaptech_Solutions-A84D08?style=for-the-badge)](https://synaptech-solutions.com/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge)](https://www.linkedin.com/in/germanmartinez21/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge)](https://www.linkedin.com/in/germanmp/)
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Z1P42ATY5F)
 
 Have a project that needs another developer? Feel free to reach out.
