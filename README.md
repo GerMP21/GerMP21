@@ -6,6 +6,8 @@ These days I build LLM-integrated solutions and AI automation, audio plugins for
 ## :memo: How I work
 [![OpenSpec](https://img.shields.io/badge/OpenSpec-2B2B2B?style=for-the-badge)](https://github.com/Fission-AI/OpenSpec)
 [![agent-skills](https://img.shields.io/badge/agent--skills-2B2B2B?style=for-the-badge)](https://github.com/addyosmani/agent-skills)
+[![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?style=for-the-badge&logo=claudecode&logoColor=white)](https://claude.com/claude-code)
+[![OpenCode](https://img.shields.io/badge/OpenCode-000000?style=for-the-badge&logo=opencode&logoColor=white)](https://opencode.ai)
 
 Docs come first. Before I write any code I write down what I'm building and why, along with what "done" looks like, and the code has to answer to that document. The specs live in the repository next to the code, are versioned with it and get reviewed like code.
 
@@ -14,9 +16,29 @@ I switch between two spec-driven development tools depending on the job:
 - **[OpenSpec](https://github.com/Fission-AI/OpenSpec)** when I'm changing an existing system. Every change starts as a proposal with its tasks and the spec changes it implies. Once it ships, it gets archived and merged into the main specs, so they always describe how the software behaves today.
 - **[agent-skills](https://github.com/addyosmani/agent-skills)** when I want the whole path from idea to release: refining the spec, breaking it into tasks, building in small verifiable steps, testing, reviewing and shipping.
 
-Working this way is also what makes AI coding agents useful to me. An agent working from a written spec has a contract to follow, and I can review what it produces against that spec rather than against a chat history.
+Working this way is also what makes AI coding agents useful to me. I use Claude Code and OpenCode, and an agent working from a written spec has a contract to follow, and I can review what it produces against that spec rather than against a chat history.
 
 It's the same habit behind my audio plugins, where every design document starts with a single sentence. If you'd like to contribute to one of my projects, the specs are the best place to start.
+
+## :construction: Coming soon
+
+### Omnisnap
+Shows exactly which elements render differently in every browser engine your users run, with one command and the browsers already installed. Instead of pixel diffs, it compares element geometry (sizes, positions, line wraps, overflow, truncation) and reports each difference at the element where it starts, not at every element it pushes down the page.
+
+It discovers Chrome, Edge, Brave, Opera, Vivaldi, Chromium, Firefox, Safari and WebKitGTK and drives them over CDP, WebDriver BiDi or WebDriver Classic, running branded browsers as shipped. Every finding comes with a cause: it neutralizes the suspects and measures the page again, and a third engine settles which one is wrong. Results go to a self-contained local report, or to one pull request comment from a report-only GitHub Action on Ubuntu, Windows and macOS.
+
+The prototype found 24/24 planted bugs at the right element, with no false reports on bug-free pages across five engines.
+
+**Status:** design and prototype; v1 is specified in 17 module specs. **License:** Apache 2.0.
+
+### HyperFlow
+An [OpenCode](https://opencode.ai/) plugin that runs the development lifecycle, from product spec to release, as a state machine with quality gates. The LLM orchestrates and deterministic TypeScript tools do the work: a PRD is atomized into specs, questions and decisions with traceable IDs, planning waits until every question is resolved, and a phase kernel refuses illegal transitions.
+
+Implementation is test-first, repairs stop after three attempts, and shipping requires lint, typecheck, tests, coverage, security scanning, fuzzing and ablation checks that prove the tests catch regressions.
+
+The full version (v1.0), already specified, adds regression-first bugfix and behavior-preserving refactor workflows, versioned re-planning, test tool selection across 14 language ecosystems, drift detection, and generated CI and release checklists. Parallel tasks, browser automation and multi-repo support are planned for v1.0. It won't install, delete, migrate, commit or deploy anything without your approval.
+
+**Status:** v0.1.0 MVP: 11 agents, 21 commands, 16 skills and 37 tools, all implemented, with 113 tests passing. **License:** MIT.
 
 ## :toolbox: Tools I use
 
@@ -67,6 +89,7 @@ I studied SQL and relational database design in depth during my degree, which is
 ### AI and machine learning
 ![Claude](https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=claude&logoColor=white)
 ![Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-000000?style=for-the-badge)
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
 ![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langgraph&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
@@ -74,7 +97,7 @@ I studied SQL and relational database design in depth during my degree, which is
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
 
-I build LLM-powered applications with Claude and Gemini, using LangChain and LangGraph to orchestrate agents and workflows. Deep learning is still what I enjoy most: stacking layers and watching the loss drop epoch after epoch never gets old.
+I build LLM-powered applications with Claude, Gemini and OpenAI models, using LangChain and LangGraph to orchestrate agents and workflows. Deep learning is still what I enjoy most: stacking layers and watching the loss drop epoch after epoch never gets old.
 
 ### Audio plugins
 ![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
@@ -87,13 +110,20 @@ I write audio plugins for music production in Rust, using nih-plug for the DSP a
 
 Each plugin begins as one sentence about what it does. That sentence stays at the top of the design document, and I build out from it, adding features as I see fit. When a feature doesn't fit the sentence, it goes to a different plugin.
 
-I like controls that mean something physical. [Corrosion](https://github.com/GerMP21/Corrosion-VST) asks how big the pipe is and how rusted. Orrery (upcoming) will ask how far each sound source travels, in meters. Once you know what a knob does to the object, you can stop reading the manual.
+I like controls that mean something physical. [Corrosion](https://github.com/GerMP21/Corrosion-VST) asks how big the pipe is and how rusted. Once you know what a knob does to the object, you can stop reading the manual.
 
 There are no mode menus. Each plugin is one continuum, with the familiar sound as the default and the strange stuff a few turns away.
 
 Before anything is released, it passes automated tests, real-time safety checks (the audio thread never allocates memory) and the standard plugin validators. That doesn't make it bug-free, but it does catch the obvious crashes before you do. And Rust, of course, catches plenty more.
 
 Everything is free software under GPLv3. If you [buy a build on Ko-fi](https://ko-fi.com/Z1P42ATY5F), you're funding the next plugin and getting builds you can install straight away.
+
+#### In development
+These are at the concept stage: each has a PRD and a DSP spec, and each has to pass an offline Python prototype before any Rust gets written.
+
+- **Orrery**: a reverb made of sound sources orbiting the listener, or a rotary speaker with forty rotors. Radius sets how far each source travels, in meters (0.30 m is a Leslie horn). Coherence sets how the orbits line up: locked pairs are a rotary speaker, evenly spread is a string ensemble, scattered is a granular cloud. Drift spreads their speeds across just intervals, from unison to a chord. Because the reverb tail is made of the same orbiting copies, the space itself rotates.
+- **Sideband**: a ring modulator whose carrier follows the note you play. Ratio sets the carrier relative to that note: at simple ratios the sidebands land on just intervals, so a single note becomes a power chord or a triad; at 1 it's an octave fuzz; off the grid it's a bell. Density morphs the carrier from a sine to an impulse train, ending in a sample-rate crusher that tracks the note. Purity moves it between harmonizer and clangorous ring mod. Out of the box it's an octave fuzz.
+- **Undertow**: an envelope-driven phaser and resonant filter on one modulation bus, with bipolar depth, so the filter can sweep up while the phaser sweeps down from the same note. Its flagship routing, Vortex, puts the phaser inside the filter's resonance loop, giving one filter several moving resonant peaks.
 
 ### Development tools
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
@@ -109,6 +139,7 @@ Linux is my main development environment. I'm at home on the command line with t
 ![Ardour](https://img.shields.io/badge/Ardour-C61C3E?style=for-the-badge&logo=ardour&logoColor=white)
 
 ## :mailbox_with_mail: Get in touch
+[![Synaptech Solutions](https://img.shields.io/badge/Synaptech_Solutions-A84D08?style=for-the-badge)](https://synaptech-solutions.com/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge)](https://www.linkedin.com/in/germanmartinez21/)
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Z1P42ATY5F)
 
