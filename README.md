@@ -87,8 +87,8 @@
 
 <p align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=GerMP21&amp;bg_color=00000000&amp;color=e6e6e6&amp;title_color=e6e6e6&amp;line=7aa2f7&amp;point=7aa2f7&amp;area=true&amp;area_color=7aa2f7&amp;hide_border=true&amp;custom_title=CONTRIBUTION%20TELEMETRY">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=GerMP21&amp;bg_color=00000000&amp;color=1b1b1b&amp;title_color=1b1b1b&amp;line=3d59a1&amp;point=3d59a1&amp;area=true&amp;area_color=3d59a1&amp;hide_border=true&amp;custom_title=CONTRIBUTION%20TELEMETRY" alt="Contribution activity graph for GerMP21" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=GerMP21&amp;bg_color=00000000&amp;color=e6e6e6&amp;title_color=e6e6e6&amp;line=ff9e64&amp;point=ff9e64&amp;area=true&amp;area_color=ff9e64&amp;hide_border=true&amp;custom_title=CONTRIBUTION%20TELEMETRY">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=GerMP21&amp;bg_color=00000000&amp;color=1b1b1b&amp;title_color=1b1b1b&amp;line=b5561a&amp;point=b5561a&amp;area=true&amp;area_color=b5561a&amp;hide_border=true&amp;custom_title=CONTRIBUTION%20TELEMETRY" alt="Contribution activity graph for GerMP21" width="100%">
 </picture>
 </p>
 

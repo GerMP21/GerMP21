@@ -2,12 +2,12 @@
 <title id="t">CachyOS on a ThinkPad T480, fully encrypted (LUKS), running the scrollable-tiling Wayland compositor niri with the Noctalia shell, keyboard-driven with vim-style keys. Configs and setup scripts are in my dotfiles. Linux is my main development environment, and I'm at home on the command line with tools like tar, rsync, grep, sed, gawk, xargs, parallel and screen. I use Neovim for its speed and extensibility, and Docker to run services and keep environments reproducible.</title>
 
 <style>
-  :root { --ink:#1b1b1b; --muted:#6b6b6b; --dim:#9a9a9a; --rule:#cfcfcf; --accent:#3d59a1; }
+  :root { --ink:#1b1b1b; --muted:#6b6b6b; --dim:#9a9a9a; --rule:#cfcfcf; --accent:#b5561a; --link:#3d59a1; }
   @media (prefers-color-scheme: dark) {
-    :root { --ink:#e6e6e6; --muted:#9a9a9a; --dim:#6f6f6f; --rule:#3a3a3a; --accent:#7aa2f7; }
+    :root { --ink:#e6e6e6; --muted:#9a9a9a; --dim:#6f6f6f; --rule:#3a3a3a; --accent:#ff9e64; --link:#7aa2f7; }
   }
   .mono { font-family: ui-monospace, "SFMono-Regular", "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; }
-  .ink { fill: var(--ink); } .muted { fill: var(--muted); } .dim { fill: var(--dim); } .accent { fill: var(--accent); }
+  .ink { fill: var(--ink); } .muted { fill: var(--muted); } .dim { fill: var(--dim); } .accent { fill: var(--accent); } .link { fill: var(--link); }
   .rule { stroke: var(--rule); stroke-width: 1; }
   .draw { stroke-dasharray: 1000; stroke-dashoffset: 1000; animation: draw 1.4s cubic-bezier(.6,0,.2,1) forwards; }
   .rise { opacity: 0; animation: rise .9s cubic-bezier(.2,.7,.2,1) forwards; }
@@ -27,8 +27,8 @@
 </style>
 <g class="fade d1">
 <text x="48.0" y="22" font-size="14.5" class="mono ink"><tspan font-weight="700">CachyOS</tspan> on a <tspan font-weight="700">ThinkPad</tspan><tspan font-weight="700"> </tspan><tspan font-weight="700">T480</tspan>, fully encrypted (LUKS), running the scrollable-tiling Wayland compositor</text>
-<text x="48.0" y="45" font-size="14.5" class="mono ink"><tspan class="accent" font-weight="700">niri</tspan> with the <tspan class="accent">Noctalia</tspan> shell, keyboard-driven with vim-style keys. Configs and setup scripts are in</text>
-<text x="48.0" y="68" font-size="14.5" class="mono ink">my <tspan class="accent">dotfiles</tspan>.</text>
+<text x="48.0" y="45" font-size="14.5" class="mono ink"><tspan class="link" font-weight="700">niri</tspan> with the <tspan class="link">Noctalia</tspan> shell, keyboard-driven with vim-style keys. Configs and setup scripts are in</text>
+<text x="48.0" y="68" font-size="14.5" class="mono ink">my <tspan class="link">dotfiles</tspan>.</text>
 <text x="48.0" y="103" font-size="14.5" class="mono ink">Linux is my main development environment, and I'm at home on the command line with tools like <tspan class="accent">tar</tspan>,</text>
 <text x="48.0" y="126" font-size="14.5" class="mono ink"><tspan class="accent">rsync</tspan>, <tspan class="accent">grep</tspan>, <tspan class="accent">sed</tspan>, <tspan class="accent">gawk</tspan>, <tspan class="accent">xargs</tspan>, <tspan class="accent">parallel</tspan> and <tspan class="accent">screen</tspan>. I use Neovim for its speed and extensibility,</text>
 <text x="48.0" y="149" font-size="14.5" class="mono ink">and Docker to run services and keep environments reproducible.</text>

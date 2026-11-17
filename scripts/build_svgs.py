@@ -20,12 +20,12 @@ OUT = Path(__file__).resolve().parent.parent / "assets"
 
 STYLE = """
 <style>
-  :root { --ink:#1b1b1b; --muted:#6b6b6b; --dim:#9a9a9a; --rule:#cfcfcf; --accent:#3d59a1; }
+  :root { --ink:#1b1b1b; --muted:#6b6b6b; --dim:#9a9a9a; --rule:#cfcfcf; --accent:#b5561a; --link:#3d59a1; }
   @media (prefers-color-scheme: dark) {
-    :root { --ink:#e6e6e6; --muted:#9a9a9a; --dim:#6f6f6f; --rule:#3a3a3a; --accent:#7aa2f7; }
+    :root { --ink:#e6e6e6; --muted:#9a9a9a; --dim:#6f6f6f; --rule:#3a3a3a; --accent:#ff9e64; --link:#7aa2f7; }
   }
   .mono { font-family: ui-monospace, "SFMono-Regular", "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; }
-  .ink { fill: var(--ink); } .muted { fill: var(--muted); } .dim { fill: var(--dim); } .accent { fill: var(--accent); }
+  .ink { fill: var(--ink); } .muted { fill: var(--muted); } .dim { fill: var(--dim); } .accent { fill: var(--accent); } .link { fill: var(--link); }
   .rule { stroke: var(--rule); stroke-width: 1; }
   .draw { stroke-dasharray: 1000; stroke-dashoffset: 1000; animation: draw 1.4s cubic-bezier(.6,0,.2,1) forwards; }
   .rise { opacity: 0; animation: rise .9s cubic-bezier(.2,.7,.2,1) forwards; }
@@ -240,10 +240,12 @@ def tspans(line):
         t = escape(t)
         if st == "b":
             out += f'<tspan font-weight="700">{t}</tspan>'
-        elif st in ("a", "c"):
+        elif st == "a":                     # links: blue
+            out += f'<tspan class="link">{t}</tspan>'
+        elif st == "c":                     # code: orange highlight
             out += f'<tspan class="accent">{t}</tspan>'
         elif st == "ba":
-            out += f'<tspan class="accent" font-weight="700">{t}</tspan>'
+            out += f'<tspan class="link" font-weight="700">{t}</tspan>'
         else:
             out += t
     return out
@@ -345,8 +347,8 @@ MARKERS = {
         img("assets/stats.svg", "GitHub stats: contributions, commits, pull requests, issues, reviews, "
             "public repos, stars and top languages, updated daily") + "\n\n"
         '<p align="center">\n<picture>\n'
-        f'  <source media="(prefers-color-scheme: dark)" srcset="{html.escape(GRAPH.format(c="e6e6e6", l="7aa2f7"))}">\n'
-        f'  <img src="{html.escape(GRAPH.format(c="1b1b1b", l="3d59a1"))}" alt="Contribution activity graph for GerMP21" width="100%">\n'
+        f'  <source media="(prefers-color-scheme: dark)" srcset="{html.escape(GRAPH.format(c="e6e6e6", l="ff9e64"))}">\n'
+        f'  <img src="{html.escape(GRAPH.format(c="1b1b1b", l="b5561a"))}" alt="Contribution activity graph for GerMP21" width="100%">\n'
         "</picture>\n</p>"),
     "contact-links": (
         '<p align="center">\n  '

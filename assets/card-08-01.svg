@@ -2,12 +2,12 @@
 <title id="t">Have a project that needs another developer? Feel free to reach out.</title>
 
 <style>
-  :root { --ink:#1b1b1b; --muted:#6b6b6b; --dim:#9a9a9a; --rule:#cfcfcf; --accent:#3d59a1; }
+  :root { --ink:#1b1b1b; --muted:#6b6b6b; --dim:#9a9a9a; --rule:#cfcfcf; --accent:#b5561a; --link:#3d59a1; }
   @media (prefers-color-scheme: dark) {
-    :root { --ink:#e6e6e6; --muted:#9a9a9a; --dim:#6f6f6f; --rule:#3a3a3a; --accent:#7aa2f7; }
+    :root { --ink:#e6e6e6; --muted:#9a9a9a; --dim:#6f6f6f; --rule:#3a3a3a; --accent:#ff9e64; --link:#7aa2f7; }
   }
   .mono { font-family: ui-monospace, "SFMono-Regular", "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; }
-  .ink { fill: var(--ink); } .muted { fill: var(--muted); } .dim { fill: var(--dim); } .accent { fill: var(--accent); }
+  .ink { fill: var(--ink); } .muted { fill: var(--muted); } .dim { fill: var(--dim); } .accent { fill: var(--accent); } .link { fill: var(--link); }
   .rule { stroke: var(--rule); stroke-width: 1; }
   .draw { stroke-dasharray: 1000; stroke-dashoffset: 1000; animation: draw 1.4s cubic-bezier(.6,0,.2,1) forwards; }
   .rise { opacity: 0; animation: rise .9s cubic-bezier(.2,.7,.2,1) forwards; }
