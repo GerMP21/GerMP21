@@ -15,6 +15,17 @@
 
 <img src="assets/card-01-01.svg" alt="Hi, I&#x27;m German 👋 I&#x27;m a software developer based in Uruguay. I like finding creative solutions to problems, and I&#x27;m always learning in a field that never stops changing. These days I build LLM-integrated solutions and AI automation, audio plugins for music production, open source developer tools, and SaaS products for my own business. Still, part of me misses building models the old-fashioned way, by hand with TensorFlow or scikit-learn, and I&#x27;m always looking for an excuse to get back to it. Feel free to explore my repositories, open an issue or reach out if you&#x27;d like to build something together." width="100%">
 
+<details>
+<summary><sub>show as text</sub></summary>
+
+**Hi, I'm German 👋**
+
+I'm a software developer based in Uruguay. I like finding creative solutions to problems, and I'm always learning in a field that never stops changing.
+
+These days I build LLM-integrated solutions and AI automation, audio plugins for music production, open source developer tools, and SaaS products for my own business. Still, part of me misses building models the old-fashioned way, by hand with TensorFlow or scikit-learn, and I'm always looking for an excuse to get back to it. Feel free to explore my repositories, open an issue or reach out if you'd like to build something together.
+
+</details>
+
 <img src="assets/s02.svg" alt="02 — projects" width="100%">
 
 <a href="https://github.com/GerMP21/Corrosion-VST"><img src="assets/card-02-01.svg" alt="Corrosion (Rust, VST3 + CLAP): an industrial physical-modeling instrument. Bowed, struck, scraped and blown pipes, plates, chains and cables, followed by drive, body, space and a diode clipper." width="100%"></a>
@@ -24,6 +35,16 @@
 <a href="https://github.com/GerMP21/DGI-WS_PersonaGetActEmpresarial-Proxy-Client"><img src="assets/card-02-03.svg" alt="DGI RUC proxy (Node.js, Express): a JSON REST API for Uruguay&#x27;s DGI taxpayer (RUC) web service. It handles the SOAP envelopes, WS-Security signing and XML-in-CDATA parsing behind bearer-token authentication." width="100%"></a>
 
 <a href="https://github.com/GerMP21/dotfiles"><img src="assets/card-02-04.svg" alt="dotfiles (Shell): my CachyOS + niri desktop, with scripts that install, link, set up and verify the whole system." width="100%"></a>
+
+<details>
+<summary><sub>show as text</sub></summary>
+
+- **[Corrosion](https://github.com/GerMP21/Corrosion-VST)** (Rust, VST3 + CLAP): an industrial physical-modeling instrument. Bowed, struck, scraped and blown pipes, plates, chains and cables, followed by drive, body, space and a diode clipper.
+- **[mysql-split-import](https://github.com/GerMP21/mysql-split-import)** (Python): imports multi-gigabyte mysqldump files in resumable, per-table transactions, so a dropped connection costs one part instead of the whole night. Standard library only.
+- **[DGI RUC proxy](https://github.com/GerMP21/DGI-WS_PersonaGetActEmpresarial-Proxy-Client)** (Node.js, Express): a JSON REST API for Uruguay's DGI taxpayer (RUC) web service. It handles the SOAP envelopes, WS-Security signing and XML-in-CDATA parsing behind bearer-token authentication.
+- **[dotfiles](https://github.com/GerMP21/dotfiles)** (Shell): my CachyOS + niri desktop, with scripts that install, link, set up and verify the whole system.
+
+</details>
 
 <img src="assets/s03.svg" alt="03 — how i work" width="100%">
 
@@ -36,9 +57,36 @@
   <a href="https://opencode.ai"><img src="https://img.shields.io/badge/OpenCode-2B2B2B?style=flat-square" alt="OpenCode"></a>
 </p>
 
+<details>
+<summary><sub>show as text</sub></summary>
+
+Docs come first. Before I write any code I write down what I'm building and why, along with what "done" looks like, and the code has to answer to that document. The specs live in the repository next to the code, are versioned with it and get reviewed like code.
+
+I switch between two spec-driven development tools depending on the job:
+
+- **[OpenSpec](https://github.com/Fission-AI/OpenSpec)** when I'm changing an existing system. Every change starts as a proposal with its tasks and the spec changes it implies. Once it ships, it gets archived and merged into the main specs, so they always describe how the software behaves today.
+- **[agent-skills](https://github.com/addyosmani/agent-skills)** when I want the whole path from idea to release: refining the spec, breaking it into tasks, building in small verifiable steps, testing, reviewing and shipping.
+
+Working this way is also what makes AI coding agents useful to me. I use [Claude Code](https://claude.com/claude-code) and [OpenCode](https://opencode.ai). An agent working from a written spec has a contract to follow, and I can review what it produces against that spec rather than against a chat history.
+
+It's the same habit behind my audio plugins, where every design document starts with a single sentence. If you'd like to contribute to one of my projects, the specs are the best place to start.
+
+</details>
+
 <img src="assets/s04.svg" alt="04 — coming soon" width="100%">
 
 <img src="assets/card-04-01.svg" alt="Omnisnap Shows which elements render differently in every browser engine your users run, with one command and the browsers already installed. It compares element geometry instead of pixels, reports each difference at the element where it starts, and confirms the cause by re-measuring the page and checking a third engine. The prototype found 24/24 planted bugs, with no false reports across five engines. Status: design and prototype; v1 is specified in 17 module specs. License: Apache 2.0." width="100%">
+
+<details>
+<summary><sub>show as text</sub></summary>
+
+**Omnisnap**
+
+Shows which elements render differently in every browser engine your users run, with one command and the browsers already installed. It compares element geometry instead of pixels, reports each difference at the element where it starts, and confirms the cause by re-measuring the page and checking a third engine. The prototype found 24/24 planted bugs, with no false reports across five engines.
+
+**Status:** design and prototype; v1 is specified in 17 module specs. **License:** Apache 2.0.
+
+</details>
 
 <img src="assets/card-04-02.svg" alt="HyperFlow An OpenCode plugin that runs development from product spec to release as a state machine with quality gates. The LLM orchestrates while deterministic TypeScript tools do the work: planning waits until every open question is resolved, implementation is test-first, and shipping requires lint, tests, coverage, security scanning and fuzzing. It won&#x27;t install, delete, commit or deploy anything without your approval. Status: v0.1.0 MVP: 11 agents, 21 commands, 16 skills and 37 tools, with 113 tests passing. License: MIT." width="100%">
 
@@ -46,21 +94,105 @@
   <a href="https://opencode.ai/"><img src="https://img.shields.io/badge/OpenCode-2B2B2B?style=flat-square" alt="OpenCode"></a>
 </p>
 
+<details>
+<summary><sub>show as text</sub></summary>
+
+**HyperFlow**
+
+An [OpenCode](https://opencode.ai/) plugin that runs development from product spec to release as a state machine with quality gates. The LLM orchestrates while deterministic TypeScript tools do the work: planning waits until every open question is resolved, implementation is test-first, and shipping requires lint, tests, coverage, security scanning and fuzzing. It won't install, delete, commit or deploy anything without your approval.
+
+**Status:** v0.1.0 MVP: 11 agents, 21 commands, 16 skills and 37 tools, with 113 tests passing. **License:** MIT.
+
+</details>
+
 <img src="assets/s05.svg" alt="05 — stack" width="100%">
 
 <img src="assets/stack.svg" alt="Stack — LANGUAGES: Python · Rust · TypeScript · JavaScript · PHP · HTML · CSS; FRONTEND: SvelteKit · React · htmx · Tailwind CSS; MOBILE: React Native · Expo; BACKEND: FastAPI · NestJS · Express · GraphQL · REST; DATA: PostgreSQL · MySQL · MariaDB · MongoDB · Neo4j; AI / ML: Claude · Gemini · OpenAI · LangChain · LangGraph; more: NumPy · pandas · scikit-learn · TensorFlow; AUDIO: Rust · nih-plug · egui · CLAP · VST3; WORKFLOW: OpenSpec · agent-skills · Claude Code · OpenCode; TOOLS: Linux · GNU · Docker · Neovim" width="100%">
 
+<details>
+<summary><sub>show as text</sub></summary>
+
+- **LANGUAGES:** Python · Rust · TypeScript · JavaScript · PHP · HTML · CSS
+- **FRONTEND:** SvelteKit · React · htmx · Tailwind CSS
+- **MOBILE:** React Native · Expo
+- **BACKEND:** FastAPI · NestJS · Express · GraphQL · REST
+- **DATA:** PostgreSQL · MySQL · MariaDB · MongoDB · Neo4j
+- **AI / ML:** Claude · Gemini · OpenAI · LangChain · LangGraph
+- **More:** NumPy · pandas · scikit-learn · TensorFlow
+- **AUDIO:** Rust · nih-plug · egui · CLAP · VST3
+- **WORKFLOW:** OpenSpec · agent-skills · Claude Code · OpenCode
+- **TOOLS:** Linux · GNU · Docker · Neovim
+
+</details>
+
 <img src="assets/card-05-01.svg" alt="Programming languages Python is the language I know best. I&#x27;ve used it professionally, and it&#x27;s the home of my favorite area: machine learning. Rust is the one that excites me most right now. It&#x27;s as fast as C, and its borrow checker makes code safer, which opens the door to systems programming and games. JavaScript and TypeScript came with two years of focused web development after my bachelor&#x27;s degree. I pick up new frameworks and libraries quickly. PHP is the newest addition: I&#x27;m exploring it at the moment." width="100%">
+
+<details>
+<summary><sub>show as text</sub></summary>
+
+**Programming languages**
+
+- **Python** is the language I know best. I've used it professionally, and it's the home of my favorite area: machine learning.
+- **Rust** is the one that excites me most right now. It's as fast as C, and its borrow checker makes code safer, which opens the door to systems programming and games.
+- **JavaScript and TypeScript** came with two years of focused web development after my bachelor's degree. I pick up new frameworks and libraries quickly.
+- **PHP** is the newest addition: I'm exploring it at the moment.
+
+</details>
 
 <img src="assets/card-05-02.svg" alt="Frontend SvelteKit is my first choice for server-rendered apps because of its developer experience. I build single-page apps with React, use htmx for server-driven interactivity, and style everything quickly with Tailwind CSS." width="100%">
 
+<details>
+<summary><sub>show as text</sub></summary>
+
+**Frontend**
+
+SvelteKit is my first choice for server-rendered apps because of its developer experience. I build single-page apps with React, use htmx for server-driven interactivity, and style everything quickly with Tailwind CSS.
+
+</details>
+
 <img src="assets/card-05-03.svg" alt="Mobile I build cross-platform mobile apps with React Native and Expo." width="100%">
+
+<details>
+<summary><sub>show as text</sub></summary>
+
+**Mobile**
+
+I build cross-platform mobile apps with React Native and Expo.
+
+</details>
 
 <img src="assets/card-05-04.svg" alt="Backend I build REST and GraphQL APIs, including authentication and authorization. Building GraphQL APIs with NestJS is the part I enjoy most." width="100%">
 
+<details>
+<summary><sub>show as text</sub></summary>
+
+**Backend**
+
+I build REST and GraphQL APIs, including authentication and authorization. Building GraphQL APIs with NestJS is the part I enjoy most.
+
+</details>
+
 <img src="assets/card-05-05.svg" alt="Databases I studied SQL and relational database design in depth during my degree, which is why PostgreSQL is my default. I&#x27;ve used MongoDB at work, and graph databases like Neo4j interest me for data science and social applications." width="100%">
 
+<details>
+<summary><sub>show as text</sub></summary>
+
+**Databases**
+
+I studied SQL and relational database design in depth during my degree, which is why PostgreSQL is my default. I've used MongoDB at work, and graph databases like Neo4j interest me for data science and social applications.
+
+</details>
+
 <img src="assets/card-05-06.svg" alt="AI and machine learning I build LLM-powered applications with Claude, Gemini and OpenAI models, using LangChain and LangGraph to orchestrate agents and workflows. Deep learning is still what I enjoy most: stacking layers and watching the loss drop epoch after epoch never gets old." width="100%">
+
+<details>
+<summary><sub>show as text</sub></summary>
+
+**AI and machine learning**
+
+I build LLM-powered applications with Claude, Gemini and OpenAI models, using LangChain and LangGraph to orchestrate agents and workflows. Deep learning is still what I enjoy most: stacking layers and watching the loss drop epoch after epoch never gets old.
+
+</details>
 
 <img src="assets/card-05-07.svg" alt="Audio plugins I write audio plugins for music production in Rust, using nih-plug for the DSP and plugin plumbing and egui for the interface, and ship them as CLAP and VST3. Each plugin begins as one sentence about what it does. That sentence stays at the top of the design document, and I build out from it, adding features as I see fit. When a feature doesn&#x27;t fit the sentence, it goes to a different plugin. I like controls that mean something physical. Corrosion asks how big the pipe is and how rusted. Once you know what a knob does to the object, you can stop reading the manual. There are no mode menus. Each plugin is one continuum, with the familiar sound as the default and the strange stuff a few turns away. Before anything is released, it passes automated tests, real-time safety checks (the audio thread never allocates memory) and the standard plugin validators. That doesn&#x27;t make it bug-free, but it does catch the obvious crashes before you do. And Rust, of course, catches plenty more. Everything is free software under GPLv3. If you buy a build on Ko-fi, you&#x27;re funding the next plugin and getting builds you can install straight away. In development These are at the concept stage: each has a PRD and a DSP spec, and each has to pass an offline Python prototype before any Rust gets written. Orrery: a reverb made of sound sources orbiting the listener, or a rotary speaker with forty rotors. Radius sets how far each source travels, in meters (0.30 m is a Leslie horn). Coherence sets how the orbits line up: locked pairs are a rotary speaker, evenly spread is a string ensemble, scattered is a granular cloud. Drift spreads their speeds across just intervals, from unison to a chord. Because the reverb tail is made of the same orbiting copies, the space itself rotates. Sideband: a ring modulator whose carrier follows the note you play. Ratio sets the carrier relative to that note: at simple ratios the sidebands land on just intervals, so a single note becomes a power chord or a triad; at 1 it&#x27;s an octave fuzz; off the grid it&#x27;s a bell. Density morphs the carrier from a sine to an impulse train, ending in a sample-rate crusher that tracks the note. Purity moves it between harmonizer and clangorous ring mod. Out of the box it&#x27;s an octave fuzz. Undertow: an envelope-driven phaser and resonant filter on one modulation bus, with bipolar depth, so the filter can sweep up while the phaser sweeps down from the same note. Its flagship routing, Vortex, puts the phaser inside the filter&#x27;s resonance loop, giving one filter several moving resonant peaks." width="100%">
 
@@ -69,9 +201,50 @@
   <a href="https://ko-fi.com/Z1P42ATY5F"><img src="https://img.shields.io/badge/buy_a_build_on_Ko--fi-2B2B2B?style=flat-square" alt="buy a build on Ko-fi"></a>
 </p>
 
+<details>
+<summary><sub>show as text</sub></summary>
+
+**Audio plugins**
+
+I write audio plugins for music production in Rust, using nih-plug for the DSP and plugin plumbing and egui for the interface, and ship them as CLAP and VST3.
+
+Each plugin begins as one sentence about what it does. That sentence stays at the top of the design document, and I build out from it, adding features as I see fit. When a feature doesn't fit the sentence, it goes to a different plugin.
+
+I like controls that mean something physical. [Corrosion](https://github.com/GerMP21/Corrosion-VST) asks how big the pipe is and how rusted. Once you know what a knob does to the object, you can stop reading the manual.
+
+There are no mode menus. Each plugin is one continuum, with the familiar sound as the default and the strange stuff a few turns away.
+
+Before anything is released, it passes automated tests, real-time safety checks (the audio thread never allocates memory) and the standard plugin validators. That doesn't make it bug-free, but it does catch the obvious crashes before you do. And Rust, of course, catches plenty more.
+
+Everything is free software under GPLv3. If you [buy a build on Ko-fi](https://ko-fi.com/Z1P42ATY5F), you're funding the next plugin and getting builds you can install straight away.
+
+**In development**
+
+These are at the concept stage: each has a PRD and a DSP spec, and each has to pass an offline Python prototype before any Rust gets written.
+
+- **Orrery**: a reverb made of sound sources orbiting the listener, or a rotary speaker with forty rotors. Radius sets how far each source travels, in meters (0.30 m is a Leslie horn). Coherence sets how the orbits line up: locked pairs are a rotary speaker, evenly spread is a string ensemble, scattered is a granular cloud. Drift spreads their speeds across just intervals, from unison to a chord. Because the reverb tail is made of the same orbiting copies, the space itself rotates.
+- **Sideband**: a ring modulator whose carrier follows the note you play. Ratio sets the carrier relative to that note: at simple ratios the sidebands land on just intervals, so a single note becomes a power chord or a triad; at 1 it's an octave fuzz; off the grid it's a bell. Density morphs the carrier from a sine to an impulse train, ending in a sample-rate crusher that tracks the note. Purity moves it between harmonizer and clangorous ring mod. Out of the box it's an octave fuzz.
+- **Undertow**: an envelope-driven phaser and resonant filter on one modulation bus, with bipolar depth, so the filter can sweep up while the phaser sweeps down from the same note. Its flagship routing, Vortex, puts the phaser inside the filter's resonance loop, giving one filter several moving resonant peaks.
+
+</details>
+
 <img src="assets/s06.svg" alt="06 — setup" width="100%">
 
 <img src="assets/setup.svg" alt="Setup — SYSTEM: CachyOS on a ThinkPad T480 · LUKS full-disk encryption; DESKTOP: niri (scrollable-tiling Wayland) + Noctalia shell · vim-style keys; TERMINAL: Alacritty + zsh (vi mode, starship); EDITORS: Neovim (native LSP, Treesitter, Telescope) · Doom Emacs · VSCodium; DEV: Docker · Postman · MySQL Workbench; MUSIC: Ardour · VCV Rack · yabridge; APPS: Obsidian · LibreOffice · GIMP; BACKUPS: Syncthing to a second PC" width="100%">
+
+<details>
+<summary><sub>show as text</sub></summary>
+
+- **System:** CachyOS on a ThinkPad T480 · LUKS full-disk encryption
+- **Desktop:** niri (scrollable-tiling Wayland) + Noctalia shell · vim-style keys
+- **Terminal:** Alacritty + zsh (vi mode, starship)
+- **Editors:** Neovim (native LSP, Treesitter, Telescope) · Doom Emacs · VSCodium
+- **Dev:** Docker · Postman · MySQL Workbench
+- **Music:** Ardour · VCV Rack · yabridge
+- **Apps:** Obsidian · LibreOffice · GIMP
+- **Backups:** Syncthing to a second PC
+
+</details>
 
 <img src="assets/card-06-01.svg" alt="CachyOS on a ThinkPad T480, fully encrypted (LUKS), running the scrollable-tiling Wayland compositor niri with the Noctalia shell, keyboard-driven with vim-style keys. Configs and setup scripts are in my dotfiles. Linux is my main development environment, and I&#x27;m at home on the command line with tools like tar, rsync, grep, sed, gawk, xargs, parallel and screen. I use Neovim for its speed and extensibility, and Docker to run services and keep environments reproducible." width="100%">
 
@@ -80,6 +253,15 @@
   <a href="https://docs.noctalia.dev"><img src="https://img.shields.io/badge/Noctalia-2B2B2B?style=flat-square" alt="Noctalia"></a>
   <a href="https://github.com/GerMP21/dotfiles"><img src="https://img.shields.io/badge/dotfiles-2B2B2B?style=flat-square" alt="dotfiles"></a>
 </p>
+
+<details>
+<summary><sub>show as text</sub></summary>
+
+**CachyOS** on a **ThinkPad T480**, fully encrypted (LUKS), running the scrollable-tiling Wayland compositor **[niri](https://github.com/niri-wm/niri)** with the [Noctalia](https://docs.noctalia.dev) shell, keyboard-driven with vim-style keys. Configs and setup scripts are in my [dotfiles](https://github.com/GerMP21/dotfiles).
+
+Linux is my main development environment, and I'm at home on the command line with tools like `tar`, `rsync`, `grep`, `sed`, `gawk`, `xargs`, `parallel` and `screen`. I use Neovim for its speed and extensibility, and Docker to run services and keep environments reproducible.
+
+</details>
 
 <img src="assets/s07.svg" alt="07 — telemetry" width="100%">
 
@@ -95,6 +277,13 @@
 <img src="assets/s08.svg" alt="08 — contact" width="100%">
 
 <img src="assets/card-08-01.svg" alt="Have a project that needs another developer? Feel free to reach out." width="100%">
+
+<details>
+<summary><sub>show as text</sub></summary>
+
+Have a project that needs another developer? Feel free to reach out.
+
+</details>
 
 <p align="center">
   <a href="https://synaptech-solutions.com/"><img src="https://img.shields.io/badge/Synaptech_Solutions-2B2B2B?style=for-the-badge" alt="Synaptech Solutions"></a>

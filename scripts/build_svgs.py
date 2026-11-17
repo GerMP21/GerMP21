@@ -368,6 +368,35 @@ HEADER_LINKS = [
 ]
 
 
+def as_markdown(blocks):
+    """The card's text as normal Markdown, so it can be selected and its links clicked."""
+    out = []
+    for kind, t in blocks:
+        if kind in ("h3", "h4"):
+            out.append(f"**{t}**")
+        elif kind == "li":
+            out.append(f"- {t}")
+        else:
+            out.append(t)
+    # keep consecutive bullets in one list
+    md = ""
+    for i, line in enumerate(out):
+        sep = "\n" if i and line.startswith("- ") and out[i - 1].startswith("- ") else "\n\n"
+        md += (sep if i else "") + line
+    return md
+
+
+def text_toggle(markdown):
+    """A collapsed <details> holding selectable text under a card."""
+    return f"<details>\n<summary><sub>show as text</sub></summary>\n\n{markdown}\n\n</details>"
+
+
+MARKER_TEXT = {
+    "stack": "\n".join(f"- **{c or 'More'}:** {v}" for c, v in STACK),
+    "setup": "\n".join(f"- **{c.title()}:** {v}" for c, v in SETUP),
+}
+
+
 def build():
     files = {"header.svg": header(), "stack.svg": stack(), "setup.svg": setup(), "footer.svg": footer()}
     sections = parse(CONTENT.read_text(encoding="utf-8"))
@@ -381,7 +410,10 @@ def build():
         n = 0
         for kind, val in items:
             if kind == "marker":
-                md.append(MARKERS[val]); continue
+                md.append(MARKERS[val])
+                if val in MARKER_TEXT:
+                    md.append(text_toggle(MARKER_TEXT[val]))
+                continue
             groups = [[blk] for blk in val] if name == "projects" else [val]
             for blocks in groups:
                 n += 1
@@ -395,6 +427,9 @@ def build():
                     md.append(img(f"assets/{fname}", alt))
                     if pairs:
                         md.append(link_row(pairs).rstrip())
+                    md.append(text_toggle(as_markdown(blocks)))
+            if name == "projects":       # one toggle for all project cards
+                md.append(text_toggle(as_markdown(val)))
     md.append('<p align="center">\n  ' + img("assets/footer.svg", "Now: building Omnisnap and HyperFlow, "
                                              "writing plugin specs, exploring PHP") + "\n</p>")
     return files, "\n\n".join(md) + "\n"
