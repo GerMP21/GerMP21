@@ -3,6 +3,21 @@ I'm a software developer based in Uruguay. I like finding creative solutions to 
 
 These days I build LLM-integrated solutions and AI automation, audio plugins for music production, open source developer tools, and SaaS products for my own business. Still, part of me misses building models the old-fashioned way, by hand with TensorFlow or scikit-learn, and I'm always looking for an excuse to get back to it. Feel free to explore my repositories, open an issue or reach out if you'd like to build something together.
 
+## :memo: How I work
+[![OpenSpec](https://img.shields.io/badge/OpenSpec-2B2B2B?style=for-the-badge)](https://github.com/Fission-AI/OpenSpec)
+[![agent-skills](https://img.shields.io/badge/agent--skills-2B2B2B?style=for-the-badge)](https://github.com/addyosmani/agent-skills)
+
+Docs come first. Before I write any code I write down what I'm building and why, along with what "done" looks like, and the code has to answer to that document. The specs live in the repository next to the code, are versioned with it and get reviewed like code.
+
+I switch between two spec-driven development tools depending on the job:
+
+- **[OpenSpec](https://github.com/Fission-AI/OpenSpec)** when I'm changing an existing system. Every change starts as a proposal with its tasks and the spec changes it implies. Once it ships, it gets archived and merged into the main specs, so they always describe how the software behaves today.
+- **[agent-skills](https://github.com/addyosmani/agent-skills)** when I want the whole path from idea to release: refining the spec, breaking it into tasks, building in small verifiable steps, testing, reviewing and shipping.
+
+Working this way is also what makes AI coding agents useful to me. An agent working from a written spec has a contract to follow, and I can review what it produces against that spec rather than against a chat history.
+
+It's the same habit behind my audio plugins, where every design document starts with a single sentence. If you'd like to contribute to one of my projects, the specs are the best place to start.
+
 ## :toolbox: Tools I use
 
 ### Programming languages
