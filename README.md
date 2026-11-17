@@ -70,6 +70,16 @@ I build LLM-powered applications with Claude and Gemini, using LangChain and Lan
 
 I write audio plugins for music production in Rust, using nih-plug for the DSP and plugin plumbing and egui for the interface, and ship them as CLAP and VST3.
 
+Each plugin begins as one sentence about what it does. That sentence stays at the top of the design document, and I build out from it, adding features as I see fit. When a feature doesn't fit the sentence, it goes to a different plugin.
+
+I like controls that mean something physical. [Corrosion](https://github.com/GerMP21/Corrosion-VST) asks how big the pipe is and how rusted. Orrery (upcoming) will ask how far each sound source travels, in meters. Once you know what a knob does to the object, you can stop reading the manual.
+
+There are no mode menus. Each plugin is one continuum, with the familiar sound as the default and the strange stuff a few turns away.
+
+Before anything is released, it passes automated tests, real-time safety checks (the audio thread never allocates memory) and the standard plugin validators. That doesn't make it bug-free, but it does catch the obvious crashes before you do. And Rust, of course, catches plenty more.
+
+Everything is free software under GPLv3. If you buy a build, you're funding the next plugin and getting builds you can install straight away.
+
 ### Development tools
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![GNU](https://img.shields.io/badge/GNU-A42E2B?style=for-the-badge&logo=gnu&logoColor=white)
