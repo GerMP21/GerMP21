@@ -112,6 +112,8 @@ Linux is my main development environment, and I'm at home on the command line wi
 
 <img src="assets/s07.svg" alt="07 — telemetry" width="100%">
 
+<img src="assets/stats.svg" alt="GitHub stats: contributions, commits, pull requests, issues, reviews, public repos, stars and top languages, updated daily" width="100%">
+
 <p align="center">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=GerMP21&bg_color=00000000&color=e6e6e6&title_color=e6e6e6&line=7aa2f7&point=7aa2f7&area=true&area_color=7aa2f7&hide_border=true&custom_title=CONTRIBUTION%20TELEMETRY">
