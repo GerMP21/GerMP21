@@ -137,7 +137,7 @@ Linux is my main development environment. I'm at home on the command line with t
 ![CachyOS](https://img.shields.io/badge/CachyOS-1793D1?style=for-the-badge&logo=archlinux&logoColor=white)
 ![ThinkPad T480](https://img.shields.io/badge/ThinkPad_T480-E2231A?style=for-the-badge&logo=lenovo&logoColor=white)
 ![Wayland](https://img.shields.io/badge/Wayland-FFBC00?style=for-the-badge&logo=wayland&logoColor=black)
-![niri](https://img.shields.io/badge/niri-2B2B2B?style=for-the-badge)
+[![niri](https://img.shields.io/badge/niri-2B2B2B?style=for-the-badge)](https://github.com/niri-wm/niri)
 ![LUKS](https://img.shields.io/badge/LUKS_encrypted-2B2B2B?style=for-the-badge)
 ![Alacritty](https://img.shields.io/badge/Alacritty-F46D01?style=for-the-badge&logo=alacritty&logoColor=white)
 ![Zsh](https://img.shields.io/badge/Zsh-F15A24?style=for-the-badge&logo=zsh&logoColor=white)
@@ -151,7 +151,7 @@ Linux is my main development environment. I'm at home on the command line with t
 ![GIMP](https://img.shields.io/badge/GIMP-5C5543?style=for-the-badge&logo=gimp&logoColor=white)
 ![Ardour](https://img.shields.io/badge/Ardour-C61C3E?style=for-the-badge&logo=ardour&logoColor=white)
 
-**CachyOS** on a **ThinkPad T480**, fully encrypted (LUKS), running the scrollable-tiling Wayland compositor **niri**. Configs and setup scripts are in my [dotfiles](https://github.com/GerMP21/dotfiles).
+**CachyOS** on a **ThinkPad T480**, fully encrypted (LUKS), running the scrollable-tiling Wayland compositor **[niri](https://github.com/niri-wm/niri)**. Configs and setup scripts are in my [dotfiles](https://github.com/GerMP21/dotfiles).
 
 - **Desktop:** niri + [Noctalia](https://docs.noctalia.dev), keyboard-driven with vim-style keys
 - **Terminal:** Alacritty + zsh (vi mode, starship)
