@@ -137,14 +137,17 @@ def render(s, updated):
     # right column: languages
     b += text(530, top, "TOP LANGUAGES", 11.5, "accent", "fade d1", spacing=3)
     b += text(952, top, "public repos, by code size", 11.5, "dim", "fade d1", anchor="end")
+    # bars start after the longest language name shown (monospace, ~0.62 em per character)
+    bar_x = max(660, 530 + max((len(n) for n, _ in langs), default=0) * 14 * 0.62 + 18)
+    bar_max = 952 - 64 - bar_x
     for i, (name, size) in enumerate(langs, start=1):
         y = top + row * i
         pct = size / total * 100
-        width = max(2, 225 * size / langs[0][1])
+        width = max(2, bar_max * size / langs[0][1])
         delay = f"animation-delay:{0.2 + i * 0.1:.2f}s"
         b += f'<g class="fade" style="{delay}">'
         b += text(530, y, escape(name), 14, "ink").rstrip()
-        b += f'<rect x="660" y="{y - 9}" width="{width:.1f}" height="8" class="bar"/>'
+        b += f'<rect x="{bar_x:.0f}" y="{y - 9}" width="{width:.1f}" height="8" class="bar"/>'
         b += text(952, y, f"{pct:.1f}%", 12.5, "muted", anchor="end").rstrip()
         b += f'<line x1="530" y1="{y + 13}" x2="952" y2="{y + 13}" class="rule"/>'
         b += "</g>\n"

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 180" role="img" aria-labelledby="t">
+<title id="t">CachyOS on a ThinkPad T480, fully encrypted (LUKS), running the scrollable-tiling Wayland compositor niri with the Noctalia shell, keyboard-driven with vim-style keys. Configs and setup scripts are in my dotfiles. Linux is my main development environment, and I'm at home on the command line with tools like tar, rsync, grep, sed, gawk, xargs, parallel and screen. I use Neovim for its speed and extensibility, and Docker to run services and keep environments reproducible.</title>
+
+<style>
+  :root { --ink:#1b1b1b; --muted:#6b6b6b; --dim:#9a9a9a; --rule:#cfcfcf; --accent:#b5561a; --link:#3d59a1; }
+  @media (prefers-color-scheme: dark) {
+    :root { --ink:#e6e6e6; --muted:#9a9a9a; --dim:#6f6f6f; --rule:#3a3a3a; --accent:#ff9e64; --link:#7aa2f7; }
+  }
+  .mono { font-family: ui-monospace, "SFMono-Regular", "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; }
+  .ink { fill: var(--ink); } .muted { fill: var(--muted); } .dim { fill: var(--dim); } .accent { fill: var(--accent); } .link { fill: var(--link); }
+  .rule { stroke: var(--rule); stroke-width: 1; }
+  .draw { stroke-dasharray: 1000; stroke-dashoffset: 1000; animation: draw 1.4s cubic-bezier(.6,0,.2,1) forwards; }
+  .rise { opacity: 0; animation: rise .9s cubic-bezier(.2,.7,.2,1) forwards; }
+  .fade { opacity: 0; animation: fade .7s ease forwards; }
+  .blink { animation: blink 1.1s steps(1) infinite; }
+  .d1 { animation-delay: .2s; } .d2 { animation-delay: .5s; } .d3 { animation-delay: .9s; }
+  .d4 { animation-delay: 1.2s; } .d5 { animation-delay: 1.5s; } .d6 { animation-delay: 1.8s; }
+  @keyframes draw { to { stroke-dashoffset: 0; } }
+  @keyframes rise { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: none; } }
+  @keyframes fade { to { opacity: 1; } }
+  @keyframes blink { 50% { opacity: 0; } }
+  @media (prefers-reduced-motion: reduce) {
+    .draw { animation: none; stroke-dashoffset: 0; }
+    .rise, .fade { animation: none; opacity: 1; }
+    .blink { animation: none; }
+  }
+</style>
+<g class="fade d1">
+<text x="48.0" y="22" font-size="14.5" class="mono ink"><tspan font-weight="700">CachyOS</tspan> on a <tspan font-weight="700">ThinkPad</tspan><tspan font-weight="700"> </tspan><tspan font-weight="700">T480</tspan>, fully encrypted (LUKS), running the scrollable-tiling Wayland compositor</text>
+<text x="48.0" y="45" font-size="14.5" class="mono ink"><tspan class="accent" font-weight="700">niri</tspan> with the <tspan class="accent" font-weight="700">Noctalia</tspan> shell, keyboard-driven with vim-style keys. Configs and setup scripts are in</text>
+<text x="48.0" y="68" font-size="14.5" class="mono ink">my <tspan class="accent" font-weight="700">dotfiles</tspan>.</text>
+<text x="48.0" y="103" font-size="14.5" class="mono ink">Linux is my main development environment, and I'm at home on the command line with tools like <tspan class="accent">tar</tspan>,</text>
+<text x="48.0" y="126" font-size="14.5" class="mono ink"><tspan class="accent">rsync</tspan>, <tspan class="accent">grep</tspan>, <tspan class="accent">sed</tspan>, <tspan class="accent">gawk</tspan>, <tspan class="accent">xargs</tspan>, <tspan class="accent">parallel</tspan> and <tspan class="accent">screen</tspan>. I use Neovim for its speed and extensibility,</text>
+<text x="48.0" y="149" font-size="14.5" class="mono ink">and Docker to run services and keep environments reproducible.</text>
+</g>
+</svg>
