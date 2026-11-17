@@ -61,6 +61,15 @@ I studied SQL and relational database design in depth during my degree, which is
 
 I build LLM-powered applications with Claude and Gemini, using LangChain and LangGraph to orchestrate agents and workflows. Deep learning is still what I enjoy most: stacking layers and watching the loss drop epoch after epoch never gets old.
 
+### Audio plugins
+![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
+![nih-plug](https://img.shields.io/badge/nih--plug-2B2B2B?style=for-the-badge)
+![egui](https://img.shields.io/badge/egui-2B2B2B?style=for-the-badge)
+![CLAP](https://img.shields.io/badge/CLAP-2B2B2B?style=for-the-badge)
+![VST3](https://img.shields.io/badge/VST3-C90827?style=for-the-badge&logo=steinberg&logoColor=white)
+
+I write audio plugins for music production in Rust, using nih-plug for the DSP and plugin plumbing and egui for the interface, and ship them as CLAP and VST3.
+
 ### Development tools
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![GNU](https://img.shields.io/badge/GNU-A42E2B?style=for-the-badge&logo=gnu&logoColor=white)
