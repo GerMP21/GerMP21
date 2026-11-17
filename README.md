@@ -52,6 +52,7 @@ An [OpenCode](https://opencode.ai/) plugin that runs development from product sp
 - **Python** is the language I know best. I've used it professionally, and it's the home of my favorite area: machine learning.
 - **Rust** is the one that excites me most right now. It's as fast as C, and its borrow checker makes code safer, which opens the door to systems programming and games.
 - **JavaScript and TypeScript** came with two years of focused web development after my bachelor's degree. I pick up new frameworks and libraries quickly.
+- **PHP** is the one I'm exploring right now.
 
 ### Frontend
 ![SvelteKit](https://img.shields.io/badge/SvelteKit-FF3E00?style=for-the-badge&logo=svelte&logoColor=white)
