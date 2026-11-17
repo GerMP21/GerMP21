@@ -133,12 +133,6 @@ These are at the concept stage: each has a PRD and a DSP spec, and each has to p
 
 Linux is my main development environment. I'm at home on the command line with tools like `tar`, `rsync`, `grep`, `sed`, `gawk`, `xargs`, `parallel` and `screen`. My editor is Neovim, for its speed and extensibility, and I use Docker to run services and keep development environments reproducible.
 
-### Other tools
-![Obsidian](https://img.shields.io/badge/Obsidian-7C3AED?style=for-the-badge&logo=obsidian&logoColor=white)
-![LibreOffice](https://img.shields.io/badge/LibreOffice-18A303?style=for-the-badge&logo=libreoffice&logoColor=white)
-![GIMP](https://img.shields.io/badge/GIMP-5C5543?style=for-the-badge&logo=gimp&logoColor=white)
-![Ardour](https://img.shields.io/badge/Ardour-C61C3E?style=for-the-badge&logo=ardour&logoColor=white)
-
 ## :computer: My setup
 ![CachyOS](https://img.shields.io/badge/CachyOS-1793D1?style=for-the-badge&logo=archlinux&logoColor=white)
 ![ThinkPad T480](https://img.shields.io/badge/ThinkPad_T480-E2231A?style=for-the-badge&logo=lenovo&logoColor=white)
@@ -151,6 +145,10 @@ Linux is my main development environment. I'm at home on the command line with t
 ![VSCodium](https://img.shields.io/badge/VSCodium-2F80ED?style=for-the-badge&logo=vscodium&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 ![Syncthing](https://img.shields.io/badge/Syncthing-0891D1?style=for-the-badge&logo=syncthing&logoColor=white)
+![Obsidian](https://img.shields.io/badge/Obsidian-7C3AED?style=for-the-badge&logo=obsidian&logoColor=white)
+![LibreOffice](https://img.shields.io/badge/LibreOffice-18A303?style=for-the-badge&logo=libreoffice&logoColor=white)
+![GIMP](https://img.shields.io/badge/GIMP-5C5543?style=for-the-badge&logo=gimp&logoColor=white)
+![Ardour](https://img.shields.io/badge/Ardour-C61C3E?style=for-the-badge&logo=ardour&logoColor=white)
 
 **CachyOS** on a **ThinkPad T480**, fully encrypted (LUKS), running the scrollable-tiling Wayland compositor **niri**. Configs and setup scripts are in my [dotfiles](https://github.com/GerMP21/dotfiles).
 
