@@ -1,84 +1,115 @@
-# Welcome to my profile 👋
-I'm German Martinez, a 22-year-old passionate software development located in Uruguay. I have a deep love for creative solutions to problems and a constant drive to learn and grow in this ever-changing field.
+# Hi, I'm German 👋
+I'm a software developer based in Uruguay. I like finding creative solutions to problems, and I'm always learning in a field that never stops changing.
 
-Here, you'll find a collection of projects that showcase my journey and the skills I've acquired along the way. From Natural Language Processing and Computer Vision to Game Development, Web APIs and Frontend Design, each project has been a stepping stone in my learning process.
+These days I build LLM-integrated solutions and AI automation, audio plugins for music production, open source developer tools, and SaaS products for my own business. Still, part of me misses building models the old-fashioned way, by hand with TensorFlow or scikit-learn, and I'm always looking for an excuse to get back to it. Feel free to explore my repositories, open an issue or reach out if you'd like to build something together.
 
-Feel free to explore and collaborate on any of these projects. Let's connect, share ideas, and innovate together.
+## :memo: How I work
+[![OpenSpec](https://img.shields.io/badge/OpenSpec-2B2B2B?style=for-the-badge)](https://github.com/Fission-AI/OpenSpec)
+[![agent-skills](https://img.shields.io/badge/agent--skills-2B2B2B?style=for-the-badge)](https://github.com/addyosmani/agent-skills)
 
-Here's some information about me...
+Docs come first. Before I write any code I write down what I'm building and why, along with what "done" looks like, and the code has to answer to that document. The specs live in the repository next to the code, are versioned with it and get reviewed like code.
 
-## :toolbox: The tools I use:
-- ### Programming Languages:
-![Static Badge](https://img.shields.io/badge/Python-white?style=for-the-badge&logo=Python&logoColor=%233776AB)
-![Static Badge](https://img.shields.io/badge/Rust-white?style=for-the-badge&logo=Rust&logoColor=black)
-![Static Badge](https://img.shields.io/badge/HTML5-white?style=for-the-badge&logo=HTML5&logoColor=%23E34F26)
-![Static Badge](https://img.shields.io/badge/CSS3-white?style=for-the-badge&logo=CSS3&logoColor=%231572B6)
-![Static Badge](https://img.shields.io/badge/JavaScript-white?style=for-the-badge&logo=JavaScript&logoColor=%23F7DF1E)
+I switch between two spec-driven development tools depending on the job:
 
-Right now, the language that excites me is Rust, mainly because I really appreciate the borrow checker concept. It boosts code safety and allows me to dive into cool stuff like systems programming and making games more efficient. 
+- **[OpenSpec](https://github.com/Fission-AI/OpenSpec)** when I'm changing an existing system. Every change starts as a proposal with its tasks and the spec changes it implies. Once it ships, it gets archived and merged into the main specs, so they always describe how the software behaves today.
+- **[agent-skills](https://github.com/addyosmani/agent-skills)** when I want the whole path from idea to release: refining the spec, breaking it into tasks, building in small verifiable steps, testing, reviewing and shipping.
 
-However when it comes to the language I'm most skilled in, it's definitely Python. I've got professional work experience with it and it's perfect for my favorite area of software development: machine learning.
+Working this way is also what makes AI coding agents useful to me. An agent working from a written spec has a contract to follow, and I can review what it produces against that spec rather than against a chat history.
 
-Also during the two years following my bachelor's degree, I devoted myself to mastering web development, the area that most interested me prior to discovering machine learning. Although I would describe my proficiency writing javascript as average, I possess the ability to swiftly grasp almost frameworks or libraries.
+It's the same habit behind my audio plugins, where every design document starts with a single sentence. If you'd like to contribute to one of my projects, the specs are the best place to start.
 
+## :toolbox: Tools I use
 
-- ### Frontend Frameworks:
-![Static Badge](https://img.shields.io/badge/SvelteKit-white?style=for-the-badge&logo=Svelte&logoColor=white&color=%23FF3E00)
-![Static Badge](https://img.shields.io/badge/React-white?style=for-the-badge&logo=React&logoColor=white&color=%235991ff)
-![Static Badge](https://img.shields.io/badge/Tailwind-white?style=for-the-badge&logo=Tailwind%20CSS)
-![Static Badge](https://img.shields.io/badge/Apollo-white?style=for-the-badge&logo=Apollo%20GraphQL&logoColor=white&labelColor=%23311C87)
+### Programming languages
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS-663399?style=for-the-badge&logo=css&logoColor=white)
 
-My go-to choice for building a server-side rendered app is definitely SvelteKit because I really appreciate its incredible developer experience. However, I do recognize React's proficiency and feel confident using it to create single-page applications. On top of that, I find Tailwind CSS pretty user-friendly and great for very quickly and efficiently styling an application.
+- **Python** is the language I know best. I've used it professionally, and it's the home of my favorite area: machine learning.
+- **Rust** is the one that excites me most right now. The borrow checker makes code safer and opens the door to systems programming and faster games.
+- **JavaScript and TypeScript** came with two years of focused web development after my bachelor's degree. I pick up new frameworks and libraries quickly.
 
-- ### Backend Frameworks:
-![Static Badge](https://img.shields.io/badge/Django-white?style=for-the-badge&logo=Django&logoColor=white&color=%23092E20)
-![Static Badge](https://img.shields.io/badge/Flask-white?style=for-the-badge&logo=Flask&logoColor=white&color=%23222222)
-![Static Badge](https://img.shields.io/badge/FastAPI-white?style=for-the-badge&logo=FastAPI&logoColor=white&color=%23009688)
-![Static Badge](https://img.shields.io/badge/Express-white?style=for-the-badge&logo=Express&logoColor=black&color=%23F7DF1E)
-![Static Badge](https://img.shields.io/badge/NestJS-white?style=for-the-badge&logo=NestJS&logoColor=white&color=%23E0234E)
-![Static Badge](https://img.shields.io/badge/GraphQL-white?style=for-the-badge&logo=GraphQL&labelColor=%23E10098)
+### Frontend
+![SvelteKit](https://img.shields.io/badge/SvelteKit-FF3E00?style=for-the-badge&logo=svelte&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![htmx](https://img.shields.io/badge/htmx-3366CC?style=for-the-badge&logo=htmx&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 
-Working with any these frameworks brings me a lot of appreciation for the and joy when coding them.
+SvelteKit is my first choice for server-rendered apps because of its developer experience. I build single-page apps with React, use htmx for server-driven interactivity, and style everything quickly with Tailwind CSS.
 
-Out of the bunch, developing GraphQL APIs using NestJS is the one that excites me the most. Besides that, I'm also skilled at building REST APIs with any of them, and handling basic authentication and authorization. Right now, my proficiency in JWT authentication is limited to Django, but I plan to level up my knowledge in this area.
+### Mobile
+![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Expo](https://img.shields.io/badge/Expo-1C2024?style=for-the-badge&logo=expo&logoColor=white)
 
-- ### Databases:
-![Static Badge](https://img.shields.io/badge/PostgreSQL-white?style=for-the-badge&logo=PostgreSQL&logoColor=white&labelColor=%234169E1)
-![Static Badge](https://img.shields.io/badge/MongoDB-white?style=for-the-badge&logo=MongoDB&logoColor=%2347A248)
-![Static Badge](https://img.shields.io/badge/Neo4j-white?style=for-the-badge&logo=Neo4j&logoColor=%234581C3)
+I build cross-platform mobile apps with React Native and Expo.
 
-My confidence in my PostgreSQL skills stems from the deep dive I took into SQL during my bachelor's degree. Moreover, I gained valuable knowledge in designing and diagramming relational databases, which made me appreciate their significance as the industry's standard. Additionally in regards to non-relational databases, I have work experience with Mongodb. And graph databases like Neo4j have really piqued my interest due to their relevance in data science and social media apps.
+### Backend
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
+![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)
+![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white)
 
-- ### Machine Learning:
-![Static Badge](https://img.shields.io/badge/NumPy-white?style=for-the-badge&logo=NumPy&logoColor=%23013243)
-![Static Badge](https://img.shields.io/badge/pandas-white?style=for-the-badge&logo=pandas&logoColor=%23150458)
-![Static Badge](https://img.shields.io/badge/scikitlearn-white?style=for-the-badge&logo=scikit-learn&logoColor=%23F7931E)
-![Static Badge](https://img.shields.io/badge/TensorFlow-white?style=for-the-badge&logo=TensorFlow&logoColor=%23FF6F00)
-![Static Badge](https://img.shields.io/badge/opencv-white?style=for-the-badge&logo=opencv&logoColor=%235C3EE8)
+I build REST and GraphQL APIs, including authentication and authorization. Building GraphQL APIs with NestJS is the part I enjoy most.
 
-I'm profoundly interested in machine learning, especially deep learning. It's my favorite thing to work on. There's something satisfying about stacking TensorFlow layers, watching the training process and seeing the loss function going down with each epoch, and it's just so fascinating.
+### Databases
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![Neo4j](https://img.shields.io/badge/Neo4j-4581C3?style=for-the-badge&logo=neo4j&logoColor=white)
 
-- ### Development Tools:
-![Static Badge](https://img.shields.io/badge/Linux-white?style=for-the-badge&logo=Linux&logoColor=black&labelColor=white&color=%23222222)
-![Static Badge](https://img.shields.io/badge/GNU-white?style=for-the-badge&logo=GNU&logoColor=black&labelColor=white&color=%23A42E2B)
-![Static Badge](https://img.shields.io/badge/NeoVim-white?style=for-the-badge&logo=neovim&logoColor=%23019733&labelColor=white&color=%23019733)
-![Static Badge](https://img.shields.io/badge/gimp-white?style=for-the-badge&logo=gimp&logoColor=%235C5543&labelColor=white&color=%235C5543)
-![Static Badge](https://img.shields.io/badge/libreoffice-white?style=for-the-badge&logo=libreoffice&logoColor=%2318A303&labelColor=white&color=%2318A303)
-![Static Badge](https://img.shields.io/badge/slack-white?style=for-the-badge&logo=slack&logoColor=%234A154B&labelColor=white&color=%234A154B)
-![Static Badge](https://img.shields.io/badge/trello-white?style=for-the-badge&logo=trello&logoColor=%230052CC&labelColor=white&color=%230052CC)
+I studied SQL and relational database design in depth during my degree, which is why PostgreSQL is my default. I've used MongoDB at work, and graph databases like Neo4j interest me for data science and social applications.
 
- I have a strong command of the Linux operating system, which I use as my primary development environment. Its flexibility and robustness make it an ideal platform for various software projects as well as being confident in my use of the command-line utilities, which are essential command-line tools for file manipulation, text processing, system management and automation on Linux systems including the like of  tar, rsync, grep, sed, gawk, xargs, parallel and screen.
-I also prefer Neovim as my text editor of choice due to its extensibility, performance and efficient editing features, which greatly enhance my productivity as a programmer.
+### AI and machine learning
+![Claude](https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=claude&logoColor=white)
+![Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langgraph&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![pandas](https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
 
-## :briefcase: What I’m currently working on:
-- ### :newspaper: Blog:
-![Static Badge](https://img.shields.io/badge/SvelteKit-white?style=for-the-badge&logo=Svelte&logoColor=white&color=%23FF3E00)
-![Static Badge](https://img.shields.io/badge/FastAPI-white?style=for-the-badge&logo=FastAPI&logoColor=white&color=%23009688)
-![Static Badge](https://img.shields.io/badge/PostgreSQL-white?style=for-the-badge&logo=PostgreSQL&logoColor=white&labelColor=%234169E1)
+I build LLM-powered applications with Claude and Gemini, using LangChain and LangGraph to orchestrate agents and workflows. Deep learning is still what I enjoy most: stacking layers and watching the loss drop epoch after epoch never gets old.
 
-I'm currently in the process of creating my own blogging website. While I'm primarily building it for myself, I'm open to having others contribute and join the platform to start blogging as well. If you're interested, just reach out to me. This project is perfect for establishing my online presence. For the backend, I've opted for FastAPI to get it up and running swiftly. As for the frontend, I'll be using SvelteKit, mainly because of its development experience, which enables me to write it with speed and efficiency. Finally I will use PostgreSQL for the database thanks to its stability.
+### Audio plugins
+![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
+![nih-plug](https://img.shields.io/badge/nih--plug-2B2B2B?style=for-the-badge)
+![egui](https://img.shields.io/badge/egui-2B2B2B?style=for-the-badge)
+![CLAP](https://img.shields.io/badge/CLAP-2B2B2B?style=for-the-badge)
+![VST3](https://img.shields.io/badge/VST3-2B2B2B?style=for-the-badge)
 
-## :mailbox_with_mail: How to reach me:
-[![Static Badge](https://img.shields.io/badge/LinkedIn-white?style=for-the-badge&logo=LinkedIn&logoColor=white&color=%230A66C2) ](https://www.linkedin.com/in/germanmartinez21/)
+I write audio plugins for music production in Rust, using nih-plug for the DSP and plugin plumbing and egui for the interface, and ship them as CLAP and VST3.
 
-Feel free to contact me if you have a project in need of people.
+Each plugin begins as one sentence about what it does. That sentence stays at the top of the design document, and I build out from it, adding features as I see fit. When a feature doesn't fit the sentence, it goes to a different plugin.
+
+I like controls that mean something physical. [Corrosion](https://github.com/GerMP21/Corrosion-VST) asks how big the pipe is and how rusted. Orrery (upcoming) will ask how far each sound source travels, in meters. Once you know what a knob does to the object, you can stop reading the manual.
+
+There are no mode menus. Each plugin is one continuum, with the familiar sound as the default and the strange stuff a few turns away.
+
+Before anything is released, it passes automated tests, real-time safety checks (the audio thread never allocates memory) and the standard plugin validators. That doesn't make it bug-free, but it does catch the obvious crashes before you do. And Rust, of course, catches plenty more.
+
+Everything is free software under GPLv3. If you [buy a build on Ko-fi](https://ko-fi.com/Z1P42ATY5F), you're funding the next plugin and getting builds you can install straight away.
+
+### Development tools
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![GNU](https://img.shields.io/badge/GNU-A42E2B?style=for-the-badge&logo=gnu&logoColor=white)
+![Neovim](https://img.shields.io/badge/Neovim-57A143?style=for-the-badge&logo=neovim&logoColor=white)
+
+Linux is my main development environment. I'm at home on the command line with tools like `tar`, `rsync`, `grep`, `sed`, `gawk`, `xargs`, `parallel` and `screen`. My editor is Neovim, for its speed and extensibility.
+
+### Other tools
+![Obsidian](https://img.shields.io/badge/Obsidian-7C3AED?style=for-the-badge&logo=obsidian&logoColor=white)
+![LibreOffice](https://img.shields.io/badge/LibreOffice-18A303?style=for-the-badge&logo=libreoffice&logoColor=white)
+![GIMP](https://img.shields.io/badge/GIMP-5C5543?style=for-the-badge&logo=gimp&logoColor=white)
+![Ardour](https://img.shields.io/badge/Ardour-C61C3E?style=for-the-badge&logo=ardour&logoColor=white)
+
+## :mailbox_with_mail: Get in touch
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge)](https://www.linkedin.com/in/germanmartinez21/)
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Z1P42ATY5F)
+
+Have a project that needs another developer? Feel free to reach out.
