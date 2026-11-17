@@ -20,6 +20,10 @@ Working this way is also what makes AI coding agents useful to me. I use Claude 
 
 It's the same habit behind my audio plugins, where every design document starts with a single sentence. If you'd like to contribute to one of my projects, the specs are the best place to start.
 
+## :construction: Upcoming projects
+- **Context-to-Decision** (open source): turns messy operational data into a decision loop. It ingests and normalizes data, defines metrics and the drivers behind them, generates briefings, tracks decisions and compares them with outcomes over time. The idea: every objective needs a metric, every metric needs drivers, every driver needs data, and every decision should leave a trace. Built with Python, FastAPI, PostgreSQL and Docker Compose.
+- **opencode-hyperflow**: an agentic development tool built on the OpenCode ecosystem. It keeps track of workflow state, routes tasks between coding agents and automates work across large projects, while keeping every step visible: task routing, context handoffs, commands run, failures and logs a developer can actually inspect. No black-box AI coding.
+
 ## :toolbox: Tools I use
 
 ### Programming languages
