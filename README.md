@@ -6,6 +6,8 @@ These days I build LLM-integrated solutions and AI automation, audio plugins for
 ## :memo: How I work
 [![OpenSpec](https://img.shields.io/badge/OpenSpec-2B2B2B?style=for-the-badge)](https://github.com/Fission-AI/OpenSpec)
 [![agent-skills](https://img.shields.io/badge/agent--skills-2B2B2B?style=for-the-badge)](https://github.com/addyosmani/agent-skills)
+[![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?style=for-the-badge&logo=claudecode&logoColor=white)](https://claude.com/claude-code)
+[![OpenCode](https://img.shields.io/badge/OpenCode-000000?style=for-the-badge&logo=opencode&logoColor=white)](https://opencode.ai)
 
 Docs come first. Before I write any code I write down what I'm building and why, along with what "done" looks like, and the code has to answer to that document. The specs live in the repository next to the code, are versioned with it and get reviewed like code.
 
@@ -14,7 +16,7 @@ I switch between two spec-driven development tools depending on the job:
 - **[OpenSpec](https://github.com/Fission-AI/OpenSpec)** when I'm changing an existing system. Every change starts as a proposal with its tasks and the spec changes it implies. Once it ships, it gets archived and merged into the main specs, so they always describe how the software behaves today.
 - **[agent-skills](https://github.com/addyosmani/agent-skills)** when I want the whole path from idea to release: refining the spec, breaking it into tasks, building in small verifiable steps, testing, reviewing and shipping.
 
-Working this way is also what makes AI coding agents useful to me. An agent working from a written spec has a contract to follow, and I can review what it produces against that spec rather than against a chat history.
+Working this way is also what makes AI coding agents useful to me. I use Claude Code and OpenCode, and an agent working from a written spec has a contract to follow, and I can review what it produces against that spec rather than against a chat history.
 
 It's the same habit behind my audio plugins, where every design document starts with a single sentence. If you'd like to contribute to one of my projects, the specs are the best place to start.
 
@@ -109,6 +111,7 @@ Linux is my main development environment. I'm at home on the command line with t
 ![Ardour](https://img.shields.io/badge/Ardour-C61C3E?style=for-the-badge&logo=ardour&logoColor=white)
 
 ## :mailbox_with_mail: Get in touch
+[![Synaptech Solutions](https://img.shields.io/badge/Synaptech_Solutions-A84D08?style=for-the-badge)](https://synaptech-solutions.com/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge)](https://www.linkedin.com/in/germanmartinez21/)
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Z1P42ATY5F)
 
