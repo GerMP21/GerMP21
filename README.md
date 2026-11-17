@@ -289,7 +289,6 @@ Have a project that needs another developer? Feel free to reach out.
   <a href="https://synaptech-solutions.com/"><img src="https://img.shields.io/badge/Synaptech_Solutions-2B2B2B?style=for-the-badge" alt="Synaptech Solutions"></a>
   <a href="https://www.linkedin.com/in/germanmp/"><img src="https://img.shields.io/badge/LinkedIn-2B2B2B?style=for-the-badge" alt="LinkedIn"></a>
   <a href="https://ko-fi.com/Z1P42ATY5F"><img src="https://img.shields.io/badge/Ko--fi-2B2B2B?style=for-the-badge" alt="Ko-fi"></a>
-  <a href="https://github.com/GerMP21"><img src="https://img.shields.io/badge/GitHub-2B2B2B?style=for-the-badge" alt="GitHub"></a>
 </p>
 
 <p align="center">

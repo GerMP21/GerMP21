@@ -361,8 +361,7 @@ MARKERS = {
         + "\n  ".join(badge(l, u, "for-the-badge") for l, u in [
             ("Synaptech Solutions", "https://synaptech-solutions.com/"),
             ("LinkedIn", "https://www.linkedin.com/in/germanmp/"),
-            ("Ko-fi", "https://ko-fi.com/Z1P42ATY5F"),
-            ("GitHub", "https://github.com/GerMP21")])
+            ("Ko-fi", "https://ko-fi.com/Z1P42ATY5F")])
         + "\n</p>"),
 }
 
