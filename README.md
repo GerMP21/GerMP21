@@ -40,9 +40,6 @@ The full version (v1.0), already specified, adds regression-first bugfix and beh
 
 **Status:** v0.1.0 MVP: 11 agents, 21 commands, 16 skills and 37 tools, all implemented, with 113 tests passing. **License:** MIT.
 
-### Context-to-Decision
-An open source system that turns messy operational data into a decision loop. It ingests and normalizes data, defines metrics and the drivers behind them, generates briefings, tracks decisions and compares them with outcomes over time. The idea: every objective needs a metric, every metric needs drivers, every driver needs data, and every decision should leave a trace. Built with Python, FastAPI, PostgreSQL and Docker Compose.
-
 ## :toolbox: Tools I use
 
 ### Programming languages
