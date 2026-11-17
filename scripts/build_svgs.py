@@ -332,8 +332,14 @@ def link_row(pairs):
 
 
 def img(src, alt, link=None):
+    """An image that opens `link` when clicked, or does nothing.
+
+    GitHub wraps any image that isn't already inside a link in a link to the
+    image file, so clicking a card would open the SVG. Wrapping it in an <a>
+    without href stops that.
+    """
     tag = f'<img src="{src}" alt="{html.escape(alt)}" width="100%">'
-    return f'<a href="{html.escape(link)}">{tag}</a>' if link else tag
+    return f'<a href="{html.escape(link)}">{tag}</a>' if link else f"<a>{tag}</a>"
 
 
 GRAPH = ("https://github-readme-activity-graph.vercel.app/graph?username=GerMP21&bg_color=00000000"
@@ -421,9 +427,9 @@ def build():
                 alt = " ".join(plain(t) for _, t in blocks)
                 files[fname] = card(blocks, alt)
                 pairs = [l for _, t in blocks for l in links(t)]
-                if name == "projects" and pairs:
+                if name == "projects" and pairs:      # a project card opens its repository
                     md.append(img(f"assets/{fname}", alt, pairs[0][1]))
-                else:
+                else:                                 # other cards: clicking does nothing
                     md.append(img(f"assets/{fname}", alt))
                     if pairs:
                         md.append(link_row(pairs).rstrip())
