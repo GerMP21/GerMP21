@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 928" role="img" aria-labelledby="t">
+<title id="t">Audio plugins I write audio plugins for music production in Rust, using nih-plug for the DSP and plugin plumbing and egui for the interface, and ship them as CLAP and VST3. Each plugin begins as one sentence about what it does. That sentence stays at the top of the design document, and I build out from it, adding features as I see fit. When a feature doesn't fit the sentence, it goes to a different plugin. I like controls that mean something physical. Corrosion asks how big the pipe is and how rusted. Once you know what a knob does to the object, you can stop reading the manual. There are no mode menus. Each plugin is one continuum, with the familiar sound as the default and the strange stuff a few turns away. Before anything is released, it passes automated tests, real-time safety checks (the audio thread never allocates memory) and the standard plugin validators. That doesn't make it bug-free, but it does catch the obvious crashes before you do. And Rust, of course, catches plenty more. Everything is free software under GPLv3. If you buy a build on Ko-fi, you're funding the next plugin and getting builds you can install straight away. In development These are at the concept stage: each has a PRD and a DSP spec, and each has to pass an offline Python prototype before any Rust gets written. Orrery: a reverb made of sound sources orbiting the listener, or a rotary speaker with forty rotors. Radius sets how far each source travels, in meters (0.30 m is a Leslie horn). Coherence sets how the orbits line up: locked pairs are a rotary speaker, evenly spread is a string ensemble, scattered is a granular cloud. Drift spreads their speeds across just intervals, from unison to a chord. Because the reverb tail is made of the same orbiting copies, the space itself rotates. Sideband: a ring modulator whose carrier follows the note you play. Ratio sets the carrier relative to that note: at simple ratios the sidebands land on just intervals, so a single note becomes a power chord or a triad; at 1 it's an octave fuzz; off the grid it's a bell. Density morphs the carrier from a sine to an impulse train, ending in a sample-rate crusher that tracks the note. Purity moves it between harmonizer and clangorous ring mod. Out of the box it's an octave fuzz. Undertow: an envelope-driven phaser and resonant filter on one modulation bus, with bipolar depth, so the filter can sweep up while the phaser sweeps down from the same note. Its flagship routing, Vortex, puts the phaser inside the filter's resonance loop, giving one filter several moving resonant peaks.</title>
+
+<style>
+  :root { --ink:#1b1b1b; --muted:#6b6b6b; --dim:#9a9a9a; --rule:#cfcfcf; --accent:#3d59a1; }
+  @media (prefers-color-scheme: dark) {
+    :root { --ink:#e6e6e6; --muted:#9a9a9a; --dim:#6f6f6f; --rule:#3a3a3a; --accent:#7aa2f7; }
+  }
+  .mono { font-family: ui-monospace, "SFMono-Regular", "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; }
+  .ink { fill: var(--ink); } .muted { fill: var(--muted); } .dim { fill: var(--dim); } .accent { fill: var(--accent); }
+  .rule { stroke: var(--rule); stroke-width: 1; }
+  .draw { stroke-dasharray: 1000; stroke-dashoffset: 1000; animation: draw 1.4s cubic-bezier(.6,0,.2,1) forwards; }
+  .rise { opacity: 0; animation: rise .9s cubic-bezier(.2,.7,.2,1) forwards; }
+  .fade { opacity: 0; animation: fade .7s ease forwards; }
+  .blink { animation: blink 1.1s steps(1) infinite; }
+  .d1 { animation-delay: .2s; } .d2 { animation-delay: .5s; } .d3 { animation-delay: .9s; }
+  .d4 { animation-delay: 1.2s; } .d5 { animation-delay: 1.5s; } .d6 { animation-delay: 1.8s; }
+  @keyframes draw { to { stroke-dashoffset: 0; } }
+  @keyframes rise { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: none; } }
+  @keyframes fade { to { opacity: 1; } }
+  @keyframes blink { 50% { opacity: 0; } }
+  @media (prefers-reduced-motion: reduce) {
+    .draw { animation: none; stroke-dashoffset: 0; }
+    .rise, .fade { animation: none; opacity: 1; }
+    .blink { animation: none; }
+  }
+</style>
+<g class="fade d1">
+<text x="48" y="22" font-size="12" letter-spacing="4" class="mono accent ">AUDIO PLUGINS</text>
+<line x1="48" y1="34" x2="952" y2="34" class="rule"/>
+<text x="48.0" y="60" font-size="14.5" class="mono ink">I write audio plugins for music production in Rust, using nih-plug for the DSP and plugin plumbing</text>
+<text x="48.0" y="83" font-size="14.5" class="mono ink">and egui for the interface, and ship them as CLAP and VST3.</text>
+<text x="48.0" y="118" font-size="14.5" class="mono ink">Each plugin begins as one sentence about what it does. That sentence stays at the top of the design</text>
+<text x="48.0" y="141" font-size="14.5" class="mono ink">document, and I build out from it, adding features as I see fit. When a feature doesn't fit the</text>
+<text x="48.0" y="164" font-size="14.5" class="mono ink">sentence, it goes to a different plugin.</text>
+<text x="48.0" y="199" font-size="14.5" class="mono ink">I like controls that mean something physical. <tspan class="accent">Corrosion</tspan> asks how big the pipe is and how rusted.</text>
+<text x="48.0" y="222" font-size="14.5" class="mono ink">Once you know what a knob does to the object, you can stop reading the manual.</text>
+<text x="48.0" y="257" font-size="14.5" class="mono ink">There are no mode menus. Each plugin is one continuum, with the familiar sound as the default and</text>
+<text x="48.0" y="280" font-size="14.5" class="mono ink">the strange stuff a few turns away.</text>
+<text x="48.0" y="315" font-size="14.5" class="mono ink">Before anything is released, it passes automated tests, real-time safety checks (the audio thread</text>
+<text x="48.0" y="338" font-size="14.5" class="mono ink">never allocates memory) and the standard plugin validators. That doesn't make it bug-free, but it</text>
+<text x="48.0" y="361" font-size="14.5" class="mono ink">does catch the obvious crashes before you do. And Rust, of course, catches plenty more.</text>
+<text x="48.0" y="396" font-size="14.5" class="mono ink">Everything is free software under GPLv3. If you <tspan class="accent">buy</tspan><tspan class="accent"> </tspan><tspan class="accent">a</tspan><tspan class="accent"> </tspan><tspan class="accent">build</tspan><tspan class="accent"> </tspan><tspan class="accent">on</tspan><tspan class="accent"> </tspan><tspan class="accent">Ko-fi</tspan>, you're funding the next plugin</text>
+<text x="48.0" y="419" font-size="14.5" class="mono ink">and getting builds you can install straight away.</text>
+<text x="48" y="462" font-size="11" letter-spacing="3.5" class="mono dim ">IN DEVELOPMENT</text>
+<text x="48.0" y="488" font-size="14.5" class="mono ink">These are at the concept stage: each has a PRD and a DSP spec, and each has to pass an offline</text>
+<text x="48.0" y="511" font-size="14.5" class="mono ink">Python prototype before any Rust gets written.</text>
+<text x="48" y="546" font-size="14.5" class="mono accent ">▸</text>
+<text x="74.2" y="546" font-size="14.5" class="mono ink"><tspan font-weight="700">Orrery</tspan>: a reverb made of sound sources orbiting the listener, or a rotary speaker with forty</text>
+<text x="74.2" y="569" font-size="14.5" class="mono ink">rotors. Radius sets how far each source travels, in meters (0.30 m is a Leslie horn). Coherence</text>
+<text x="74.2" y="592" font-size="14.5" class="mono ink">sets how the orbits line up: locked pairs are a rotary speaker, evenly spread is a string</text>
+<text x="74.2" y="615" font-size="14.5" class="mono ink">ensemble, scattered is a granular cloud. Drift spreads their speeds across just intervals, from</text>
+<text x="74.2" y="638" font-size="14.5" class="mono ink">unison to a chord. Because the reverb tail is made of the same orbiting copies, the space itself</text>
+<text x="74.2" y="661" font-size="14.5" class="mono ink">rotates.</text>
+<text x="48" y="690" font-size="14.5" class="mono accent ">▸</text>
+<text x="74.2" y="690" font-size="14.5" class="mono ink"><tspan font-weight="700">Sideband</tspan>: a ring modulator whose carrier follows the note you play. Ratio sets the carrier</text>
+<text x="74.2" y="713" font-size="14.5" class="mono ink">relative to that note: at simple ratios the sidebands land on just intervals, so a single note</text>
+<text x="74.2" y="736" font-size="14.5" class="mono ink">becomes a power chord or a triad; at 1 it's an octave fuzz; off the grid it's a bell. Density</text>
+<text x="74.2" y="759" font-size="14.5" class="mono ink">morphs the carrier from a sine to an impulse train, ending in a sample-rate crusher that tracks</text>
+<text x="74.2" y="782" font-size="14.5" class="mono ink">the note. Purity moves it between harmonizer and clangorous ring mod. Out of the box it's an</text>
+<text x="74.2" y="805" font-size="14.5" class="mono ink">octave fuzz.</text>
+<text x="48" y="834" font-size="14.5" class="mono accent ">▸</text>
+<text x="74.2" y="834" font-size="14.5" class="mono ink"><tspan font-weight="700">Undertow</tspan>: an envelope-driven phaser and resonant filter on one modulation bus, with bipolar</text>
+<text x="74.2" y="857" font-size="14.5" class="mono ink">depth, so the filter can sweep up while the phaser sweeps down from the same note. Its flagship</text>
+<text x="74.2" y="880" font-size="14.5" class="mono ink">routing, Vortex, puts the phaser inside the filter's resonance loop, giving one filter several</text>
+<text x="74.2" y="903" font-size="14.5" class="mono ink">moving resonant peaks.</text>
+</g>
+</svg>
