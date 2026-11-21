@@ -78,12 +78,12 @@ It's the same habit behind my audio plugins, where every design document starts 
 
 <a><img src="assets/s04.svg?v=295f7813" alt="04 — coming soon" width="100%"></a>
 
-<a><img src="assets/card-04-01.svg?v=dfa82f2c" alt="HyperFlow An OpenCode plugin that runs development from product spec to release as a state machine with quality gates. The LLM orchestrates while deterministic TypeScript tools do the work: planning waits until every open question is resolved, implementation is test-first, and shipping requires lint, tests, coverage, security scanning and fuzzing. It won&#x27;t install, delete, commit or deploy anything without your approval. Status: v0.1.0 MVP: 11 agents, 21 commands, 16 skills and 37 tools, with 113 tests passing. License: MIT." width="100%"></a>
+<a><img src="assets/card-04-01.svg?v=032387ce" alt="Opencode-Hyperflow An OpenCode plugin that runs development from product spec to release as a state machine with quality gates. The LLM orchestrates while deterministic TypeScript tools do the work: planning waits until every open question is resolved, implementation is test-first, and shipping requires lint, tests, coverage, security scanning and fuzzing. It won&#x27;t install, delete, commit or deploy anything without your approval. Status: v0.1.0 MVP: 11 agents, 21 commands, 16 skills and 37 tools, with 113 tests passing. License: MIT." width="100%"></a>
 
 <details>
 <summary><sub>show as text</sub></summary>
 
-**HyperFlow**
+**Opencode-Hyperflow**
 
 An [OpenCode](https://opencode.ai/) plugin that runs development from product spec to release as a state machine with quality gates. The LLM orchestrates while deterministic TypeScript tools do the work: planning waits until every open question is resolved, implementation is test-first, and shipping requires lint, tests, coverage, security scanning and fuzzing. It won't install, delete, commit or deploy anything without your approval.
 
@@ -282,5 +282,5 @@ Have a project that needs another developer? Feel free to reach out.
 </details>
 
 <p align="center">
-  <a><img src="assets/footer.svg?v=50eb3f6a" alt="Now: building Omnisnap and HyperFlow, writing plugin specs, exploring PHP" width="100%"></a>
+  <a><img src="assets/footer.svg?v=282e55ed" alt="Now: building Omnisnap and Opencode-Hyperflow, writing plugin specs, exploring PHP" width="100%"></a>
 </p>

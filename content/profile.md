@@ -36,7 +36,7 @@ Working this way is also what makes AI coding agents useful to me. I use [Claude
 It's the same habit behind my audio plugins, where every design document starts with a single sentence. If you'd like to contribute to one of my projects, the specs are the best place to start.
 
 ## 04 coming soon
-### HyperFlow
+### Opencode-Hyperflow
 An [OpenCode](https://opencode.ai/) plugin that runs development from product spec to release as a state machine with quality gates. The LLM orchestrates while deterministic TypeScript tools do the work: planning waits until every open question is resolved, implementation is test-first, and shipping requires lint, tests, coverage, security scanning and fuzzing. It won't install, delete, commit or deploy anything without your approval.
 
 **Status:** v0.1.0 MVP: 11 agents, 21 commands, 16 skills and 37 tools, with 113 tests passing. **License:** MIT.

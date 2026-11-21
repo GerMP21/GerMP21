@@ -164,10 +164,10 @@ def setup():
 def footer():
     b = '<line x1="48" y1="20" x2="952" y2="20" class="rule draw"/>\n'
     b += text(48, 52, "NOW ▸", 11.5, "accent", "fade d1", spacing=3)
-    b += text(130, 52, "building Omnisnap and HyperFlow · writing plugin specs · exploring PHP", 13, "ink", "fade d2")
+    b += text(130, 52, "building Omnisnap and Opencode-Hyperflow · writing plugin specs · exploring PHP", 13, "ink", "fade d2")
     b += ('<text x="952" y="84" font-size="11" text-anchor="end" letter-spacing="3.5" class="mono dim fade d3">'
           'END OF FILE <tspan class="accent blink">▮</tspan></text>\n')
-    return svg(1000, 100, "Now: building Omnisnap and HyperFlow, writing plugin specs, exploring PHP", b)
+    return svg(1000, 100, "Now: building Omnisnap and Opencode-Hyperflow, writing plugin specs, exploring PHP", b)
 
 
 # ---------------------------------------------------------------- text cards
@@ -452,7 +452,7 @@ def build():
                     md.append(text_toggle(as_markdown(blocks)))
             if name == "projects":       # one toggle for all project cards
                 md.append(text_toggle(as_markdown(val)))
-    md.append('<p align="center">\n  ' + img("assets/footer.svg", "Now: building Omnisnap and HyperFlow, "
+    md.append('<p align="center">\n  ' + img("assets/footer.svg", "Now: building Omnisnap and Opencode-Hyperflow, "
                                              "writing plugin specs, exploring PHP") + "\n</p>")
     # Version each generated image by its content. GitHub's image proxy caches by URL, so
     # without this a card that changes (or is renumbered) can show its old picture for a while.
