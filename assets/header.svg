@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 400" role="img" aria-labelledby="t">
+<title id="t">German — software developer in Uruguay: LLM systems, audio plugins and developer tools</title>
+
+<style>
+  :root { --ink:#1b1b1b; --muted:#6b6b6b; --dim:#9a9a9a; --rule:#cfcfcf; --accent:#b5561a; --link:#3d59a1; }
+  @media (prefers-color-scheme: dark) {
+    :root { --ink:#e6e6e6; --muted:#9a9a9a; --dim:#6f6f6f; --rule:#3a3a3a; --accent:#ff9e64; --link:#7aa2f7; }
+  }
+  .mono { font-family: ui-monospace, "SFMono-Regular", "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; }
+  .ink { fill: var(--ink); } .muted { fill: var(--muted); } .dim { fill: var(--dim); } .accent { fill: var(--accent); } .link { fill: var(--link); }
+  .rule { stroke: var(--rule); stroke-width: 1; }
+  .draw { stroke-dasharray: 1000; stroke-dashoffset: 1000; animation: draw 1.4s cubic-bezier(.6,0,.2,1) forwards; }
+  .rise { opacity: 0; animation: rise .9s cubic-bezier(.2,.7,.2,1) forwards; }
+  .fade { opacity: 0; animation: fade .7s ease forwards; }
+  .blink { animation: blink 1.1s steps(1) infinite; }
+  .d1 { animation-delay: .2s; } .d2 { animation-delay: .5s; } .d3 { animation-delay: .9s; }
+  .d4 { animation-delay: 1.2s; } .d5 { animation-delay: 1.5s; } .d6 { animation-delay: 1.8s; }
+  @keyframes draw { to { stroke-dashoffset: 0; } }
+  @keyframes rise { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: none; } }
+  @keyframes fade { to { opacity: 1; } }
+  @keyframes blink { 50% { opacity: 0; } }
+  @media (prefers-reduced-motion: reduce) {
+    .draw { animation: none; stroke-dashoffset: 0; }
+    .rise, .fade { animation: none; opacity: 1; }
+    .blink { animation: none; }
+  }
+</style>
+<text x="48" y="44" font-size="11" letter-spacing="3.5" class="mono muted fade d1">PROFILE — INDEX Nº 021</text>
+<text x="952" y="44" font-size="11" text-anchor="end" letter-spacing="3.5" class="mono muted fade d1">URUGUAY — SOFTWARE DEVELOPER</text>
+<line x1="48" y1="58" x2="952" y2="58" class="rule draw"/>
+<text x="46" y="176" font-size="72" letter-spacing="-2" class="mono ink rise d2">German</text>
+<g class="fade d3"><text x="48" y="214" font-size="19" class="mono muted ">Builds LLM systems, audio plugins and developer tools.</text></g>
+<text x="48" y="274" font-size="12.5" class="mono dim fade d4">focus ▸</text>
+<text x="128" y="274" font-size="12.5" class="mono accent fade d4">LLM integration · AI automation · Rust audio DSP · spec-driven development</text>
+<text x="48" y="300" font-size="12.5" class="mono muted fade d5">open to projects · freelance · collaboration</text>
+<line x1="48" y1="342" x2="952" y2="342" class="rule draw"/>
+<g class="fade d6"><text x="48" y="374" font-size="11.5" letter-spacing="3" class="mono muted ">RUST &amp; AUDIO</text><text x="186" y="374" font-size="11.5" class="mono accent ">·</text><text x="210" y="374" font-size="11.5" letter-spacing="3" class="mono muted ">LLM &amp; AUTOMATION</text><text x="388" y="374" font-size="11.5" class="mono accent ">·</text><text x="412" y="374" font-size="11.5" letter-spacing="3" class="mono muted ">SPEC-DRIVEN DEV</text><text x="952" y="374" font-size="11.5" text-anchor="end" letter-spacing="3" class="mono muted ">@GerMP21</text></g>
+</svg>
