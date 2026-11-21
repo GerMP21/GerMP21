@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 139" role="img" aria-labelledby="t">
-<title id="t">Omnisnap (Go, AGPL v3): shows which elements render differently in every browser engine your users run, with one command and the browsers already installed. It compares element geometry instead of pixels, reports each difference at the element where it starts, and writes a self-contained report; it also runs as a GitHub Action and from npm or PyPI. Release candidate v0.1.0-rc.5, finding 24/24 planted bugs with no false reports.</title>
+<title id="t">Omnisnap (Go, AGPL v3): shows which elements render differently in every browser engine your users run, with one command and the browsers already installed. It compares element geometry instead of pixels, reports each difference at the element where it starts, and writes a self-contained report; it also runs as a GitHub Action and from npm or PyPI. Release candidate v0.1.0-rc.5.</title>
 
 <style>
   :root { --ink:#1b1b1b; --muted:#6b6b6b; --dim:#9a9a9a; --rule:#cfcfcf; --accent:#b5561a; --link:#3d59a1; }
@@ -31,6 +31,6 @@
 <text x="74.2" y="45" font-size="14.5" class="mono ink">users run, with one command and the browsers already installed. It compares element geometry</text>
 <text x="74.2" y="68" font-size="14.5" class="mono ink">instead of pixels, reports each difference at the element where it starts, and writes a</text>
 <text x="74.2" y="91" font-size="14.5" class="mono ink">self-contained report; it also runs as a GitHub Action and from npm or PyPI. Release candidate</text>
-<text x="74.2" y="114" font-size="14.5" class="mono ink">v0.1.0-rc.5, finding 24/24 planted bugs with no false reports.</text>
+<text x="74.2" y="114" font-size="14.5" class="mono ink">v0.1.0-rc.5.</text>
 </g>
 </svg>
