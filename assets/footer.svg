@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" role="img" aria-labelledby="t">
-<title id="t">Now: building Omnisnap and HyperFlow, writing plugin specs, exploring PHP</title>
+<title id="t">Now: building Omnisnap and Opencode-Hyperflow, writing plugin specs, exploring PHP</title>
 
 <style>
   :root { --ink:#1b1b1b; --muted:#6b6b6b; --dim:#9a9a9a; --rule:#cfcfcf; --accent:#b5561a; --link:#3d59a1; }
@@ -27,6 +27,6 @@
 </style>
 <line x1="48" y1="20" x2="952" y2="20" class="rule draw"/>
 <text x="48" y="52" font-size="11.5" letter-spacing="3" class="mono accent fade d1">NOW ▸</text>
-<text x="130" y="52" font-size="13" class="mono ink fade d2">building Omnisnap and HyperFlow · writing plugin specs · exploring PHP</text>
+<text x="130" y="52" font-size="13" class="mono ink fade d2">building Omnisnap and Opencode-Hyperflow · writing plugin specs · exploring PHP</text>
 <text x="952" y="84" font-size="11" text-anchor="end" letter-spacing="3.5" class="mono dim fade d3">END OF FILE <tspan class="accent blink">▮</tspan></text>
 </svg>
