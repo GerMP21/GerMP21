@@ -17,6 +17,7 @@ I'm a software developer based in Uruguay. I like finding creative solutions to 
 These days I build LLM-integrated solutions and AI automation, audio plugins for music production, open source developer tools, and SaaS products for my own business. Still, part of me misses building models the old-fashioned way, by hand with TensorFlow or scikit-learn, and I'm always looking for an excuse to get back to it. Feel free to explore my repositories, open an issue or reach out if you'd like to build something together.
 
 ## 02 projects
+- **[Omnisnap](https://github.com/GerMP21/Omnisnap)** (Go, AGPL v3): shows which elements render differently in every browser engine your users run, with one command and the browsers already installed. It compares element geometry instead of pixels, reports each difference at the element where it starts, and writes a self-contained report; it also runs as a GitHub Action and from npm or PyPI. Release candidate v0.1.0-rc.5.
 - **[Corrosion](https://github.com/GerMP21/Corrosion-VST)** (Rust, VST3 + CLAP): an industrial physical-modeling instrument. Bowed, struck, scraped and blown pipes, plates, chains and cables, followed by drive, body, space and a diode clipper.
 - **[mysql-split-import](https://github.com/GerMP21/mysql-split-import)** (Python): imports multi-gigabyte mysqldump files in resumable, per-table transactions, so a dropped connection costs one part instead of the whole night. Standard library only.
 - **[DGI RUC proxy](https://github.com/GerMP21/DGI-WS_PersonaGetActEmpresarial-Proxy-Client)** (Node.js, Express): a JSON REST API for Uruguay's DGI taxpayer (RUC) web service. It handles the SOAP envelopes, WS-Security signing and XML-in-CDATA parsing behind bearer-token authentication.
@@ -35,11 +36,6 @@ Working this way is also what makes AI coding agents useful to me. I use [Claude
 It's the same habit behind my audio plugins, where every design document starts with a single sentence. If you'd like to contribute to one of my projects, the specs are the best place to start.
 
 ## 04 coming soon
-### Omnisnap
-Shows which elements render differently in every browser engine your users run, with one command and the browsers already installed. It compares element geometry instead of pixels, reports each difference at the element where it starts, and confirms the cause by re-measuring the page and checking a third engine. The prototype found 24/24 planted bugs, with no false reports across five engines.
-
-**Status:** design and prototype; v1 is specified in 17 module specs. **License:** Apache 2.0.
-
 ### HyperFlow
 An [OpenCode](https://opencode.ai/) plugin that runs development from product spec to release as a state machine with quality gates. The LLM orchestrates while deterministic TypeScript tools do the work: planning waits until every open question is resolved, implementation is test-first, and shipping requires lint, tests, coverage, security scanning and fuzzing. It won't install, delete, commit or deploy anything without your approval.
 
@@ -57,7 +53,7 @@ An [OpenCode](https://opencode.ai/) plugin that runs development from product sp
 
 ### Frontend
 
-SvelteKit is my first choice for server-rendered apps because of its developer experience. I build single-page apps with React, use htmx for server-driven interactivity, and style everything quickly with Tailwind CSS.
+htmx is my first choice. I love low-JS development: the server renders HTML, and htmx adds just the interactivity a page needs, with no build step and no client-side state to keep in sync. When a project really calls for a JavaScript framework, I reach for SvelteKit for its developer experience, or React for single-page apps. Tailwind CSS keeps the styling quick either way.
 
 ### Mobile
 
@@ -65,11 +61,15 @@ I build cross-platform mobile apps with React Native and Expo.
 
 ### Backend
 
-I build REST and GraphQL APIs, including authentication and authorization. Building GraphQL APIs with NestJS is the part I enjoy most.
+I build REST and GraphQL APIs, including authentication and authorization, with Zitadel as my identity provider. Building GraphQL APIs with NestJS is the part I enjoy most.
 
 ### Databases
 
 I studied SQL and relational database design in depth during my degree, which is why PostgreSQL is my default. I've used MongoDB at work, and graph databases like Neo4j interest me for data science and social applications.
+
+### Scraping
+
+Scraping was my first job, and I still love it. I use Scrapy for large crawls, Playwright and Selenium when a site needs a real browser, Patchright when it actively fights automation, and Browser Use when an AI agent has to find its own way through a site.
 
 ### AI and machine learning
 
@@ -81,7 +81,7 @@ I write audio plugins for music production in Rust, using nih-plug for the DSP a
 
 Each plugin begins as one sentence about what it does. That sentence stays at the top of the design document, and I build out from it, adding features as I see fit. When a feature doesn't fit the sentence, it goes to a different plugin.
 
-I like controls that mean something physical. [Corrosion](https://github.com/GerMP21/Corrosion-VST) asks how big the pipe is and how rusted. Once you know what a knob does to the object, you can stop reading the manual.
+I like controls that mean something physical. [Corrosion](https://corrosion-vst.org/) asks how big the pipe is and how rusted. Once you know what a knob does to the object, you can stop reading the manual.
 
 There are no mode menus. Each plugin is one continuum, with the familiar sound as the default and the strange stuff a few turns away.
 

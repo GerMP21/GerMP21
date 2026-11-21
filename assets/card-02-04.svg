@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 70" role="img" aria-labelledby="t">
-<title id="t">dotfiles (Shell): my CachyOS + niri desktop, with scripts that install, link, set up and verify the whole system.</title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 93" role="img" aria-labelledby="t">
+<title id="t">DGI RUC proxy (Node.js, Express): a JSON REST API for Uruguay's DGI taxpayer (RUC) web service. It handles the SOAP envelopes, WS-Security signing and XML-in-CDATA parsing behind bearer-token authentication.</title>
 
 <style>
   :root { --ink:#1b1b1b; --muted:#6b6b6b; --dim:#9a9a9a; --rule:#cfcfcf; --accent:#b5561a; --link:#3d59a1; }
@@ -27,7 +27,8 @@
 </style>
 <g class="fade d1">
 <text x="48" y="22" font-size="14.5" class="mono accent ">▸</text>
-<text x="74.2" y="22" font-size="14.5" class="mono ink"><tspan class="link" font-weight="700">dotfiles</tspan> (Shell): my CachyOS + niri desktop, with scripts that install, link, set up and verify</text>
-<text x="74.2" y="45" font-size="14.5" class="mono ink">the whole system.</text>
+<text x="74.2" y="22" font-size="14.5" class="mono ink"><tspan class="link" font-weight="700">DGI</tspan><tspan class="link" font-weight="700"> </tspan><tspan class="link" font-weight="700">RUC</tspan><tspan class="link" font-weight="700"> </tspan><tspan class="link" font-weight="700">proxy</tspan> (Node.js, Express): a JSON REST API for Uruguay's DGI taxpayer (RUC) web service.</text>
+<text x="74.2" y="45" font-size="14.5" class="mono ink">It handles the SOAP envelopes, WS-Security signing and XML-in-CDATA parsing behind bearer-token</text>
+<text x="74.2" y="68" font-size="14.5" class="mono ink">authentication.</text>
 </g>
 </svg>

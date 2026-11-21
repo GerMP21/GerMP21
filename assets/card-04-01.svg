@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 218" role="img" aria-labelledby="t">
-<title id="t">Omnisnap Shows which elements render differently in every browser engine your users run, with one command and the browsers already installed. It compares element geometry instead of pixels, reports each difference at the element where it starts, and confirms the cause by re-measuring the page and checking a third engine. The prototype found 24/24 planted bugs, with no false reports across five engines. Status: design and prototype; v1 is specified in 17 module specs. License: Apache 2.0.</title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 241" role="img" aria-labelledby="t">
+<title id="t">HyperFlow An OpenCode plugin that runs development from product spec to release as a state machine with quality gates. The LLM orchestrates while deterministic TypeScript tools do the work: planning waits until every open question is resolved, implementation is test-first, and shipping requires lint, tests, coverage, security scanning and fuzzing. It won't install, delete, commit or deploy anything without your approval. Status: v0.1.0 MVP: 11 agents, 21 commands, 16 skills and 37 tools, with 113 tests passing. License: MIT.</title>
 
 <style>
   :root { --ink:#1b1b1b; --muted:#6b6b6b; --dim:#9a9a9a; --rule:#cfcfcf; --accent:#b5561a; --link:#3d59a1; }
@@ -26,13 +26,14 @@
   }
 </style>
 <g class="fade d1">
-<text x="48" y="22" font-size="12" letter-spacing="4" class="mono accent ">OMNISNAP</text>
+<text x="48" y="22" font-size="12" letter-spacing="4" class="mono accent ">HYPERFLOW</text>
 <line x1="48" y1="34" x2="952" y2="34" class="rule"/>
-<text x="48.0" y="60" font-size="14.5" class="mono ink">Shows which elements render differently in every browser engine your users run, with one command and</text>
-<text x="48.0" y="83" font-size="14.5" class="mono ink">the browsers already installed. It compares element geometry instead of pixels, reports each</text>
-<text x="48.0" y="106" font-size="14.5" class="mono ink">difference at the element where it starts, and confirms the cause by re-measuring the page and</text>
-<text x="48.0" y="129" font-size="14.5" class="mono ink">checking a third engine. The prototype found 24/24 planted bugs, with no false reports across five</text>
-<text x="48.0" y="152" font-size="14.5" class="mono ink">engines.</text>
-<text x="48.0" y="187" font-size="14.5" class="mono ink"><tspan font-weight="700">Status:</tspan> design and prototype; v1 is specified in 17 module specs. <tspan font-weight="700">License:</tspan> Apache 2.0.</text>
+<text x="48.0" y="60" font-size="14.5" class="mono ink">An <tspan class="accent" font-weight="700">OpenCode</tspan> plugin that runs development from product spec to release as a state machine with</text>
+<text x="48.0" y="83" font-size="14.5" class="mono ink">quality gates. The LLM orchestrates while deterministic TypeScript tools do the work: planning waits</text>
+<text x="48.0" y="106" font-size="14.5" class="mono ink">until every open question is resolved, implementation is test-first, and shipping requires lint,</text>
+<text x="48.0" y="129" font-size="14.5" class="mono ink">tests, coverage, security scanning and fuzzing. It won't install, delete, commit or deploy anything</text>
+<text x="48.0" y="152" font-size="14.5" class="mono ink">without your approval.</text>
+<text x="48.0" y="187" font-size="14.5" class="mono ink"><tspan font-weight="700">Status:</tspan> v0.1.0 MVP: 11 agents, 21 commands, 16 skills and 37 tools, with 113 tests passing. <tspan font-weight="700">License:</tspan></text>
+<text x="48.0" y="210" font-size="14.5" class="mono ink">MIT.</text>
 </g>
 </svg>
