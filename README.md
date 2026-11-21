@@ -28,17 +28,20 @@ These days I build LLM-integrated solutions and AI automation, audio plugins for
 
 <a><img src="assets/s02.svg" alt="02 — projects" width="100%"></a>
 
-<a href="https://github.com/GerMP21/Corrosion-VST"><img src="assets/card-02-01.svg" alt="Corrosion (Rust, VST3 + CLAP): an industrial physical-modeling instrument. Bowed, struck, scraped and blown pipes, plates, chains and cables, followed by drive, body, space and a diode clipper." width="100%"></a>
+<a href="https://github.com/GerMP21/Omnisnap"><img src="assets/card-02-01.svg" alt="Omnisnap (Go, AGPL v3): shows which elements render differently in every browser engine your users run, with one command and the browsers already installed. It compares element geometry instead of pixels, reports each difference at the element where it starts, and writes a self-contained report; it also runs as a GitHub Action and from npm or PyPI. Release candidate v0.1.0-rc.5, finding 24/24 planted bugs with no false reports." width="100%"></a>
 
-<a href="https://github.com/GerMP21/mysql-split-import"><img src="assets/card-02-02.svg" alt="mysql-split-import (Python): imports multi-gigabyte mysqldump files in resumable, per-table transactions, so a dropped connection costs one part instead of the whole night. Standard library only." width="100%"></a>
+<a href="https://github.com/GerMP21/Corrosion-VST"><img src="assets/card-02-02.svg" alt="Corrosion (Rust, VST3 + CLAP): an industrial physical-modeling instrument. Bowed, struck, scraped and blown pipes, plates, chains and cables, followed by drive, body, space and a diode clipper." width="100%"></a>
 
-<a href="https://github.com/GerMP21/DGI-WS_PersonaGetActEmpresarial-Proxy-Client"><img src="assets/card-02-03.svg" alt="DGI RUC proxy (Node.js, Express): a JSON REST API for Uruguay&#x27;s DGI taxpayer (RUC) web service. It handles the SOAP envelopes, WS-Security signing and XML-in-CDATA parsing behind bearer-token authentication." width="100%"></a>
+<a href="https://github.com/GerMP21/mysql-split-import"><img src="assets/card-02-03.svg" alt="mysql-split-import (Python): imports multi-gigabyte mysqldump files in resumable, per-table transactions, so a dropped connection costs one part instead of the whole night. Standard library only." width="100%"></a>
 
-<a href="https://github.com/GerMP21/dotfiles"><img src="assets/card-02-04.svg" alt="dotfiles (Shell): my CachyOS + niri desktop, with scripts that install, link, set up and verify the whole system." width="100%"></a>
+<a href="https://github.com/GerMP21/DGI-WS_PersonaGetActEmpresarial-Proxy-Client"><img src="assets/card-02-04.svg" alt="DGI RUC proxy (Node.js, Express): a JSON REST API for Uruguay&#x27;s DGI taxpayer (RUC) web service. It handles the SOAP envelopes, WS-Security signing and XML-in-CDATA parsing behind bearer-token authentication." width="100%"></a>
+
+<a href="https://github.com/GerMP21/dotfiles"><img src="assets/card-02-05.svg" alt="dotfiles (Shell): my CachyOS + niri desktop, with scripts that install, link, set up and verify the whole system." width="100%"></a>
 
 <details>
 <summary><sub>show as text</sub></summary>
 
+- **[Omnisnap](https://github.com/GerMP21/Omnisnap)** (Go, AGPL v3): shows which elements render differently in every browser engine your users run, with one command and the browsers already installed. It compares element geometry instead of pixels, reports each difference at the element where it starts, and writes a self-contained report; it also runs as a GitHub Action and from npm or PyPI. Release candidate v0.1.0-rc.5, finding 24/24 planted bugs with no false reports.
 - **[Corrosion](https://github.com/GerMP21/Corrosion-VST)** (Rust, VST3 + CLAP): an industrial physical-modeling instrument. Bowed, struck, scraped and blown pipes, plates, chains and cables, followed by drive, body, space and a diode clipper.
 - **[mysql-split-import](https://github.com/GerMP21/mysql-split-import)** (Python): imports multi-gigabyte mysqldump files in resumable, per-table transactions, so a dropped connection costs one part instead of the whole night. Standard library only.
 - **[DGI RUC proxy](https://github.com/GerMP21/DGI-WS_PersonaGetActEmpresarial-Proxy-Client)** (Node.js, Express): a JSON REST API for Uruguay's DGI taxpayer (RUC) web service. It handles the SOAP envelopes, WS-Security signing and XML-in-CDATA parsing behind bearer-token authentication.
@@ -75,20 +78,7 @@ It's the same habit behind my audio plugins, where every design document starts 
 
 <a><img src="assets/s04.svg" alt="04 — coming soon" width="100%"></a>
 
-<a><img src="assets/card-04-01.svg" alt="Omnisnap Shows which elements render differently in every browser engine your users run, with one command and the browsers already installed. It compares element geometry instead of pixels, reports each difference at the element where it starts, and confirms the cause by re-measuring the page and checking a third engine. The prototype found 24/24 planted bugs, with no false reports across five engines. Status: design and prototype; v1 is specified in 17 module specs. License: Apache 2.0." width="100%"></a>
-
-<details>
-<summary><sub>show as text</sub></summary>
-
-**Omnisnap**
-
-Shows which elements render differently in every browser engine your users run, with one command and the browsers already installed. It compares element geometry instead of pixels, reports each difference at the element where it starts, and confirms the cause by re-measuring the page and checking a third engine. The prototype found 24/24 planted bugs, with no false reports across five engines.
-
-**Status:** design and prototype; v1 is specified in 17 module specs. **License:** Apache 2.0.
-
-</details>
-
-<a><img src="assets/card-04-02.svg" alt="HyperFlow An OpenCode plugin that runs development from product spec to release as a state machine with quality gates. The LLM orchestrates while deterministic TypeScript tools do the work: planning waits until every open question is resolved, implementation is test-first, and shipping requires lint, tests, coverage, security scanning and fuzzing. It won&#x27;t install, delete, commit or deploy anything without your approval. Status: v0.1.0 MVP: 11 agents, 21 commands, 16 skills and 37 tools, with 113 tests passing. License: MIT." width="100%"></a>
+<a><img src="assets/card-04-01.svg" alt="HyperFlow An OpenCode plugin that runs development from product spec to release as a state machine with quality gates. The LLM orchestrates while deterministic TypeScript tools do the work: planning waits until every open question is resolved, implementation is test-first, and shipping requires lint, tests, coverage, security scanning and fuzzing. It won&#x27;t install, delete, commit or deploy anything without your approval. Status: v0.1.0 MVP: 11 agents, 21 commands, 16 skills and 37 tools, with 113 tests passing. License: MIT." width="100%"></a>
 
 <details>
 <summary><sub>show as text</sub></summary>
