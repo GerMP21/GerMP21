@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 340" role="img" aria-labelledby="t">
-<title id="t">GitHub stats: 960 contributions in the last year, 18 public repos, 6 stars; top languages Rust, CSS, Go, JavaScript, MDX, Python</title>
+<title id="t">GitHub stats: 962 contributions in the last year, 18 public repos, 6 stars; top languages Rust, CSS, Go, JavaScript, MDX, Python</title>
 
 <style>
   :root { --ink:#1b1b1b; --muted:#6b6b6b; --dim:#9a9a9a; --rule:#cfcfcf; --accent:#b5561a; --link:#3d59a1; }
@@ -26,10 +26,10 @@
   }
   .bar { fill: var(--accent); opacity: .85; }
 </style>
-<g class="fade" style="animation-delay:0.15s"><text x="48" y="40" font-size="11.5" letter-spacing="3" class="mono accent ">CONTRIBUTIONS</text><text x="300" y="40" font-size="15" text-anchor="end" class="mono ink ">960</text><text x="316" y="40" font-size="11.5" class="mono dim ">last 12 months</text><line x1="48" y1="53" x2="470" y2="53" class="rule"/></g>
+<g class="fade" style="animation-delay:0.15s"><text x="48" y="40" font-size="11.5" letter-spacing="3" class="mono accent ">CONTRIBUTIONS</text><text x="300" y="40" font-size="15" text-anchor="end" class="mono ink ">962</text><text x="316" y="40" font-size="11.5" class="mono dim ">last 12 months</text><line x1="48" y1="53" x2="470" y2="53" class="rule"/></g>
 <g class="fade" style="animation-delay:0.23s"><text x="48" y="74" font-size="11.5" letter-spacing="3" class="mono accent ">PRIVATE</text><text x="300" y="74" font-size="15" text-anchor="end" class="mono ink ">685</text><text x="316" y="74" font-size="11.5" class="mono dim ">contributions</text><line x1="48" y1="87" x2="470" y2="87" class="rule"/></g>
-<g class="fade" style="animation-delay:0.31s"><text x="48" y="108" font-size="11.5" letter-spacing="3" class="mono accent ">COMMITS</text><text x="300" y="108" font-size="15" text-anchor="end" class="mono ink ">172</text><line x1="48" y1="121" x2="470" y2="121" class="rule"/></g>
-<g class="fade" style="animation-delay:0.39s"><text x="48" y="142" font-size="11.5" letter-spacing="3" class="mono accent ">PULL REQUESTS</text><text x="300" y="142" font-size="15" text-anchor="end" class="mono ink ">93</text><line x1="48" y1="155" x2="470" y2="155" class="rule"/></g>
+<g class="fade" style="animation-delay:0.31s"><text x="48" y="108" font-size="11.5" letter-spacing="3" class="mono accent ">COMMITS</text><text x="300" y="108" font-size="15" text-anchor="end" class="mono ink ">173</text><line x1="48" y1="121" x2="470" y2="121" class="rule"/></g>
+<g class="fade" style="animation-delay:0.39s"><text x="48" y="142" font-size="11.5" letter-spacing="3" class="mono accent ">PULL REQUESTS</text><text x="300" y="142" font-size="15" text-anchor="end" class="mono ink ">94</text><line x1="48" y1="155" x2="470" y2="155" class="rule"/></g>
 <g class="fade" style="animation-delay:0.47s"><text x="48" y="176" font-size="11.5" letter-spacing="3" class="mono accent ">ISSUES</text><text x="300" y="176" font-size="15" text-anchor="end" class="mono ink ">0</text><line x1="48" y1="189" x2="470" y2="189" class="rule"/></g>
 <g class="fade" style="animation-delay:0.55s"><text x="48" y="210" font-size="11.5" letter-spacing="3" class="mono accent ">REVIEWS</text><text x="300" y="210" font-size="15" text-anchor="end" class="mono ink ">0</text><line x1="48" y1="223" x2="470" y2="223" class="rule"/></g>
 <g class="fade" style="animation-delay:0.63s"><text x="48" y="244" font-size="11.5" letter-spacing="3" class="mono accent ">PUBLIC REPOS</text><text x="300" y="244" font-size="15" text-anchor="end" class="mono ink ">18</text><text x="316" y="244" font-size="11.5" class="mono dim ">excluding forks</text><line x1="48" y1="257" x2="470" y2="257" class="rule"/></g>
