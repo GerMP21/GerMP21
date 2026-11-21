@@ -10,6 +10,7 @@ and re-run:
 
     python3 scripts/build_svgs.py
 """
+import hashlib
 import html
 import re
 import urllib.parse
@@ -453,7 +454,13 @@ def build():
                 md.append(text_toggle(as_markdown(val)))
     md.append('<p align="center">\n  ' + img("assets/footer.svg", "Now: building Omnisnap and HyperFlow, "
                                              "writing plugin specs, exploring PHP") + "\n</p>")
-    return files, "\n\n".join(md) + "\n"
+    # Version each generated image by its content. GitHub's image proxy caches by URL, so
+    # without this a card that changes (or is renumbered) can show its old picture for a while.
+    readme = re.sub(r'src="assets/([\w.-]+\.svg)"',
+                    lambda m: (f'src="assets/{m[1]}?v={hashlib.sha1(files[m[1]].encode()).hexdigest()[:8]}"'
+                               if m[1] in files else m[0]),
+                    "\n\n".join(md) + "\n")
+    return files, readme
 
 
 def main():
