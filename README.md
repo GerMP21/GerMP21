@@ -103,18 +103,19 @@ An [OpenCode](https://opencode.ai/) plugin that runs development from product sp
 
 <a><img src="assets/s05.svg" alt="05 — stack" width="100%"></a>
 
-<a><img src="assets/stack.svg" alt="Stack — LANGUAGES: Python · Rust · TypeScript · JavaScript · PHP · HTML · CSS; FRONTEND: SvelteKit · React · htmx · Tailwind CSS; MOBILE: React Native · Expo; BACKEND: FastAPI · NestJS · Express · GraphQL · REST; DATA: PostgreSQL · MySQL · MariaDB · MongoDB · Neo4j; AI / ML: Claude · Gemini · OpenAI · LangChain · LangGraph; more: NumPy · pandas · scikit-learn · TensorFlow; AUDIO: Rust · nih-plug · egui · CLAP · VST3; WORKFLOW: OpenSpec · agent-skills · Claude Code · OpenCode; TOOLS: Linux · GNU · Docker · Neovim" width="100%"></a>
+<a><img src="assets/stack.svg" alt="Stack — LANGUAGES: Python · Rust · TypeScript · JavaScript · PHP · HTML · CSS; FRONTEND: htmx · SvelteKit · React · Tailwind CSS; MOBILE: React Native · Expo; BACKEND: FastAPI · NestJS · Express · GraphQL · REST · Zitadel; DATA: PostgreSQL · MySQL · MariaDB · MongoDB · Neo4j; SCRAPING: Playwright · Patchright · Scrapy · Selenium · Browser Use; AI / ML: LangChain · LangGraph · NumPy · pandas · scikit-learn; more: TensorFlow · Claude · Gemini · OpenAI; AUDIO: Rust · nih-plug · egui · CLAP · VST3; WORKFLOW: OpenSpec · agent-skills · Claude Code · OpenCode; TOOLS: Linux · GNU · Docker · Neovim" width="100%"></a>
 
 <details>
 <summary><sub>show as text</sub></summary>
 
 - **LANGUAGES:** Python · Rust · TypeScript · JavaScript · PHP · HTML · CSS
-- **FRONTEND:** SvelteKit · React · htmx · Tailwind CSS
+- **FRONTEND:** htmx · SvelteKit · React · Tailwind CSS
 - **MOBILE:** React Native · Expo
-- **BACKEND:** FastAPI · NestJS · Express · GraphQL · REST
+- **BACKEND:** FastAPI · NestJS · Express · GraphQL · REST · Zitadel
 - **DATA:** PostgreSQL · MySQL · MariaDB · MongoDB · Neo4j
-- **AI / ML:** Claude · Gemini · OpenAI · LangChain · LangGraph
-- **More:** NumPy · pandas · scikit-learn · TensorFlow
+- **SCRAPING:** Playwright · Patchright · Scrapy · Selenium · Browser Use
+- **AI / ML:** LangChain · LangGraph · NumPy · pandas · scikit-learn
+- **More:** TensorFlow · Claude · Gemini · OpenAI
 - **AUDIO:** Rust · nih-plug · egui · CLAP · VST3
 - **WORKFLOW:** OpenSpec · agent-skills · Claude Code · OpenCode
 - **TOOLS:** Linux · GNU · Docker · Neovim
@@ -135,14 +136,14 @@ An [OpenCode](https://opencode.ai/) plugin that runs development from product sp
 
 </details>
 
-<a><img src="assets/card-05-02.svg" alt="Frontend SvelteKit is my first choice for server-rendered apps because of its developer experience. I build single-page apps with React, use htmx for server-driven interactivity, and style everything quickly with Tailwind CSS." width="100%"></a>
+<a><img src="assets/card-05-02.svg" alt="Frontend htmx is my first choice. I love low-JS development: the server renders HTML, and htmx adds just the interactivity a page needs, with no build step and no client-side state to keep in sync. When a project really calls for a JavaScript framework, I reach for SvelteKit for its developer experience, or React for single-page apps. Tailwind CSS keeps the styling quick either way." width="100%"></a>
 
 <details>
 <summary><sub>show as text</sub></summary>
 
 **Frontend**
 
-SvelteKit is my first choice for server-rendered apps because of its developer experience. I build single-page apps with React, use htmx for server-driven interactivity, and style everything quickly with Tailwind CSS.
+htmx is my first choice. I love low-JS development: the server renders HTML, and htmx adds just the interactivity a page needs, with no build step and no client-side state to keep in sync. When a project really calls for a JavaScript framework, I reach for SvelteKit for its developer experience, or React for single-page apps. Tailwind CSS keeps the styling quick either way.
 
 </details>
 
@@ -157,14 +158,14 @@ I build cross-platform mobile apps with React Native and Expo.
 
 </details>
 
-<a><img src="assets/card-05-04.svg" alt="Backend I build REST and GraphQL APIs, including authentication and authorization. Building GraphQL APIs with NestJS is the part I enjoy most." width="100%"></a>
+<a><img src="assets/card-05-04.svg" alt="Backend I build REST and GraphQL APIs, including authentication and authorization, with Zitadel as my identity provider. Building GraphQL APIs with NestJS is the part I enjoy most." width="100%"></a>
 
 <details>
 <summary><sub>show as text</sub></summary>
 
 **Backend**
 
-I build REST and GraphQL APIs, including authentication and authorization. Building GraphQL APIs with NestJS is the part I enjoy most.
+I build REST and GraphQL APIs, including authentication and authorization, with Zitadel as my identity provider. Building GraphQL APIs with NestJS is the part I enjoy most.
 
 </details>
 
@@ -179,7 +180,18 @@ I studied SQL and relational database design in depth during my degree, which is
 
 </details>
 
-<a><img src="assets/card-05-06.svg" alt="AI and machine learning I build LLM-powered applications with Claude, Gemini and OpenAI models, using LangChain and LangGraph to orchestrate agents and workflows. Deep learning is still what I enjoy most: stacking layers and watching the loss drop epoch after epoch never gets old." width="100%"></a>
+<a><img src="assets/card-05-06.svg" alt="Scraping Scraping was my first job, and I still love it. I use Scrapy for large crawls, Playwright and Selenium when a site needs a real browser, Patchright when it actively fights automation, and Browser Use when an AI agent has to find its own way through a site." width="100%"></a>
+
+<details>
+<summary><sub>show as text</sub></summary>
+
+**Scraping**
+
+Scraping was my first job, and I still love it. I use Scrapy for large crawls, Playwright and Selenium when a site needs a real browser, Patchright when it actively fights automation, and Browser Use when an AI agent has to find its own way through a site.
+
+</details>
+
+<a><img src="assets/card-05-07.svg" alt="AI and machine learning I build LLM-powered applications with Claude, Gemini and OpenAI models, using LangChain and LangGraph to orchestrate agents and workflows. Deep learning is still what I enjoy most: stacking layers and watching the loss drop epoch after epoch never gets old." width="100%"></a>
 
 <details>
 <summary><sub>show as text</sub></summary>
@@ -190,7 +202,11 @@ I build LLM-powered applications with Claude, Gemini and OpenAI models, using La
 
 </details>
 
-<a><img src="assets/card-05-07.svg" alt="Audio plugins I write audio plugins for music production in Rust, using nih-plug for the DSP and plugin plumbing and egui for the interface, and ship them as CLAP and VST3. Each plugin begins as one sentence about what it does. That sentence stays at the top of the design document, and I build out from it, adding features as I see fit. When a feature doesn&#x27;t fit the sentence, it goes to a different plugin. I like controls that mean something physical. Corrosion asks how big the pipe is and how rusted. Once you know what a knob does to the object, you can stop reading the manual. There are no mode menus. Each plugin is one continuum, with the familiar sound as the default and the strange stuff a few turns away. Before anything is released, it passes automated tests, real-time safety checks (the audio thread never allocates memory) and the standard plugin validators. That doesn&#x27;t make it bug-free, but it does catch the obvious crashes before you do. And Rust, of course, catches plenty more. Everything is free software under GPLv3. If you buy a build on Ko-fi, you&#x27;re funding the next plugin and getting builds you can install straight away. In development These are at the concept stage: each has a PRD and a DSP spec, and each has to pass an offline Python prototype before any Rust gets written. Orrery: a reverb made of sound sources orbiting the listener, or a rotary speaker with forty rotors. Radius sets how far each source travels, in meters (0.30 m is a Leslie horn). Coherence sets how the orbits line up: locked pairs are a rotary speaker, evenly spread is a string ensemble, scattered is a granular cloud. Drift spreads their speeds across just intervals, from unison to a chord. Because the reverb tail is made of the same orbiting copies, the space itself rotates. Sideband: a ring modulator whose carrier follows the note you play. Ratio sets the carrier relative to that note: at simple ratios the sidebands land on just intervals, so a single note becomes a power chord or a triad; at 1 it&#x27;s an octave fuzz; off the grid it&#x27;s a bell. Density morphs the carrier from a sine to an impulse train, ending in a sample-rate crusher that tracks the note. Purity moves it between harmonizer and clangorous ring mod. Out of the box it&#x27;s an octave fuzz. Undertow: an envelope-driven phaser and resonant filter on one modulation bus, with bipolar depth, so the filter can sweep up while the phaser sweeps down from the same note. Its flagship routing, Vortex, puts the phaser inside the filter&#x27;s resonance loop, giving one filter several moving resonant peaks." width="100%"></a>
+<a><img src="assets/card-05-08.svg" alt="Audio plugins I write audio plugins for music production in Rust, using nih-plug for the DSP and plugin plumbing and egui for the interface, and ship them as CLAP and VST3. Each plugin begins as one sentence about what it does. That sentence stays at the top of the design document, and I build out from it, adding features as I see fit. When a feature doesn&#x27;t fit the sentence, it goes to a different plugin. I like controls that mean something physical. Corrosion asks how big the pipe is and how rusted. Once you know what a knob does to the object, you can stop reading the manual. There are no mode menus. Each plugin is one continuum, with the familiar sound as the default and the strange stuff a few turns away. Before anything is released, it passes automated tests, real-time safety checks (the audio thread never allocates memory) and the standard plugin validators. That doesn&#x27;t make it bug-free, but it does catch the obvious crashes before you do. And Rust, of course, catches plenty more. Everything is free software under GPLv3. If you buy a build on Ko-fi, you&#x27;re funding the next plugin and getting builds you can install straight away. In development These are at the concept stage: each has a PRD and a DSP spec, and each has to pass an offline Python prototype before any Rust gets written. Orrery: a reverb made of sound sources orbiting the listener, or a rotary speaker with forty rotors. Radius sets how far each source travels, in meters (0.30 m is a Leslie horn). Coherence sets how the orbits line up: locked pairs are a rotary speaker, evenly spread is a string ensemble, scattered is a granular cloud. Drift spreads their speeds across just intervals, from unison to a chord. Because the reverb tail is made of the same orbiting copies, the space itself rotates. Sideband: a ring modulator whose carrier follows the note you play. Ratio sets the carrier relative to that note: at simple ratios the sidebands land on just intervals, so a single note becomes a power chord or a triad; at 1 it&#x27;s an octave fuzz; off the grid it&#x27;s a bell. Density morphs the carrier from a sine to an impulse train, ending in a sample-rate crusher that tracks the note. Purity moves it between harmonizer and clangorous ring mod. Out of the box it&#x27;s an octave fuzz. Undertow: an envelope-driven phaser and resonant filter on one modulation bus, with bipolar depth, so the filter can sweep up while the phaser sweeps down from the same note. Its flagship routing, Vortex, puts the phaser inside the filter&#x27;s resonance loop, giving one filter several moving resonant peaks." width="100%"></a>
+
+<p align="center">
+  <a href="https://corrosion-vst.org/"><img src="https://img.shields.io/badge/Corrosion-2B2B2B?style=flat-square" alt="Corrosion"></a>
+</p>
 
 <details>
 <summary><sub>show as text</sub></summary>
@@ -201,7 +217,7 @@ I write audio plugins for music production in Rust, using nih-plug for the DSP a
 
 Each plugin begins as one sentence about what it does. That sentence stays at the top of the design document, and I build out from it, adding features as I see fit. When a feature doesn't fit the sentence, it goes to a different plugin.
 
-I like controls that mean something physical. [Corrosion](https://github.com/GerMP21/Corrosion-VST) asks how big the pipe is and how rusted. Once you know what a knob does to the object, you can stop reading the manual.
+I like controls that mean something physical. [Corrosion](https://corrosion-vst.org/) asks how big the pipe is and how rusted. Once you know what a knob does to the object, you can stop reading the manual.
 
 There are no mode menus. Each plugin is one continuum, with the familiar sound as the default and the strange stuff a few turns away.
 

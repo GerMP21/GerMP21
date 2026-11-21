@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 137" role="img" aria-labelledby="t">
-<title id="t">AI and machine learning I build LLM-powered applications with Claude, Gemini and OpenAI models, using LangChain and LangGraph to orchestrate agents and workflows. Deep learning is still what I enjoy most: stacking layers and watching the loss drop epoch after epoch never gets old.</title>
+<title id="t">Scraping Scraping was my first job, and I still love it. I use Scrapy for large crawls, Playwright and Selenium when a site needs a real browser, Patchright when it actively fights automation, and Browser Use when an AI agent has to find its own way through a site.</title>
 
 <style>
   :root { --ink:#1b1b1b; --muted:#6b6b6b; --dim:#9a9a9a; --rule:#cfcfcf; --accent:#b5561a; --link:#3d59a1; }
@@ -26,10 +26,10 @@
   }
 </style>
 <g class="fade d1">
-<text x="48" y="22" font-size="12" letter-spacing="4" class="mono accent ">AI AND MACHINE LEARNING</text>
+<text x="48" y="22" font-size="12" letter-spacing="4" class="mono accent ">SCRAPING</text>
 <line x1="48" y1="34" x2="952" y2="34" class="rule"/>
-<text x="48.0" y="60" font-size="14.5" class="mono ink">I build LLM-powered applications with Claude, Gemini and OpenAI models, using LangChain and</text>
-<text x="48.0" y="83" font-size="14.5" class="mono ink">LangGraph to orchestrate agents and workflows. Deep learning is still what I enjoy most: stacking</text>
-<text x="48.0" y="106" font-size="14.5" class="mono ink">layers and watching the loss drop epoch after epoch never gets old.</text>
+<text x="48.0" y="60" font-size="14.5" class="mono ink">Scraping was my first job, and I still love it. I use Scrapy for large crawls, Playwright and</text>
+<text x="48.0" y="83" font-size="14.5" class="mono ink">Selenium when a site needs a real browser, Patchright when it actively fights automation, and</text>
+<text x="48.0" y="106" font-size="14.5" class="mono ink">Browser Use when an AI agent has to find its own way through a site.</text>
 </g>
 </svg>

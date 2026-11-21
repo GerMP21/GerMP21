@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 137" role="img" aria-labelledby="t">
-<title id="t">Frontend SvelteKit is my first choice for server-rendered apps because of its developer experience. I build single-page apps with React, use htmx for server-driven interactivity, and style everything quickly with Tailwind CSS.</title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 160" role="img" aria-labelledby="t">
+<title id="t">Frontend htmx is my first choice. I love low-JS development: the server renders HTML, and htmx adds just the interactivity a page needs, with no build step and no client-side state to keep in sync. When a project really calls for a JavaScript framework, I reach for SvelteKit for its developer experience, or React for single-page apps. Tailwind CSS keeps the styling quick either way.</title>
 
 <style>
   :root { --ink:#1b1b1b; --muted:#6b6b6b; --dim:#9a9a9a; --rule:#cfcfcf; --accent:#b5561a; --link:#3d59a1; }
@@ -28,8 +28,9 @@
 <g class="fade d1">
 <text x="48" y="22" font-size="12" letter-spacing="4" class="mono accent ">FRONTEND</text>
 <line x1="48" y1="34" x2="952" y2="34" class="rule"/>
-<text x="48.0" y="60" font-size="14.5" class="mono ink">SvelteKit is my first choice for server-rendered apps because of its developer experience. I build</text>
-<text x="48.0" y="83" font-size="14.5" class="mono ink">single-page apps with React, use htmx for server-driven interactivity, and style everything quickly</text>
-<text x="48.0" y="106" font-size="14.5" class="mono ink">with Tailwind CSS.</text>
+<text x="48.0" y="60" font-size="14.5" class="mono ink">htmx is my first choice. I love low-JS development: the server renders HTML, and htmx adds just the</text>
+<text x="48.0" y="83" font-size="14.5" class="mono ink">interactivity a page needs, with no build step and no client-side state to keep in sync. When a</text>
+<text x="48.0" y="106" font-size="14.5" class="mono ink">project really calls for a JavaScript framework, I reach for SvelteKit for its developer experience,</text>
+<text x="48.0" y="129" font-size="14.5" class="mono ink">or React for single-page apps. Tailwind CSS keeps the styling quick either way.</text>
 </g>
 </svg>

@@ -57,7 +57,7 @@ An [OpenCode](https://opencode.ai/) plugin that runs development from product sp
 
 ### Frontend
 
-SvelteKit is my first choice for server-rendered apps because of its developer experience. I build single-page apps with React, use htmx for server-driven interactivity, and style everything quickly with Tailwind CSS.
+htmx is my first choice. I love low-JS development: the server renders HTML, and htmx adds just the interactivity a page needs, with no build step and no client-side state to keep in sync. When a project really calls for a JavaScript framework, I reach for SvelteKit for its developer experience, or React for single-page apps. Tailwind CSS keeps the styling quick either way.
 
 ### Mobile
 
@@ -65,11 +65,15 @@ I build cross-platform mobile apps with React Native and Expo.
 
 ### Backend
 
-I build REST and GraphQL APIs, including authentication and authorization. Building GraphQL APIs with NestJS is the part I enjoy most.
+I build REST and GraphQL APIs, including authentication and authorization, with Zitadel as my identity provider. Building GraphQL APIs with NestJS is the part I enjoy most.
 
 ### Databases
 
 I studied SQL and relational database design in depth during my degree, which is why PostgreSQL is my default. I've used MongoDB at work, and graph databases like Neo4j interest me for data science and social applications.
+
+### Scraping
+
+Scraping was my first job, and I still love it. I use Scrapy for large crawls, Playwright and Selenium when a site needs a real browser, Patchright when it actively fights automation, and Browser Use when an AI agent has to find its own way through a site.
 
 ### AI and machine learning
 
@@ -81,7 +85,7 @@ I write audio plugins for music production in Rust, using nih-plug for the DSP a
 
 Each plugin begins as one sentence about what it does. That sentence stays at the top of the design document, and I build out from it, adding features as I see fit. When a feature doesn't fit the sentence, it goes to a different plugin.
 
-I like controls that mean something physical. [Corrosion](https://github.com/GerMP21/Corrosion-VST) asks how big the pipe is and how rusted. Once you know what a knob does to the object, you can stop reading the manual.
+I like controls that mean something physical. [Corrosion](https://corrosion-vst.org/) asks how big the pipe is and how rusted. Once you know what a knob does to the object, you can stop reading the manual.
 
 There are no mode menus. Each plugin is one continuum, with the familiar sound as the default and the strange stuff a few turns away.
 

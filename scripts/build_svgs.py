@@ -105,12 +105,13 @@ def section(num, name):
 
 STACK = [
     ("LANGUAGES", "Python · Rust · TypeScript · JavaScript · PHP · HTML · CSS"),
-    ("FRONTEND", "SvelteKit · React · htmx · Tailwind CSS"),
+    ("FRONTEND", "htmx · SvelteKit · React · Tailwind CSS"),
     ("MOBILE", "React Native · Expo"),
-    ("BACKEND", "FastAPI · NestJS · Express · GraphQL · REST"),
+    ("BACKEND", "FastAPI · NestJS · Express · GraphQL · REST · Zitadel"),
     ("DATA", "PostgreSQL · MySQL · MariaDB · MongoDB · Neo4j"),
-    ("AI / ML", "Claude · Gemini · OpenAI · LangChain · LangGraph"),
-    ("", "NumPy · pandas · scikit-learn · TensorFlow"),
+    ("SCRAPING", "Playwright · Patchright · Scrapy · Selenium · Browser Use"),
+    ("AI / ML", "LangChain · LangGraph · NumPy · pandas · scikit-learn"),
+    ("", "TensorFlow · Claude · Gemini · OpenAI"),
     ("AUDIO", "Rust · nih-plug · egui · CLAP · VST3"),
     ("WORKFLOW", "OpenSpec · agent-skills · Claude Code · OpenCode"),
     ("TOOLS", "Linux · GNU · Docker · Neovim"),
