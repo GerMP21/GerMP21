@@ -28,23 +28,23 @@ These days I build LLM-integrated solutions and AI automation, audio plugins for
 
 <a><img src="assets/s02.svg?v=503621ad" alt="02 — projects" width="100%"></a>
 
-<a href="https://github.com/GerMP21/Corrosion-VST"><img src="assets/card-02-01.svg?v=1af95b81" alt="Corrosion (Rust, VST3 + CLAP): an industrial physical-modeling instrument. Bowed, struck, scraped and blown pipes, plates, chains and cables, followed by drive, body, space and a diode clipper." width="100%"></a>
+<a href="https://github.com/GerMP21/Omnisnap"><img src="assets/card-02-01.svg?v=3e43a3ad" alt="Omnisnap (Go, AGPL v3): shows which elements render differently in every browser engine your users run, with one command and the browsers already installed. It compares element geometry instead of pixels, reports each difference at the element where it starts, and writes a self-contained report; it also runs as a GitHub Action and from npm or PyPI. Release candidate v0.1.0-rc.5." width="100%"></a>
 
-<a href="https://github.com/GerMP21/Omnisnap"><img src="assets/card-02-02.svg?v=3e43a3ad" alt="Omnisnap (Go, AGPL v3): shows which elements render differently in every browser engine your users run, with one command and the browsers already installed. It compares element geometry instead of pixels, reports each difference at the element where it starts, and writes a self-contained report; it also runs as a GitHub Action and from npm or PyPI. Release candidate v0.1.0-rc.5." width="100%"></a>
+<a href="https://github.com/GerMP21/Corrosion-VST"><img src="assets/card-02-02.svg?v=1af95b81" alt="Corrosion (Rust, VST3 + CLAP): an industrial physical-modeling instrument. Bowed, struck, scraped and blown pipes, plates, chains and cables, followed by drive, body, space and a diode clipper." width="100%"></a>
 
-<a href="https://github.com/GerMP21/mysql-split-import"><img src="assets/card-02-03.svg?v=6c33979d" alt="mysql-split-import (Python): imports multi-gigabyte mysqldump files in resumable, per-table transactions, so a dropped connection costs one part instead of the whole night. Standard library only." width="100%"></a>
+<a href="https://github.com/GerMP21/DGI-WS_PersonaGetActEmpresarial-Proxy-Client"><img src="assets/card-02-03.svg?v=04f5f569" alt="DGI RUC proxy (Node.js, Express): a JSON REST API for Uruguay&#x27;s DGI taxpayer (RUC) web service. It handles the SOAP envelopes, WS-Security signing and XML-in-CDATA parsing behind bearer-token authentication." width="100%"></a>
 
-<a href="https://github.com/GerMP21/DGI-WS_PersonaGetActEmpresarial-Proxy-Client"><img src="assets/card-02-04.svg?v=04f5f569" alt="DGI RUC proxy (Node.js, Express): a JSON REST API for Uruguay&#x27;s DGI taxpayer (RUC) web service. It handles the SOAP envelopes, WS-Security signing and XML-in-CDATA parsing behind bearer-token authentication." width="100%"></a>
+<a href="https://github.com/GerMP21/mysql-split-import"><img src="assets/card-02-04.svg?v=6c33979d" alt="mysql-split-import (Python): imports multi-gigabyte mysqldump files in resumable, per-table transactions, so a dropped connection costs one part instead of the whole night. Standard library only." width="100%"></a>
 
 <a href="https://github.com/GerMP21/dotfiles"><img src="assets/card-02-05.svg?v=3a7d064d" alt="dotfiles (Shell): my CachyOS + niri desktop, with scripts that install, link, set up and verify the whole system." width="100%"></a>
 
 <details>
 <summary><sub>show as text</sub></summary>
 
-- **[Corrosion](https://github.com/GerMP21/Corrosion-VST)** (Rust, VST3 + CLAP): an industrial physical-modeling instrument. Bowed, struck, scraped and blown pipes, plates, chains and cables, followed by drive, body, space and a diode clipper.
 - **[Omnisnap](https://github.com/GerMP21/Omnisnap)** (Go, AGPL v3): shows which elements render differently in every browser engine your users run, with one command and the browsers already installed. It compares element geometry instead of pixels, reports each difference at the element where it starts, and writes a self-contained report; it also runs as a GitHub Action and from npm or PyPI. Release candidate v0.1.0-rc.5.
-- **[mysql-split-import](https://github.com/GerMP21/mysql-split-import)** (Python): imports multi-gigabyte mysqldump files in resumable, per-table transactions, so a dropped connection costs one part instead of the whole night. Standard library only.
+- **[Corrosion](https://github.com/GerMP21/Corrosion-VST)** (Rust, VST3 + CLAP): an industrial physical-modeling instrument. Bowed, struck, scraped and blown pipes, plates, chains and cables, followed by drive, body, space and a diode clipper.
 - **[DGI RUC proxy](https://github.com/GerMP21/DGI-WS_PersonaGetActEmpresarial-Proxy-Client)** (Node.js, Express): a JSON REST API for Uruguay's DGI taxpayer (RUC) web service. It handles the SOAP envelopes, WS-Security signing and XML-in-CDATA parsing behind bearer-token authentication.
+- **[mysql-split-import](https://github.com/GerMP21/mysql-split-import)** (Python): imports multi-gigabyte mysqldump files in resumable, per-table transactions, so a dropped connection costs one part instead of the whole night. Standard library only.
 - **[dotfiles](https://github.com/GerMP21/dotfiles)** (Shell): my CachyOS + niri desktop, with scripts that install, link, set up and verify the whole system.
 
 </details>
